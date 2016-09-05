@@ -1,12 +1,12 @@
 <% var profile = theme.customize.profile; %>
 <% var tagCount = site.tags.filter(function(tag) { return tag.length; }).length; %>
-<aside id="profile">
+<aside id="create">
     <div class="inner profile-inner">
         <form class="base-info profile-block">
 
             <h2 id="name"><%= __('create.title') %></h2>
             <input type="text" class="field" name="company[name]" placeholder="<%= __('create.companyName') %>" />
-            <button id="follow" type="submit"><i class="fa fa-magic"></i> <%= __('create.button') %></button>
+            <button type="submit"><i class="fa fa-magic"></i> <%= __('create.button') %></button>
 
         </form>
     </div>
