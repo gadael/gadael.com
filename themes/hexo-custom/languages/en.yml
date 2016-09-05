@@ -22,12 +22,10 @@ article:
     comments: 'Comments'
     share: 'Share'
     catalogue: 'Catalogue'
-profile:
-    follow: 'View site'
-    post: 'post'
-    tag: 'tag'
-    posts: 'posts'
-    tags: 'tags'
+create:
+    title: 'Try it now'
+    companyName: 'Company name'
+    button: 'Start your own application'
 insight:
     hint: 'Type something...'
     posts: 'Posts'
