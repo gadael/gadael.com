@@ -1,12 +1,13 @@
 #pricing
     margin: block-margin 0
+    @extend $base-style
 
 .princing-inner
     @extend $block
     line-height: line-height
     h2
         font-size: 1.5em
-        margin: line-height 0
+        padding: line-height
 
     table
         width: 100%
@@ -18,20 +19,31 @@
 
         thead th
             font-weight:bold
+            width: 28%
 
         thead th, tbody td, tfoot td
             text-align:center
 
-        tr td, tr th
+        td, th
             border-bottom: color-border 1px solid
 
-        tfoot a
-            font-weight:bold
-            font-size:120%
-            background:color-link
-            color:#fff
-            display:inline-block
-            padding:.5em 1em
+        tfoot
+            p
+                height: line-height*2
+                padding: .5em 0
+                font-weight: bold
+            a
+                @extend $base-button
+                font-weight:bold
+                font-size:120%
 
-        tfoot a:hover
-            background:saturation(color-link, saturation(color-link) + 60)
+
+
+
+        .free
+            background:color-free
+            border-color: lightness(color-free, lightness(color-free)/2)
+
+        .paid
+            background:color-paid
+            border-color: lightness(color-paid, lightness(color-paid)/6)

@@ -1,1 +1,6 @@
-<%- partial('common/timeline', { type: 'category' }) %>
+
+<section id="main">
+    <%- partial('common/timeline', { type: 'category' }) %>
+</section>
+
+<%- partial('common/sidebar', null, {cache: !config.relative_link}) %>

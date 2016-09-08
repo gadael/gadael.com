@@ -15,6 +15,8 @@ Various integrations are proposed to integrate well into your business current u
 * Responsible design for visualisation on all mobile devices
 * On click actions from your gmail account for department managers
 
+Gadael is distribued under the MIT licence, if you want to install it on your own server or contribute to the project, please go to the [github repository](https://github.com/gadael/gadael).
+
 
 ## gadael.com website
 
