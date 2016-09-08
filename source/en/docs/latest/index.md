@@ -8,4 +8,4 @@ Documentation for master/HEAD version
 
 Links to pages :
 
-* [Demarrage rapide](demarrage-rapide.html)
+* [Quick start](quick-start.html)

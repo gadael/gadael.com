@@ -4,8 +4,8 @@ layout: "doc"
 ---
 
 
-Documentation en français
+Here is the Documentation
 
-Les versions disponibles :
+Links to documentation versions :
 
 * [Latest](latest)
