@@ -1,0 +1,37 @@
+#pricing
+    margin: block-margin 0
+
+.princing-inner
+    @extend $block
+    line-height: line-height
+    h2
+        font-size: 1.5em
+        margin: line-height 0
+
+    table
+        width: 100%
+        border-collapse: collapse
+        border-spacing: 0
+        margin: block-margin 0
+        td, th
+            padding: line-height
+
+        thead th
+            font-weight:bold
+
+        thead th, tbody td, tfoot td
+            text-align:center
+
+        tr td, tr th
+            border-bottom: color-border 1px solid
+
+        tfoot a
+            font-weight:bold
+            font-size:120%
+            background:color-link
+            color:#fff
+            display:inline-block
+            padding:.5em 1em
+
+        tfoot a:hover
+            background:saturation(color-link, saturation(color-link) + 60)
