@@ -26,10 +26,3 @@ create:
     title: 'Try it now'
     companyName: 'Company name'
     button: 'Start your own application'
-insight:
-    hint: 'Type something...'
-    posts: 'Posts'
-    pages: 'Pages'
-    categories: 'Categories'
-    tags: 'Tags'
-    untitled: '(Untitled)'
