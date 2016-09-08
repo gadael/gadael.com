@@ -1,6 +1,5 @@
-title: "About"
+title: "A propos"
 layout: "page"
-language: "en"
 
 ---
 

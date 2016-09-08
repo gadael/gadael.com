@@ -1,3 +1,5 @@
+head:
+    langCode: 'en'
 index:
     home: 'home'
     search: 'Search'
