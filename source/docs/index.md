@@ -6,7 +6,6 @@ layout: "doc"
 
 Here is the Documentation
 
-Links to languages :
+Links to documentation versions :
 
-* [fr](/docs/fr)
-* [en](/docs/en)
+* [Latest](latest)

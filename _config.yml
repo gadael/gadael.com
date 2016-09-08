@@ -7,8 +7,12 @@ title: Gadael
 subtitle: Time management made easy
 description:
 author: Paul de Rosanbo
-language:
+language: [en, fr]
 timezone:
+
+i18n:
+  type: [page, post]
+  generator: [index, archive, category, tag]
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
