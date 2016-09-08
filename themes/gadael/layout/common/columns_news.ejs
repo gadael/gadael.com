@@ -1,5 +1,7 @@
 <section id="main">
-    <%- partial('common/article', {post: page, index: false}) %>
+    <% site.posts.each(function(post) { %>
+        <%- partial('common/article', { post: post, index: true }) %>
+    <% }); %>
 </section>
 
 <%- partial('common/sidebar', null, {cache: !config.relative_link}) %>
