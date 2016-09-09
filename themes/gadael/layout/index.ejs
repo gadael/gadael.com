@@ -1,1 +1,20 @@
 <h2>Homepage</h2>
+
+<script type="text/javascript">
+    var config = {
+        language: [<%- config.language.map(function(l) { return "'"+l+"'"; }).join(',') %>]
+    };
+
+    var language = window.navigator.userLanguage || window.navigator.language;
+    if (-1 === config.language.indexOf(language)) {
+        language = language.substr(0,2);
+
+        if (-1 === config.language.indexOf(language)) {
+            language = null;
+        }
+    }
+
+    if (document.location.pathname === '/') {
+        document.location.href = '/'+language;
+    }
+</script>
