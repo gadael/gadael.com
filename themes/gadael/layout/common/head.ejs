@@ -31,7 +31,7 @@
 
     <% if (theme.customize && theme.customize.social_links && theme.customize.social_links.rss) { %>
         <link rel="alternate" href="<%- theme.customize.social_links.rss %>" title="<%= config.title %>" type="application/atom+xml" />
-    <% } 
+    <% }
         if ( __('head.langCode')+'/' === path.substr(0,3)) {
             for (var i=0; i<config.language.length; i++) {
                 if (config.language[i] !== path.substr(0,2)) {
@@ -55,5 +55,6 @@
 
     <%- css('css/style') %>
 
+    <%- js('js/main.js') %>
     <%- partial('plugin/scripts', { isHead: true }) %>
 </head>

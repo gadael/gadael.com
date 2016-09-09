@@ -5,16 +5,9 @@
         language: [<%- config.language.map(function(l) { return "'"+l+"'"; }).join(',') %>]
     };
 
-    var language = window.navigator.userLanguage || window.navigator.language;
-    if (-1 === config.language.indexOf(language)) {
-        language = language.substr(0,2);
+    var lang = getLanguage(config);
 
-        if (-1 === config.language.indexOf(language)) {
-            language = null;
-        }
-    }
-
-    if (document.location.pathname === '/') {
-        document.location.href = '/'+language;
+    if (lang && document.location.pathname === '/') {
+        document.location.href = '/'+lang;
     }
 </script>
