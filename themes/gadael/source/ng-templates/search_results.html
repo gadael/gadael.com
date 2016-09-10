@@ -1,6 +1,6 @@
-<div ng-repeat="result in searchResultsCtrl.results">
-  <h2>
-    <a ng-href="{{ result.href }}" ng-bind-html="result.title | unsafeHtml"></a>
-  </h2>
-  <p>{{ result.description }}</p>
+<div ng-if="searchResultsCtrl.results.length>0">
+    <div ng-repeat="result in searchResultsCtrl.results" class="found-item">
+        <h2><a href="{{result.url}}">{{result.title}}</a></h2>
+        <p ng-if="result.desc">{{result.desc}}</p>
+    </div>
 </div>

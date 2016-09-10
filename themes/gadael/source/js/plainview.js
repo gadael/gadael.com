@@ -61,6 +61,10 @@ function($window,   plainview,   $document,   $animate,   $compile,   $rootScope
         });
 
         function loadNewPage(data) {
+            if (!data) {
+                return null;
+            }
+            
             var newView = data.element;
             var newScope = bodyScope.$new();
             $compile(newView)(newScope);
@@ -124,6 +128,11 @@ function($window,   plainview,   $document,   $animate,   $compile,   $rootScope
 
 .value('prepareAjaxContent', function(html) {
     var parts = html.match(/(<main.+?>)([\s\S]+)(<\/main>)/m);
+
+    if (!parts) {
+        return null;
+    }
+
     var element = angular.element(parts[1] + parts[3]);
     element.html(parts[2]);
 

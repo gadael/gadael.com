@@ -8,44 +8,47 @@ angular.module('HexoSearch', ['HexoPlainView'])
 
 
 .factory('searchRequest', ['$http', '$q', function($http, $q) {
-    var index, allResults;
+    var lunrResource;
+
+    function searchIndex(q) {
+        var refs = lunrResource.index.search(q);
+        var results = [];
+        for (var i=0; i<refs.length; i++) {
+            results.push(lunrResource.store[refs[i].ref]);
+        }
+
+        return results;
+    }
+
     return function(q) {
-        if (!index) {
+        if (!lunrResource) {
             return downloadJSONFile().then(function(dlIndex) {
-                index = dlIndex;
-                return performSearch(q, index);
+                lunrResource = dlIndex;
+                return searchIndex(q);
             });
         } else {
-            return $q.when(performSearch(q, index));
+            return $q.when(searchIndex(q));
         }
     };
 
     function downloadJSONFile() {
         return $http.get('/assets/lunr/all.json').then(function(response) {
-            return lunr.Index.load(response.data.index);
+            return {
+                index: lunr.Index.load(response.data.index),
+                store: response.data.store
+            };
         });
     }
 
-    function performSearch(q, loadedIndex) {
-        console.log(loadedIndex);
-        return fetchResults(loadedIndex.search(q));
-    }
-
-    function fetchResults(matches) {
-        var results = [];
-        for(var i=0;i<matches.length;i++) {
-            var ref = matches[i].ref;
-            results[i] = allResults[ref];
-        }
-        return results;
-    }
 }])
 
 .controller("SearchController", ['$scope', '$window', '$location', 'searchRequest',
 function($scope,   $window,   $location,   searchRequest) {
 
     var ctrl = this;
-    $scope.$watchCollection(function() { return $location.search(); }, function(data) {
+    $scope.$watchCollection(function() {
+        return $location.search();
+    }, function(data) {
         var q = data.q;
         searchRequest(q).then(function(results) {
             ctrl.results = results;
