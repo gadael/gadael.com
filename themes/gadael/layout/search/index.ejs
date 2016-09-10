@@ -1,23 +1,26 @@
 <div id="search-form-wrap">
 
-    <section class="search-bar row gutter clipped-content padded" data-hexo-search-bar>
-      <form class="search-form">
-        <div class="hexo-search">
-          <input type="text"
-                 placeholder="<%= __('index.search') %>"
-                 class="search-form-input"
-                 data-ng-model="searchCtrl.value"
-                 data-ng-model-options="{ debounce: { default: 300 }, getterSetter: true}"
-                 data-hexo-search />
-            <button type="submit" class="search-form-submit"> </button>
-        </div>
-      </form>
-    </section>
-
     <div class="stage-content gutter" ng-controller="SearchController as searchCtrl">
-      <div class="search-results" data-hexo-search-results="searchCtrl.results">
-        Loading search results...
-      </div>
+
+        <section class="search-bar row gutter clipped-content padded" data-hexo-search-bar>
+            <form class="search-form">
+                <div class="hexo-search">
+                    <input type="text"
+                    placeholder="<%= __('index.search') %>"
+                    class="search-form-input"
+                    data-ng-model="searchCtrl.value"
+                    data-ng-model-options="{ debounce: { default: 300 }, getterSetter: true}"
+                    data-hexo-search />
+                    <button type="submit" class="search-form-submit"> </button>
+                </div>
+            </form>
+        </section>
+
+
+        <div class="search-results" data-hexo-search-results="searchCtrl.results" ng-if="searchCtrl.results.length>0">
+            Loading search results...
+        </div>
+
     </div>
 
 </div>

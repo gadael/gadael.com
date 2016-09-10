@@ -1,6 +1,5 @@
-<div ng-if="searchResultsCtrl.results.length>0">
-    <div ng-repeat="result in searchResultsCtrl.results" class="found-item">
-        <h2><a href="{{result.url}}">{{result.title}}</a></h2>
-        <p ng-if="result.desc">{{result.desc}}</p>
-    </div>
+
+<div ng-repeat="result in searchResultsCtrl.results" class="found-item">
+    <h2><a href="{{result.url}}"><i class="fa fa-check-circle"></i> {{result.title}}</a></h2>
+    <small ng-if="result.desc">{{result.desc}}</small>
 </div>

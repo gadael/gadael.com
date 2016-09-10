@@ -4,6 +4,7 @@
         display: none
     @extend $header-block
     @extend $header-block-right
+    max-width: 220px
     .search-form
         position: relative
         .search-form-input
@@ -11,7 +12,6 @@
             padding: 0 30px 0 15px
             line-height: logo-height
             height: logo-height !important
-            border-radius: ((logo-height + 2)/2)
             &::-webkit-search-results-decoration
             &::-webkit-search-cancel-button
                 -webkit-appearance: none
@@ -58,11 +58,22 @@
 
 .search-results
     @extend $block-shadow
+    position: relative
+    top: -1px
     overflow: auto
     max-height: 20em
-    line-height: line-height
+    line-height: 1
+    border: 1px solid color-border !important
+    border-width: 0 1px 1px 1px !important
+    &:hover
+        border-color: color-link !important
     .found-item
-        padding:.2em .5em
-        border-bottom:color-border 1px solid
+        padding: .4em .5em .4em .5em
+        border-bottom: color-border 1px solid
         h2
-            margin:.4em 0 .4em 0
+            margin: 0
+            line-height: line-height
+        small
+            font-size: 80%
+        &:last-child
+            border-bottom: none

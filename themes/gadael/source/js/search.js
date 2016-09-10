@@ -64,9 +64,9 @@ function($scope,   $window,   $location,   searchRequest) {
 
             this.value = function(v) {
                 if (arguments.length) {
-                    hexoLocation('/'+gCurrentLang+'/search?q=' + v);
+                    hexoLocation('/'+gCurrentLang+'/search?q=' + encodeURIComponent(v));
                 } else {
-                    return ($location.search() || {}).q;
+                    return decodeURIComponent(($location.search().q || ''));
                 }
             };
         }]
