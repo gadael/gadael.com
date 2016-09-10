@@ -1,1 +1,1 @@
-angular.module("HexoCore", ['ngRoute']);
+angular.module("HexoCore", []);
