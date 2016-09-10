@@ -1,5 +1,11 @@
 <%- partial('comment/scripts', { page: page }) %>
 <%- partial('plugin/scripts') %>
 
-<!-- Custom Scripts -->
-<%- js('js/main') %>
+<%- js('/bower_components/angular/angular.js') %>
+<%- js('/bower_components/angular-route/angular-route.js') %>
+<%- js('/bower_components/angular-cookies/angular-cookies.js') %>
+<%- js('/bower_components/lunr.js/lunr.min.js') %>
+
+<%- js('/js/core.js') %>
+<%- js('/js/plainview.js') %>
+<%- js('/js/search.js') %>

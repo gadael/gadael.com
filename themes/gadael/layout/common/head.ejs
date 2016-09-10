@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= __('head.langCode') %>">
+<html ng-app="HexoApp" lang="<%= __('head.langCode') %>">
 <head>
     <meta charset="utf-8">
     <%
@@ -51,10 +51,15 @@
     <% } %>
 
     <%- css('bower_components/font-awesome/css/font-awesome.min') %>
-    <%- css('bower_components/open-sans/open-sans') %>
+    <%- css('bower_components/open-sans-fontface/open-sans') %>
 
     <%- css('css/style') %>
 
-    <%- js('js/main.js') %>
+
+
+
+
     <%- partial('plugin/scripts', { isHead: true }) %>
+    <%- js('/js/main') %>
+
 </head>
