@@ -4,7 +4,7 @@
         display: none
     @extend $header-block
     @extend $header-block-right
-    max-width: 220px
+    width: 240px
     .search-form
         position: relative
         .search-form-input
@@ -60,6 +60,7 @@
     @extend $block-shadow
     position: relative
     top: -1px
+    z-index:5
     overflow: auto
     max-height: 20em
     line-height: 1
@@ -73,6 +74,8 @@
         h2
             margin: 0
             line-height: line-height
+            i
+                color: green
         small
             font-size: 80%
         &:last-child
