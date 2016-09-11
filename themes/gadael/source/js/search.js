@@ -33,6 +33,8 @@ angular.module('HexoSearch', ['HexoPlainView'])
 
     function downloadJSONFile() {
         return $http.get('/assets/lunr/all.json').then(function(response) {
+
+            lunr.Pipeline.registerFunction(foldToAscii.fold, 'foldToAscii');
             return {
                 index: lunr.Index.load(response.data.index),
                 store: response.data.store
