@@ -11,7 +11,11 @@ angular.module('HexoSearch', ['HexoPlainView'])
     var lunrResource;
 
     function searchIndex(q) {
-        var refs = lunrResource.index.search(q);
+        if (undefined === q) {
+            return []
+        }
+
+        var refs = lunrResource.index.search(foldToAscii.fold(q));
         var results = [];
         for (var i=0; i<refs.length; i++) {
             results.push(lunrResource.store[refs[i].ref]);
@@ -34,7 +38,6 @@ angular.module('HexoSearch', ['HexoPlainView'])
     function downloadJSONFile() {
         return $http.get('/assets/lunr/all.json').then(function(response) {
 
-            lunr.Pipeline.registerFunction(foldToAscii.fold, 'foldToAscii');
             return {
                 index: lunr.Index.load(response.data.index),
                 store: response.data.store
@@ -51,7 +54,7 @@ function($scope,   $window,   $location,   searchRequest) {
     $scope.$watchCollection(function() {
         return $location.search();
     }, function(data) {
-        var q = data.q;
+        var q = decodeURIComponent(data.q);
         searchRequest(q).then(function(results) {
             ctrl.results = results;
         });
