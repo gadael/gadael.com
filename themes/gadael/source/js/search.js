@@ -12,10 +12,10 @@ angular.module('HexoSearch', ['HexoPlainView'])
 
     function searchIndex(q) {
         if (undefined === q) {
-            return []
+            return [];
         }
 
-        var refs = lunrResource.index.search(foldToAscii.fold(q));
+        var refs = lunrResource.index.search(q);
         var results = [];
         for (var i=0; i<refs.length; i++) {
             results.push(lunrResource.store[refs[i].ref]);
@@ -37,6 +37,8 @@ angular.module('HexoSearch', ['HexoPlainView'])
 
     function downloadJSONFile() {
         return $http.get('/assets/lunr/all.json').then(function(response) {
+
+            lunr.multiLanguage('en', 'fr');
 
             return {
                 index: lunr.Index.load(response.data.index),

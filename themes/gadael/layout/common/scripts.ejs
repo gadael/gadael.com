@@ -4,11 +4,9 @@
 <%- js('/bower_components/angular/angular.js') %>
 <%- js('/bower_components/angular-cookies/angular-cookies.js') %>
 <%- js('/bower_components/lunr.js/lunr.min.js') %>
-
-<%-
-// /bower_components/fold-to-ascii/fold-to-ascii.js converted using browserify
-// browserify source/js/browserify-globalize.js > source/js/foldToAscii.js
- js('/js/foldToAscii.js') %>
+<%- js('/bower_components/lunr-languages/lunr.stemmer.support.js') %>
+<%- js('/bower_components/lunr-languages/lunr.fr.js') %>
+<%- js('/bower_components/lunr-languages/lunr.multi.js') %>
 
 <%- js('/js/core.js') %>
 <%- js('/js/plainview.js') %>

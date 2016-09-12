@@ -6,6 +6,6 @@
     "font-awesome": "~4.6.3",
     "open-sans-fontface": "~1.4.2",
     "lunr.js": "0.7.1",
-    "fold-to-ascii": "2.0.2"
+    "lunr-languages": "master"
   }
 }
