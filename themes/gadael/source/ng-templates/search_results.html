@@ -1,5 +1,10 @@
 
 <div ng-repeat="result in searchResultsCtrl.results" class="found-item">
-    <h2><a href="{{result.url}}"><i class="fa fa-check-circle"></i> {{result.title}}</a></h2>
+    <h2>
+        <a href="{{result.url}}">
+            <i class="fa" ng-class="{ 'fa-question-circle-o': isDocumentation(result), 'fa-heartbeat': isHealth(result), 'fa-newspaper-o': isBlog(result) }"></i>
+            {{result.title}}
+        </a>
+    </h2>
     <small ng-if="result.desc">{{result.desc}}</small>
 </div>
