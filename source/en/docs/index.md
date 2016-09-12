@@ -8,4 +8,4 @@ Here is the Documentation
 
 Links to documentation versions :
 
-* [Latest](latest)
+* [Latest](version-master)

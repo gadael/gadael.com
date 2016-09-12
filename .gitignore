@@ -3,3 +3,4 @@ node_modules
 db.json
 themes/gadael/source/bower_components/*
 assets
+source/*/docs/version-*
