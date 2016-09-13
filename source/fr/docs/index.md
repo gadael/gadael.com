@@ -9,4 +9,4 @@ Documentation en français
 
 Les versions disponibles :
 
-* [Latest](latest)
+* [Latest](version-master)
