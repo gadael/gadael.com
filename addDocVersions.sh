@@ -1,14 +1,26 @@
 #!/bin/bash
 
+# Create a documentation folder for one language and one tag
+# The new folder will be named "version-TAG"
+#
+# $1 - git tag name or "master" for lastest version
+# $2 - Language code
+#
 createTagForLang()
 {
+    source="docs/${2}"
     target="../source/${2}/docs/version-${1}"
     if [ -d "${target}" ]
     then
         rm -Rf "${target}"
     fi
-    mkdir "${target}"
-    cp -R docs/"${2}"/* "${target}"
+
+    if [ -d "${source}" ]
+    then
+        mkdir "${target}"
+        cp -Lr "${source}"/* "${target}"
+    fi
+
 }
 
 git clone https://github.com/gadael/gadael-documentation
