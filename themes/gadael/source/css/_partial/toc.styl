@@ -1,0 +1,28 @@
+#sidebar .toc
+    @extend $block
+    margin-top: block-margin
+    padding: .8em 0 2em 0
+    ol
+        margin-left: 1.2em
+        line-height: line-height
+
+    a
+        color: color-sidebar-text
+        &:hover
+            color: color-link
+
+    .active>a
+        color: color-button-main
+        font-weight:bold
+
+    .active .active>a
+        color: color-button-onfire
+
+    .nav>li
+        margin: 1em 0 1em 0
+
+        >a
+            font-size:140%
+            border-bottom: color-widget-background 1px solid
+        >ol
+            margin-top: 0.5em

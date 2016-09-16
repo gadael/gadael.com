@@ -6,6 +6,7 @@
     "font-awesome": "~4.6.3",
     "open-sans-fontface": "~1.4.2",
     "lunr.js": "0.7.1",
-    "lunr-languages": "master"
+    "lunr-languages": "master",
+    "angular-strap": "~2.3.9"
   }
 }
