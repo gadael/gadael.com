@@ -1,0 +1,53 @@
+#homepage
+    @extend $base-style
+    @extend $block
+    background: white
+
+    .top-info
+        height: 280px
+        background: grey url(images/home-fruit.png) no-repeat 0 0
+        .content
+            padding: 2.5em 0 0 3em
+            color: white
+            text-shadow: 0 0 5px rgba(0,0,0,.7)
+            font-weight: bold
+            h2
+                font-size: 4em
+
+            p
+                font-size: 2em
+                margin: 3em 0 0 4em
+
+    .catch-your-eye
+        height: 100px
+        background:#000
+
+        .customer
+            @extend $block
+            background:#fff
+            padding: 1em 3em
+            margin: 5px
+            display:inline-block
+            width: 10em
+
+    .functionalities
+        padding: 3em 0
+        text-align:center
+
+        >div
+            display: inline-block
+            width: 33%
+            min-width: 20em
+            vertical-align: top
+
+            >div
+                min-height: 12em
+                margin: .3em
+                padding: 1em
+
+
+            h3
+                font-size: 1.6em
+                color: color-home-text
+            p
+                font-size: .9em
