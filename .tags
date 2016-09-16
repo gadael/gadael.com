@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+angular	bower.json	/^    "angular": "~1.5.9",$/;"	f
+angular-cookies	bower.json	/^    "angular-cookies": "~1.5.9",$/;"	f
+createTagForLang	addDocVersions.sh	/^createTagForLang()$/;"	f
+dependencies	bower.json	/^  "dependencies": {$/;"	f
+dependencies	package.json	/^  "dependencies": {$/;"	f
+font-awesome	bower.json	/^    "font-awesome": "~4.6.3",$/;"	f
+hexo	package.json	/^    "hexo": "^3.2.0",$/;"	f
+hexo	package.json	/^  "hexo": {$/;"	f
+hexo-generator-archive	package.json	/^    "hexo-generator-archive": "^0.1.4",$/;"	f
+hexo-generator-category	package.json	/^    "hexo-generator-category": "^0.1.3",$/;"	f
+hexo-generator-feed	package.json	/^    "hexo-generator-feed": "^1.2.0",$/;"	f
+hexo-generator-i18n	package.json	/^    "hexo-generator-i18n": "0.0.5",$/;"	f
+hexo-generator-lunr	package.json	/^    "hexo-generator-lunr": "git:\/\/github.com\/polo2ro\/hexo-generator-lunr#cd01f03dd1da2b4aa5b1cd5fe164de24e1f2f93f",$/;"	f
+hexo-generator-tag	package.json	/^    "hexo-generator-tag": "^0.2.0",$/;"	f
+hexo-renderer-ejs	package.json	/^    "hexo-renderer-ejs": "^0.2.0",$/;"	f
+hexo-renderer-marked	package.json	/^    "hexo-renderer-marked": "^0.2.10",$/;"	f
+hexo-renderer-stylus	package.json	/^    "hexo-renderer-stylus": "^0.3.1",$/;"	f
+hexo-server	package.json	/^    "hexo-server": "^0.2.0"$/;"	f
+lunr-languages	bower.json	/^    "lunr-languages": "master"$/;"	f
+lunr.js	bower.json	/^    "lunr.js": "0.7.1",$/;"	f
+name	bower.json	/^  "name": "gadael-site",$/;"	f
+name	package.json	/^  "name": "hexo-site",$/;"	f
+open-sans-fontface	bower.json	/^    "open-sans-fontface": "~1.4.2",$/;"	f
+private	package.json	/^  "private": true,$/;"	f
+split	themes/gadael/scripts/meta.js	/^function split (str, sep) {$/;"	f
+trim	themes/gadael/scripts/meta.js	/^function trim (str) {$/;"	f
+version	package.json	/^    "version": "3.2.2"$/;"	f
+version	package.json	/^  "version": "0.0.0",$/;"	f

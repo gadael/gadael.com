@@ -2,13 +2,13 @@
 <body>
     <div id="container">
         <%- partial('common/header') %>
-        <div class="outer" plainview="on">
+        <div class="outer">
             <%- body %>
         </div>
         <%- partial('common/footer', null, {cache: !config.relative_link}) %>
         <%- partial('common/scripts') %>
     </div>
 
-    
+
 </body>
 </html>

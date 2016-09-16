@@ -1,11 +1,4 @@
-angular.module('HexoSearch', ['HexoPlainView'])
-
-.filter('unsafeHtml', ['$sce', function($sce) {
-    return function(text) {
-        return $sce.trustAsHtml(text);
-    };
-}])
-
+angular.module('HexoSearch', [])
 
 .factory('searchRequest', ['$http', '$q', function($http, $q) {
     var lunrResource;
@@ -49,14 +42,16 @@ angular.module('HexoSearch', ['HexoPlainView'])
 
 }])
 
-.controller("SearchController", ['$scope', '$window', '$location', 'searchRequest',
-function($scope,   $window,   $location,   searchRequest) {
+/**
+ * Controller for search result dropdown
+ */
+.controller("SearchController", ['$scope', 'searchRequest',
+function($scope, searchRequest) {
 
     var ctrl = this;
-    $scope.$watchCollection(function() {
-        return $location.search();
-    }, function(data) {
-        var q = decodeURIComponent(data.q);
+    $scope.$watch(function() {
+        return $scope.hexoSearchQuery;
+    }, function(q) {
         searchRequest(q).then(function(results) {
             ctrl.results = results;
         });
@@ -75,22 +70,24 @@ function($scope,   $window,   $location,   searchRequest) {
     };
 }])
 
-.directive('hexoSearchBar', ['$location', '$window', 'hexoLocation', function($location, $window, hexoLocation) {
+/**
+ * data-hexo-search-bar
+ */
+.directive('hexoSearchBar', ['$rootScope', function($rootScope) {
     return {
         scope: true,
         controllerAs: 'searchCtrl',
+        /**
+         * Controller for search bar
+         */
         controller : [function() {
-
-            this.value = function(v) {
-                if (arguments.length) {
-                    hexoLocation('/'+gCurrentLang+'/search?q=' + encodeURIComponent(v));
-                } else {
-                    return decodeURIComponent(($location.search().q || ''));
-                }
+            this.value = function(v) { // data-ng-model with getterSetter option
+                return arguments.length ? ($rootScope.hexoSearchQuery = v) : $rootScope.hexoSearchQuery;
             };
         }]
     };
 }])
+
 
 .directive('hexoSearchResults', [function() {
     return {
