@@ -19,16 +19,32 @@
                 margin: 3em 0 0 4em
 
     .catch-your-eye
-        height: 100px
-        background:#000
+        padding: 5px 20px
+        background:color-dark-background
+        height: 60px
 
-        .customer
-            @extend $block
-            background:#fff
-            padding: 1em 3em
-            margin: 5px
+        .left,.right
+            width: 50%
+            display:block
+        .right
+            text-align: right
+        .customer-button, button
+            @extend $base-button
             display:inline-block
-            width: 10em
+            vertical-align: middle
+        form button
+            background: color-button-onfire
+            &:hover
+                background: color-button-onfire + #111
+        .field
+            padding: 5px
+            vertical-align: middle
+            border: none
+            background:transparent
+            color:#fff
+            border-bottom: #333 1px solid
+            &:focus
+                background:rgba(255,255,255,.1)
 
     .functionalities
         padding: 3em 0
@@ -44,10 +60,23 @@
                 min-height: 12em
                 margin: .3em
                 padding: 1em
-
+                &:hover
+                    background:#eee
+                    i
+                        color: color-button-onfire
 
             h3
                 font-size: 1.6em
-                color: color-home-text
+                color: #000
+                text-shadow: 0 0 4px rgba(0,0,0,.3)
             p
                 font-size: .9em
+
+    .home-footer
+        padding: 1em
+        background:color-widget-background
+        color:color-sidebar-text-dark
+        text-align: right
+        a
+            @extend $link-dark
+            margin-left: 2em

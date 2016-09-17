@@ -7,8 +7,16 @@
     </div>
 
     <div class="catch-your-eye">
-        <div class="customer">
-            <i class="fa fa-key"></i> Espace client
+
+        <form class="left">
+            <input class="field" name="company[name]" placeholder="Company name" type="text" />
+            <button type="submit"><i class="fa fa-magic"></i> <%= __('create.button') %></button>
+        </form>
+
+        <div class="right">
+            <a class="customer-button">
+                <i class="fa fa-key"></i> Espace client
+            </a>
         </div>
     </div>
 
@@ -45,5 +53,26 @@
                 <p>Les changements de régime de congés et de rythme de travail peuvent être planifiés à l'avance</p>
             </div>
         </div>
+
+        <div>
+            <div class="open">
+                <i class="fa fa-github fa-4x"></i>
+                <h3>Open source</h3>
+                <p>Développement ouvert sur <a href="https://github.com/gadael">github</a></p>
+            </div>
+        </div>
+
+        <div>
+            <div class="data">
+                <i class="fa fa-database fa-4x"></i>
+                <h3>You own your data</h3>
+                <p>A copy of your database can be downloaded from ou server at every moment, you can reboot your service elswere</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-footer">
+        <a href="https://github.com/gadael/gadael"><i class="fa fa-github"></i> Github project</a>
+        <a href="https://github.com/gadael/gadael/issues"><i class="fa fa-bug"></i> Report Gadael issue</a>
     </div>
 </section>

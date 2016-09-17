@@ -16,6 +16,12 @@ Various integrations are proposed to integrate well into your business current u
 
 Gadael is distribued under the MIT licence, if you want to install it on your own server or contribute to the project, please go to the [github repository](https://github.com/gadael/gadael).
 
+The application is built on a [MEAN stack](https://en.wikipedia.org/wiki/MEAN_%28software_bundle%29) and make use of theses open source softwares :
+[MongoDB](https://www.mongodb.com/),
+[Express.js](http://expressjs.com/),
+[Angular](https://angularjs.org/), and
+[Node.js](https://nodejs.org/). 
+
 
 ## gadael.com website
 
