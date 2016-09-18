@@ -1,5 +1,18 @@
 head:
     langCode: 'fr'
+index:
+    home: 'acceuil'
+    search: 'Recherche'
+    archive: 'archive'
+    category: 'catégorie'
+    uncategorized: 'sans catégorie'
+    tag: 'tag'
+menu:
+    home: 'Acceuil'
+    about: 'A propos'
+    docs: 'Docs'
+    pricing: 'Tarifs'
+    news: 'News'
 create:
     title: 'Essayez maintenant'
     companyName: "Nom de l'enreprise"
@@ -7,3 +20,5 @@ create:
 home:
     subtitle: 'La gestion du temps de travail en entreprise'
     customerbutton: 'Espace client'
+    github: 'projet sur Github'
+    issues: 'Signaler un bug'

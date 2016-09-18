@@ -1,10 +1,10 @@
 # Menus
 menu:
-  Home: .
-  About: about
-  Docs: docs
-  Pricing: pricing
-  News: news
+  home: .
+  about: about
+  docs: docs
+  pricing: pricing
+  news: news
 
 # Customize
 customize:

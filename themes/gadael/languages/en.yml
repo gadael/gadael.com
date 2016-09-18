@@ -7,6 +7,12 @@ index:
     category: 'category'
     uncategorized: 'uncategorized'
     tag: 'tag'
+menu:
+    home: 'Home'
+    about: 'About'
+    docs: 'Docs'
+    pricing: 'Pricing'
+    news: 'News'
 nav:
     next: 'Next'
     prev: 'Prev'
@@ -31,3 +37,5 @@ create:
 home:
     subtitle: 'Time management for your company'
     customerbutton: 'Customer Area'
+    github: 'Github project'
+    issues: 'Report Gadael issue'
