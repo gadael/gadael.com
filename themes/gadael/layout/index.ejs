@@ -2,20 +2,20 @@
     <div class="top-info">
         <div class="content">
             <h2>Gadael</h2>
-            <p>La gestion du temps de travail en entreprise</p>
+            <p><%= __('home.subtitle') %></p>
         </div>
     </div>
 
     <div class="catch-your-eye">
 
         <form class="left">
-            <input class="field" name="company[name]" placeholder="Company name" type="text" />
+            <input class="field" name="company[name]" placeholder="<%= __('create.companyName') %>" type="text" />
             <button type="submit"><i class="fa fa-magic"></i> <%= __('create.button') %></button>
         </form>
 
         <div class="right">
             <a class="customer-button">
-                <i class="fa fa-key"></i> Espace client
+                <i class="fa fa-key"></i> <%= __('home.customerbutton') %>
             </a>
         </div>
     </div>

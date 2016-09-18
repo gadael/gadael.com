@@ -1,2 +1,9 @@
 head:
     langCode: 'fr'
+create:
+    title: 'Essayez maintenant'
+    companyName: "Nom de l'enreprise"
+    button: 'Démarrez'
+home:
+    subtitle: 'La gestion du temps de travail en entreprise'
+    customerbutton: 'Espace client'

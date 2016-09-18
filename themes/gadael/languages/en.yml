@@ -28,3 +28,6 @@ create:
     title: 'Try it now'
     companyName: 'Company name'
     button: 'Start your own'
+home:
+    subtitle: 'Time management for your company'
+    customerbutton: 'Customer Area'
