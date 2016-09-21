@@ -26,6 +26,7 @@ hexo-renderer-stylus	package.json	/^    "hexo-renderer-stylus": "^0.3.1",$/;"	f
 hexo-server	package.json	/^    "hexo-server": "^0.2.0"$/;"	f
 lunr-languages	bower.json	/^    "lunr-languages": "master",$/;"	f
 lunr.js	bower.json	/^    "lunr.js": "0.7.1",$/;"	f
+main	themes/gadael/source/js/main.js	/^var main = document.querySelector("#main");$/;"	v
 mark.js	bower.json	/^    "mark.js": "~8.4.0"$/;"	f
 name	bower.json	/^  "name": "gadael-site",$/;"	f
 name	package.json	/^  "name": "hexo-site",$/;"	f

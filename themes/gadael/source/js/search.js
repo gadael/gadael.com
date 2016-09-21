@@ -100,9 +100,14 @@ function($scope, searchRequest) {
                     var url = results[i].url;
                     var n = url.lastIndexOf("#");
                     var separator = -1 === url.indexOf('?') ? '?' : '&';
+                    if (-1 !== url.indexOf('highlight=')) {
+                        results[i].url = url.replace(/(highlight=)[^\&]+/, '$1' + encodeURIComponent($rootScope.hexoSearchQuery));
+                        continue;
+                    }
+
                     var param = separator+"highlight="+encodeURIComponent($rootScope.hexoSearchQuery);
                     if (-1 === n) {
-                        results[i].url += param
+                        results[i].url += param;
                     } else {
                         results[i].url = url.substring(0,n)+param+url.substring(n);
                     }

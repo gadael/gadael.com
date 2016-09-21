@@ -1,6 +1,6 @@
 
 function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
+    if (!url) url = window.location.search;
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
         results = regex.exec(url);
@@ -9,10 +9,13 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-
-var markInstance = new Mark(document.querySelector("#main"));
-
-markInstance.mark(getParameterByName('highlight'), {
-    separateWordSearch: true,
-    accuracy: 'exactly'
-});
+var main = document.querySelector("#main");
+var highlight = getParameterByName('highlight');
+if (main && highlight) {
+    console.log(highlight);
+    var markInstance = new Mark(main);
+    markInstance.mark(highlight, {
+        separateWordSearch: true,
+        accuracy: 'exactly'
+    });
+}
