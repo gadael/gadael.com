@@ -6,11 +6,12 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 angular	bower.json	/^    "angular": "~1.5.9",$/;"	f
 angular-cookies	bower.json	/^    "angular-cookies": "~1.5.9",$/;"	f
-angular-strap	bower.json	/^    "angular-strap": "~2.3.9"$/;"	f
+angular-strap	bower.json	/^    "angular-strap": "~2.3.9",$/;"	f
 createTagForLang	addDocVersions.sh	/^createTagForLang()$/;"	f
 dependencies	bower.json	/^  "dependencies": {$/;"	f
 dependencies	package.json	/^  "dependencies": {$/;"	f
 font-awesome	bower.json	/^    "font-awesome": "~4.6.3",$/;"	f
+getParameterByName	themes/gadael/source/js/main.js	/^function getParameterByName(name, url) {$/;"	f
 hexo	package.json	/^    "hexo": "^3.2.0",$/;"	f
 hexo	package.json	/^  "hexo": {$/;"	f
 hexo-generator-archive	package.json	/^    "hexo-generator-archive": "^0.1.4",$/;"	f
@@ -25,6 +26,7 @@ hexo-renderer-stylus	package.json	/^    "hexo-renderer-stylus": "^0.3.1",$/;"	f
 hexo-server	package.json	/^    "hexo-server": "^0.2.0"$/;"	f
 lunr-languages	bower.json	/^    "lunr-languages": "master",$/;"	f
 lunr.js	bower.json	/^    "lunr.js": "0.7.1",$/;"	f
+mark.js	bower.json	/^    "mark.js": "~8.4.0"$/;"	f
 name	bower.json	/^  "name": "gadael-site",$/;"	f
 name	package.json	/^  "name": "hexo-site",$/;"	f
 open-sans-fontface	bower.json	/^    "open-sans-fontface": "~1.4.2",$/;"	f

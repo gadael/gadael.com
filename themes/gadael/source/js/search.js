@@ -89,14 +89,26 @@ function($scope, searchRequest) {
 }])
 
 
-.directive('hexoSearchResults', [function() {
+.directive('hexoSearchResults', ['$rootScope', function($rootScope) {
     return {
         templateUrl: '/ng-templates/search_results.html',
         controllerAs: 'searchResultsCtrl',
         controller: ['$scope', '$attrs', function($scope, $attrs) {
             var ctrl = this;
             $scope.$watchCollection($attrs.hexoSearchResults, function(results) {
+                for (var i=0; i<results.length; i++) {
+                    var url = results[i].url;
+                    var n = url.lastIndexOf("#");
+                    var separator = -1 === url.indexOf('?') ? '?' : '&';
+                    var param = separator+"highlight="+encodeURIComponent($rootScope.hexoSearchQuery);
+                    if (-1 === n) {
+                        results[i].url += param
+                    } else {
+                        results[i].url = url.substring(0,n)+param+url.substring(n);
+                    }
+                }
                 ctrl.results = results;
+
             });
         }]
     };

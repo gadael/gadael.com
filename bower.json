@@ -7,6 +7,7 @@
     "open-sans-fontface": "~1.4.2",
     "lunr.js": "0.7.1",
     "lunr-languages": "master",
-    "angular-strap": "~2.3.9"
+    "angular-strap": "~2.3.9",
+    "mark.js": "~8.4.0"
   }
 }
