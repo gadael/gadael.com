@@ -2,7 +2,7 @@
 menu:
   home: .
   about: about
-  docs: docs
+  docs: docs/version-master
   pricing: pricing
   news: news
 
