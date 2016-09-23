@@ -12,7 +12,6 @@ function getParameterByName(name, url) {
 var main = document.querySelector("#main");
 var highlight = getParameterByName('highlight');
 if (main && highlight) {
-    console.log(highlight);
     var markInstance = new Mark(main);
     markInstance.mark(highlight, {
         separateWordSearch: true,

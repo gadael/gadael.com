@@ -31,7 +31,7 @@ angular.module('HexoSearch', [])
     function downloadJSONFile() {
         return $http.get('/assets/lunr/all.json').then(function(response) {
 
-            lunr.multiLanguage('en', 'fr');
+            lunr.multiLanguage.apply(this, response.data.languages);
 
             return {
                 index: lunr.Index.load(response.data.index),
