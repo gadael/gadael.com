@@ -1,3 +1,0 @@
-layout: search
----
-... search page ...
