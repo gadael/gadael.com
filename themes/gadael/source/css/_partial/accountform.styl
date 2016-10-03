@@ -1,0 +1,34 @@
+.accountform
+    margin: block-margin 0
+    @extend $base-style
+
+    h2
+        font-size: 1.5em
+        padding: line-height
+
+    form
+        @extend $block
+        line-height: line-height
+        padding: 2em 0
+
+        p
+            margin: 1.5em 12em .5em 2em
+
+        label
+            display: block
+
+        input[type=text], input[type=password]
+            width:100%
+            padding: .5em
+            color: color-default
+            transition: 0.2s ease
+            box-sizing: border-box
+            height: auto !important
+            line-height: line-height
+            font: font-size font-sans
+            border: 1px solid color-border !important
+            &:focus
+                border-color: color-link !important
+
+        button
+            @extend $base-button
