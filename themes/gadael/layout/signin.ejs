@@ -1,21 +1,21 @@
 <section id="main" class="accountform">
 
-    <h2>Sign in with your gadael.com account</h2>
+    <h2><%= __('signin.title') %></h2>
 
     <form method="POST" action="../local-signin">
         <p>
-            <label for="email">Enter your email.</label>
+            <label for="email"><%= __('signin.email') %></label>
             <input type="text" id="email" name="email" value="" />
         </p>
 
         <p>
-            <label for="password">And your password.</label>
+            <label for="password"><%= __('signin.password') %></label>
             <input type="password" id="password" name="password" value="" />
         </p>
 
-        <p><button type="submit"><i class="fa fa-key"></i> Continue</button></p>
+        <p><button type="submit"><i class="fa fa-key"></i> <%= __('signin.button') %></button></p>
 
-        <p>No account yet? <a href="../signup">Register an account</a> or login with a third party provider</p>
+        <p><%= __('signin.noaccount') %> <a href="../signup"><%= __('signin.link') %></a> <%= __('signin.afterlink') %></p>
     </form>
 
 </section>

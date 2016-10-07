@@ -39,3 +39,17 @@ home:
     customerbutton: 'Customer Area'
     github: 'Github project'
     issues: 'Report Gadael issue'
+signin:
+    title: 'Sign in with your gadael.com account'
+    email: 'Enter your email.'
+    password: 'And your password.'
+    button: 'Continue'
+    noaccount: 'No account yet?'
+    link: 'Register an account'
+    afterlink: 'or login with a third party provider'
+signup:
+    title: 'Register in gadael.com'
+    site: 'Choose your site name.'
+    email: 'Enter your email.'
+    password: 'Choose a new password.'
+    button: 'Register'
