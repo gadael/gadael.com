@@ -2,18 +2,7 @@
     margin: block-margin 0
     @extend $base-style
 
-    h2
-        font-size: 1.5em
-        padding: line-height
-
     form
-        @extend $block
-        line-height: line-height
-        padding: 2em 0
-
-        p
-            margin: 1.5em 12em .5em 2em
-
         label
             display: block
 
@@ -30,5 +19,46 @@
             &:focus
                 border-color: color-link !important
 
+        #company
+            width: 150px
+            text-align: right
+            font-weight: bold
+
         button
             @extend $base-button
+        p
+            margin: 1.5em 12em .5em 2em
+
+
+.accountform, #loginservices
+    h2
+        font-size: 1.5em
+        padding: line-height
+
+        sup
+            position: relative
+            top: -.15em
+            vertical-align: top
+
+
+    form, .bloc
+        @extend $block
+        line-height: line-height
+        padding: 2em 0
+
+
+#loginservices
+    @media mq-normal
+        column(profile-column)
+    @media mq-tablet
+        column(profile-column-tablet)
+
+    p
+        margin: 1.5em 2em .5em 2em
+
+    a
+        @extend $base-button
+        background: color-button-onfire
+        width:100%
+        &:hover
+            background: color-button-onfire + #111

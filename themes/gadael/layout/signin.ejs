@@ -1,8 +1,8 @@
 <section id="main" class="accountform">
 
-    <h2>Sign in</h2>
+    <h2>Sign in with your gadael.com account</h2>
 
-    <form method="POST" action="local-signin">
+    <form method="POST" action="../local-signin">
         <p>
             <label for="email">Enter your email.</label>
             <input type="text" id="email" name="email" value="" />
@@ -14,6 +14,11 @@
         </p>
 
         <p><button type="submit"><i class="fa fa-key"></i> Continue</button></p>
+
+        <p>No account yet? <a href="../signup">Register an account</a> or login with a third party provider</p>
     </form>
 
 </section>
+
+
+<%- partial('common/loginservices') %>

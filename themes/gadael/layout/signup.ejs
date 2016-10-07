@@ -1,0 +1,28 @@
+<section id="main" class="accountform">
+
+    <h2>Register in gadael.com</h2>
+
+    <form method="POST" action="../local-signup">
+        <p>
+            <label for="company">Choose your site name.</label>
+            <input type="text" id="company" name="company" value="" /><strong>.gadael.com</strong>
+        </p>
+
+        <p>
+            <label for="email">Enter your email.</label>
+            <input type="text" id="email" name="email" value="" />
+        </p>
+
+        <p>
+            <label for="password">Choose a new password.</label>
+            <input type="password" id="password" name="password" value="" />
+        </p>
+
+        <p><button type="submit"><i class="fa fa-bolt"></i> Register</button></p>
+
+    </form>
+
+
+</section>
+
+<%- partial('common/loginservices') %>
