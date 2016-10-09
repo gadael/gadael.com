@@ -1,15 +1,54 @@
 <section id="main">
+
     <h2>My application dashboard</h2>
 
-    <div>
+    <div class="create-company">
+        <form>
+                <%- partial('common/field/company') %>
 
+                <p>
+                    <label for="public_text">Initialize database with settings from</label>
+                    <select id="public_text" ng-model="country">
+                        <option value="">No initialization</option>
+                        <option value="FR">France</option>
+                        <option value="UK">United Kingdoms</option>
+                        <option value="US">United States</option>
+                        <option value="CH">Switzerland</option>
+                        <option value="BE">Belgium</option>
+                        <option value="IE">Ireland</option>
+                    </select>
+                </p>
+
+                <button type="submit"><i class="fa fa-save"></i> Save</button>
+        </form>
     </div>
+
+
+    <div class="view-company">
+        <div class="header">
+            <a ng-href="url">Open application</a>
+        </div>
+
+        <form>
+            <p>
+                <label for="public_text">Home page text for public access</label>
+                <textarea id="public_text" ng-model="public_text"></textarea>
+            </p>
+
+            <p>
+                <label for="private_text">Home page text for public access</label>
+                <textarea id="private_text" ng-model="private_text"></textarea>
+            </p>
+
+            <p>
+                <input type="checkbox" id="maintenance" ng-model="maintenance" />
+                <label for="maintenance">Maintenance mode</label>
+            </p>
+
+            <button type="submit"><i class="fa fa-save"></i> Save</button>
+        </form>
+    </div>
+
 </section>
 
-
-<aside id="sidebar">
-    <div id="account">
-        You are logged in as:
-        {{session.firstname}} {{session.lastname}}
-    </div>
-</aside>
+<%- partial('common/private') %>

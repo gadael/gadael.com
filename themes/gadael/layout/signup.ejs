@@ -3,10 +3,8 @@
     <h2><%= __('signup.title') %></h2>
 
     <form method="POST" action="../local-signup">
-        <p>
-            <label for="company"><%= __('signup.site') %></label>
-            <input type="text" id="company" name="company" value="" /><strong>.gadael.com</strong>
-        </p>
+
+        <%- partial('common/field/company') %>
 
         <p>
             <label for="email"><%= __('signup.email') %></label>

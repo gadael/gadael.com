@@ -1,0 +1,12 @@
+
+<aside id="sidebar" ng-controller="AccountController">
+    <div id="account">
+        <p class="display-name">{{session.user.firstname}} {{session.user.lastname}}</p>
+
+        <p>You are logged in as:<br />
+            {{session.user.email}}
+        </p>
+
+        <p><a href="../logout"><i class="fa fa-times-circle"></i> Disconnect</a></p>
+    </div>
+</aside>
