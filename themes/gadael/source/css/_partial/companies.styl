@@ -1,0 +1,32 @@
+#companies
+    margin: block-margin 0
+    @extend $base-style
+
+    @extend $block
+    line-height: line-height
+
+    padding: 0 1.5em
+
+    h2,h3
+        padding: line-height 0
+
+    form
+        label
+            @extend $base-label
+
+        input[type=text], textarea, select
+            @extend $base-input
+
+        #company
+            width: 150px
+            text-align: right
+            font-weight: bold
+
+        button
+            @extend $base-button
+
+        p
+            margin: 1em 0
+
+        p.button
+            padding: 2em 0 3em 0

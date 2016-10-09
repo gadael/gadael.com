@@ -1,54 +1,64 @@
 <section id="main">
 
-    <h2>My application dashboard</h2>
+    <div id="companies">
+        <h2>My application dashboard</h2>
 
-    <div class="create-company">
-        <form>
-                <%- partial('common/field/company') %>
+        <div class="create-company">
 
-                <p>
-                    <label for="public_text">Initialize database with settings from</label>
-                    <select id="public_text" ng-model="country">
-                        <option value="">No initialization</option>
-                        <option value="FR">France</option>
-                        <option value="UK">United Kingdoms</option>
-                        <option value="US">United States</option>
-                        <option value="CH">Switzerland</option>
-                        <option value="BE">Belgium</option>
-                        <option value="IE">Ireland</option>
-                    </select>
-                </p>
+            <h3>Your own application is not started, please create it with the form below</h3>
 
-                <button type="submit"><i class="fa fa-save"></i> Save</button>
-        </form>
-    </div>
+            <form>
+                    <%- partial('common/field/company') %>
 
+                    <p>
+                        <label for="public_text">Initialize database with settings from</label>
+                        <select id="public_text" ng-model="country">
+                            <option value="">No initialization</option>
+                            <option value="FR">France</option>
+                            <option value="UK">United Kingdoms</option>
+                            <option value="US">United States</option>
+                            <option value="CH">Switzerland</option>
+                            <option value="BE">Belgium</option>
+                            <option value="IE">Ireland</option>
+                        </select>
+                    </p>
 
-    <div class="view-company">
-        <div class="header">
-            <a ng-href="url">Open application</a>
+                    <p class="button">
+                        <button type="submit"><i class="fa fa-bolt"></i> Start</button>
+                    </p>
+            </form>
         </div>
 
-        <form>
-            <p>
-                <label for="public_text">Home page text for public access</label>
-                <textarea id="public_text" ng-model="public_text"></textarea>
-            </p>
 
-            <p>
-                <label for="private_text">Home page text for public access</label>
-                <textarea id="private_text" ng-model="private_text"></textarea>
-            </p>
+        <div class="view-company">
+            <div class="header">
+                <a ng-href="url">Open application</a>
+            </div>
 
-            <p>
-                <input type="checkbox" id="maintenance" ng-model="maintenance" />
-                <label for="maintenance">Maintenance mode</label>
-            </p>
+            <h3>Settings</h3>
 
-            <button type="submit"><i class="fa fa-save"></i> Save</button>
-        </form>
+            <form>
+                <p>
+                    <label for="public_text">Home page text for public access</label>
+                    <textarea id="public_text" ng-model="public_text"></textarea>
+                </p>
+
+                <p>
+                    <label for="private_text">Home page text for public access</label>
+                    <textarea id="private_text" ng-model="private_text"></textarea>
+                </p>
+
+                <p>
+
+                    <label><input type="checkbox" ng-model="maintenance" /> Maintenance mode</label>
+                </p>
+
+                <p class="button">
+                    <button type="submit"><i class="fa fa-save"></i> Save</button>
+                </p>
+            </form>
+        </div>
     </div>
-
 </section>
 
 <%- partial('common/private') %>
