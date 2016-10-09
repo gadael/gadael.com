@@ -1,0 +1,33 @@
+#private
+    @media mq-normal
+        column(profile-column)
+    @media mq-tablet
+        column(profile-column-tablet)
+
+    #account
+        @extend $block
+        margin-top: block-margin
+
+        p
+            margin: 1em
+            line-height: 1.8em
+
+        .display-name
+            font-weight:bold
+            text-align:center
+
+            .fa-user
+                color: white
+            .fa-circle
+                color: color-grey
+                text-shadow: color-border 0 0 5px;
+
+        .email
+            color: color-grey
+
+        .logout
+            padding: 1em 0 2em 0
+            text-align:center
+
+            a
+                @extend $base-button

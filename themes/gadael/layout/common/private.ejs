@@ -1,12 +1,21 @@
 
-<aside id="sidebar" ng-controller="AccountController">
+<aside id="private" ng-controller="AccountController">
     <div id="account">
-        <p class="display-name">{{session.user.firstname}} {{session.user.lastname}}</p>
+        <br />
 
-        <p>You are logged in as:<br />
-            {{session.user.email}}
+        <p class="display-name">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-user fa-stack-1x"></i>
+            </span>
+            <br />
+            {{session.user.firstname}} {{session.user.lastname}}
         </p>
 
-        <p><a href="../logout"><i class="fa fa-times-circle"></i> Disconnect</a></p>
+        <p>You are logged in as:<br />
+            <span class="email">{{session.user.email}}</span>
+        </p>
+
+        <p class="logout"><a href="../logout"><i class="fa fa-times-circle"></i> Disconnect</a></p>
     </div>
 </aside>
