@@ -1,1 +1,1 @@
-angular.module('HexoApp', ['HexoSearch', 'HexoPage', 'HexoPrivate']);
+angular.module('HexoApp', ['HexoSearch', 'HexoPage', 'HexoPrivate', 'HexoCompanies']);

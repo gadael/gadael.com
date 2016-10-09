@@ -1,9 +1,9 @@
 <section id="main">
 
-    <div id="companies">
+    <div id="companies" ng-controller="CompaniesController">
         <h2>My application dashboard</h2>
 
-        <div class="create-company">
+        <div class="create-company" ng-if="!company">
 
             <h3>Your own application is not started, please create it with the form below</h3>
 
@@ -30,7 +30,7 @@
         </div>
 
 
-        <div class="view-company">
+        <div class="view-company" ng-if="company">
             <div class="header">
                 <a ng-href="url">Open application</a>
             </div>
