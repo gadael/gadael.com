@@ -6,6 +6,10 @@ angular.module('HexoCompanies', [])
  */
 .controller("CompaniesController", ['$scope', '$http',
 function($scope, $http) {
+
+    $scope.dbname = 'hexo';
+    $scope.country = 'FR';
+
     $http.get('/company').then(function(response) {
         $scope.company = response.data.company;
 
@@ -22,11 +26,12 @@ function($scope, $http) {
             country: $scope.country
         };
 
-        console.log(create);
-
         $http.post('/company', create).then(function(response) {
             console.log(response);
-        }).catch(console.error);
+        }).catch(function(response) {
+            var err = response.data;
+            alert(err.message);
+        });
     };
 
 }]);
