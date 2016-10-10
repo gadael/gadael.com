@@ -14,4 +14,19 @@ function($scope, $http) {
         }
     });
 
+
+    $scope.createCompany = function() {
+
+        var create = {
+            dbname: $scope.dbname,
+            country: $scope.country
+        };
+
+        console.log(create);
+
+        $http.post('/company', create).then(function(response) {
+            console.log(response);
+        }).catch(console.error);
+    };
+
 }]);

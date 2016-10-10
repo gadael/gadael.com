@@ -24,7 +24,7 @@
                     </p>
 
                     <p class="button">
-                        <button type="submit"><i class="fa fa-bolt"></i> Start</button>
+                        <button ng-click="createCompany()"><i class="fa fa-bolt"></i> Start</button>
                     </p>
             </form>
         </div>
@@ -40,21 +40,21 @@
             <form>
                 <p>
                     <label for="public_text">Home page text for public access</label>
-                    <textarea id="public_text" ng-model="public_text"></textarea>
+                    <textarea id="public_text" ng-model="company.public_text"></textarea>
                 </p>
 
                 <p>
                     <label for="private_text">Home page text for public access</label>
-                    <textarea id="private_text" ng-model="private_text"></textarea>
+                    <textarea id="private_text" ng-model="company.private_text"></textarea>
                 </p>
 
                 <p>
 
-                    <label><input type="checkbox" ng-model="maintenance" /> Maintenance mode</label>
+                    <label><input type="checkbox" ng-model="company.maintenance" /> Maintenance mode</label>
                 </p>
 
                 <p class="button">
-                    <button type="submit"><i class="fa fa-save"></i> Save</button>
+                    <button type="submit" ng-click="saveCompany()"><i class="fa fa-save"></i> Save</button>
                 </p>
             </form>
         </div>
