@@ -88,7 +88,9 @@ function($scope, searchRequest) {
     };
 }])
 
-
+/**
+ * data-hexo-search-results
+ */
 .directive('hexoSearchResults', ['$rootScope', function($rootScope) {
     return {
         templateUrl: '/ng-templates/search_results.html',
