@@ -8,11 +8,14 @@
             <h3>Your own application is not started, please create it with the form below</h3>
 
             <form>
-                    <%- partial('common/field/company') %>
+                    <p>
+                        <label for="company"><%= __('signup.site') %></label>
+                        https://<input type="text" id="company" name="company" ng-model="create.dbname" required="required" /><strong>.gadael.com</strong>
+                    </p>
 
                     <p>
                         <label for="public_text">Initialize database with settings from</label>
-                        <select id="public_text" ng-model="country">
+                        <select id="public_text" ng-model="create.country">
                             <option value="">No initialization</option>
                             <option value="FR">France</option>
                             <option value="UK">United Kingdoms</option>
