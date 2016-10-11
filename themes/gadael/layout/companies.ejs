@@ -35,7 +35,7 @@
 
         <div class="view-company" ng-if="company">
             <div class="header">
-                <a ng-href="url">Open application</a>
+                <a ng-href="https://{{company.name}}.gadael.com/" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Open application</a>
             </div>
 
             <h3>Settings</h3>
@@ -52,8 +52,10 @@
                 </p>
 
                 <p>
+                    <label><input type="checkbox" ng-model="company.maintenance" /> Maintenance mode</label><br />
 
-                    <label><input type="checkbox" ng-model="company.maintenance" /> Maintenance mode</label>
+                    <em>In maintenance mode, users are allowed to login but modification or creation of requests is not allowed.
+                        The administrators actions are not restricted</em>
                 </p>
 
                 <p class="button">
