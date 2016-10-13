@@ -8,7 +8,7 @@ angular.module('HexoCompanies', [])
 function($scope, $http) {
 
     $scope.create = {
-        dbname: 'hexo',
+        dbname: '',
         country: 'FR'
     };
 
@@ -34,7 +34,11 @@ function($scope, $http) {
 
     $scope.updateCompany = function() {
 
-        $http.put('/company/'+$scope.company.dbname, $scope.company).then(function(response) {
+        var post = {
+            company: $scope.company
+        };
+
+        $http.put('/company/'+$scope.company.dbname, post).then(function(response) {
             document.location.reload();
         }).catch(function(response) {
             var err = response.data;

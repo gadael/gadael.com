@@ -45,6 +45,7 @@
                 <p>
                     <label for="companyname">Your company name</label>
                     <input type="text" id="companyname" ng-model="company.name" ng-required="true" />
+                    <em>This is used as application title</em>
                 </p>
 
                 <p>
@@ -58,12 +59,12 @@
                 </p>
 
                 <p>
-                    <label><input type="checkbox" ng-model="company.workperiod_recover_request" /> Use workperiod recoverery</label><br />
+                    <label><input type="checkbox" ng-model="company.workperiod_recover_request" /> Use workperiod recoverery</label>
                     <em>Allow creation of workperiod recover requests for all of your users</em>
                 </p>
 
                 <p>
-                    <label><input type="checkbox" ng-model="company.maintenance" /> Maintenance mode</label><br />
+                    <label><input type="checkbox" ng-model="company.maintenance" /> Maintenance mode</label>
 
                     <em>In maintenance mode, users are allowed to login but modification or creation of requests is not allowed.
                         The administrators actions are not restricted</em>
@@ -73,6 +74,7 @@
                     <label>Alert managers by email after
                         <input type="number" step="1" min="0" max="100" ng-model="company.approb_alert" />
                         days of unanswered approval</label>
+
                 </p>
 
                 <p class="button">
