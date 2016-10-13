@@ -41,6 +41,12 @@
             <h3>Settings</h3>
 
             <form>
+
+                <p>
+                    <label for="companyname">Your company name</label>
+                    <input type="text" id="companyname" ng-model="company.name" ng-required="true" />
+                </p>
+
                 <p>
                     <label for="public_text">Home page text for public access</label>
                     <textarea id="public_text" ng-model="company.public_text"></textarea>
@@ -52,14 +58,25 @@
                 </p>
 
                 <p>
+                    <label><input type="checkbox" ng-model="company.workperiod_recover_request" /> Use workperiod recoverery</label><br />
+                    <em>Allow creation of workperiod recover requests for all of your users</em>
+                </p>
+
+                <p>
                     <label><input type="checkbox" ng-model="company.maintenance" /> Maintenance mode</label><br />
 
                     <em>In maintenance mode, users are allowed to login but modification or creation of requests is not allowed.
                         The administrators actions are not restricted</em>
                 </p>
 
+                <p>
+                    <label>Alert managers by email after
+                        <input type="number" step="1" min="0" max="100" ng-model="company.approb_alert" />
+                        days of unanswered approval</label>
+                </p>
+
                 <p class="button">
-                    <button type="submit" ng-click="saveCompany()"><i class="fa fa-save"></i> Save</button>
+                    <button type="submit" ng-click="updateCompany()"><i class="fa fa-save"></i> Save</button>
                 </p>
             </form>
         </div>
