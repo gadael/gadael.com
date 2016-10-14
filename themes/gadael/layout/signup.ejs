@@ -4,16 +4,19 @@
 
     <form method="POST" action="../local-signup">
 
-        <%- partial('common/field/company') %>
+        <p>
+            <label for="company"><%= __('signup.site') %></label>
+            https://<input type="text" id="company" name="company" /><strong>.gadael.com</strong>
+        </p>
 
         <p>
             <label for="email"><%= __('signup.email') %></label>
-            <input type="text" id="email" name="email" value="" />
+            <input type="text" id="email" name="email" required="required" value="" />
         </p>
 
         <p>
             <label for="password"><%= __('signup.password') %></label>
-            <input type="password" id="password" name="password" value="" />
+            <input type="password" id="password" name="password" required="required" value="" />
         </p>
 
         <p><button type="submit"><i class="fa fa-bolt"></i> <%= __('signup.button') %></button></p>
