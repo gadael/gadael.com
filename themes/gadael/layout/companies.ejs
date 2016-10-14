@@ -1,11 +1,11 @@
 <section id="main">
 
     <div id="companies" ng-controller="CompaniesController">
-        <h2>My application dashboard</h2>
+        <h2><%= __('company.title') %></h2>
 
         <div class="create-company" ng-if="!company">
 
-            <h3>Your own application is not started, please create it with the form below</h3>
+            <h3><%= __('company.createtitle') %></h3>
 
             <form>
                     <p>
@@ -14,20 +14,20 @@
                     </p>
 
                     <p>
-                        <label for="public_text">Initialize database with settings from</label>
+                        <label for="public_text"><%= __('company.country') %></label>
                         <select id="public_text" ng-model="create.country">
-                            <option value="">No initialization</option>
-                            <option value="FR">France</option>
-                            <option value="UK">United Kingdoms</option>
-                            <option value="US">United States</option>
-                            <option value="CH">Switzerland</option>
-                            <option value="BE">Belgium</option>
-                            <option value="IE">Ireland</option>
+                            <option value=""><%= __('company.nocountry') %></option>
+                            <option value="FR"><%= __('country.fr') %></option>
+                            <option value="UK"><%= __('country.uk') %></option>
+                            <option value="US"><%= __('country.us') %></option>
+                            <option value="CH"><%= __('country.ch') %></option>
+                            <option value="BE"><%= __('country.be') %></option>
+                            <option value="IE"><%= __('country.ie') %></option>
                         </select>
                     </p>
 
                     <p class="button">
-                        <button ng-click="createCompany()"><i class="fa fa-bolt"></i> Start</button>
+                        <button ng-click="createCompany()"><i class="fa fa-bolt"></i> <%= __('company.createbutton') %></button>
                     </p>
             </form>
         </div>
@@ -35,50 +35,50 @@
 
         <div class="view-company" ng-if="company">
             <div class="header">
-                <a ng-href="https://{{company.name}}.gadael.com/" target="_blank"><i class="fa fa-external-link-square" aria-hidden="true"></i> Open application</a>
+                <a ng-href="https://{{company.name}}.gadael.com/" target="_blank">
+                    <i class="fa fa-external-link-square" aria-hidden="true"></i> <%= __('company.open') %>
+                </a>
             </div>
 
-            <h3>Settings</h3>
+            <h3><%= __('company.edittitle') %></h3>
 
             <form>
 
                 <p>
-                    <label for="companyname">Your company name</label>
+                    <label for="companyname"><%= __('company.name') %></label>
                     <input type="text" id="companyname" ng-model="company.name" ng-required="true" />
                     <em>This is used as application title</em>
                 </p>
 
                 <p>
-                    <label for="public_text">Home page text for public access</label>
+                    <label for="public_text"><%= __('company.public_text') %></label>
                     <textarea id="public_text" ng-model="company.public_text"></textarea>
                 </p>
 
                 <p>
-                    <label for="private_text">Home page text for public access</label>
+                    <label for="private_text"><%= __('company.private_text') %></label>
                     <textarea id="private_text" ng-model="company.private_text"></textarea>
                 </p>
 
                 <p>
-                    <label><input type="checkbox" ng-model="company.workperiod_recover_request" /> Use workperiod recoverery</label>
-                    <em>Allow creation of workperiod recover requests for all of your users</em>
+                    <label><input type="checkbox" ng-model="company.workperiod_recover_request" /> <%= __('company.workperiod_recover_request') %></label>
+                    <em><%= __('company.workperiod_recover_desc') %></em>
                 </p>
 
                 <p>
-                    <label><input type="checkbox" ng-model="company.maintenance" /> Maintenance mode</label>
+                    <label><input type="checkbox" ng-model="company.maintenance" /> <%= __('company.maintenance') %></label>
 
-                    <em>In maintenance mode, users are allowed to login but modification or creation of requests is not allowed.
-                        The administrators actions are not restricted</em>
+                    <em><%= __('company.maintenanceDesc') %></em>
                 </p>
 
                 <p>
-                    <label>Alert managers by email after
+                    <label><%= __('company.alert1') %>
                         <input type="number" step="1" min="0" max="100" ng-model="company.approb_alert" />
-                        days of unanswered approval</label>
-
+                        <%= __('company.alert2') %></label>
                 </p>
 
                 <p class="button">
-                    <button type="submit" ng-click="updateCompany()"><i class="fa fa-save"></i> Save</button>
+                    <button type="submit" ng-click="updateCompany()"><i class="fa fa-save"></i> <%= __('company.editbutton') %></button>
                 </p>
             </form>
         </div>
