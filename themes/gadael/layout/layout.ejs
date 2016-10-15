@@ -1,8 +1,20 @@
 <%- partial('common/head') %>
 <body data-hexo-page>
-    <div id="container">
+    <div id="container" ng-controller="PageController">
         <%- partial('common/header') %>
+
         <div class="outer">
+
+            <div class="messages">
+                <div class="message-info" ng-repeat="info in session.infos">
+                    <i class="fa fa-info-circle"></i> {{info}}
+                </div>
+
+                <div class="message-error" ng-repeat="error in session.errors">
+                    <i class="fa fa-warning"></i> {{error}}
+                </div>
+            </div>
+
             <%- body %>
         </div>
         <%- partial('common/footer', null, {cache: !config.relative_link}) %>

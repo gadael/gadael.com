@@ -1,0 +1,30 @@
+.messages
+    position:relative
+
+    >div
+        @extend $base-style
+        @extend $block
+        @extend $block-shadow
+        margin: block-margin 0
+
+        line-height: line-height
+        font-size: 1.3em
+        padding: .5em 1em
+        position: absolute
+        top: (2*block-margin)
+        left: (2*block-margin)
+        width: 30em
+        border-radius: 4px
+        text-shadow: #fff 0 0 8px
+        font-weight:bold
+
+        &:hover
+            opacity:.5
+
+    .message-info
+        background: rgba(255, 252, 184, 0.85)
+        color: #4a3300
+
+    .message-error
+        background: rgba(255, 130, 130, 0.73)
+        color: #4d0000
