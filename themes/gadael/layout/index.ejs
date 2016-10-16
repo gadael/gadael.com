@@ -9,7 +9,12 @@
     <div class="catch-your-eye">
 
         <form class="left">
-            <input class="field" name="company[name]" placeholder="<%= __('create.companyName') %>" type="text" />
+            <div class="dbname-container">
+                <input class="field" name="dbname" placeholder="<%= __('create.companyName') %>" type="text" data-dbname-available="1" />
+                <i class="fa fa-spinner fa-spin"></i>
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-times-circle"></i>
+            </div>
             <button type="submit"><i class="fa fa-magic"></i> <%= __('create.button') %></button>
         </form>
 

@@ -4,10 +4,18 @@
 
     <form method="POST" action="../local-signup">
 
-        <p>
+        <div>
             <label for="dbname"><%= __('signup.site') %></label>
-            https://<input type="text" id="dbname" name="dbname" /><strong>.gadael.com</strong>
-        </p>
+            <div class="dbname-prefix">https://</div>
+            <div class="dbname-container">
+                <input type="text" id="dbname" name="dbname" data-dbname-available="1" />
+                <strong>.gadael.com</strong>
+                <i class="fa fa-spinner fa-spin"></i>
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-times-circle"></i>
+            </div>
+
+        </div>
 
         <p>
             <label for="lastname"><%= __('signup.lastname') %></label>
