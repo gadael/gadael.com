@@ -50,6 +50,8 @@ signin:
 signup:
     title: 'Register in gadael.com'
     site: 'Choose your site name.'
+    lastname: 'Enter your lastname.'
+    firstname: 'Enter your firstname.'
     email: 'Enter your email.'
     password: 'Choose a new password.'
     button: 'Register'
