@@ -6,14 +6,7 @@
 
         <div>
             <label for="dbname"><%= __('signup.site') %></label>
-            <div class="dbname-prefix">https://</div>
-            <div class="dbname-container">
-                <input type="text" id="dbname" name="dbname" data-dbname-available="1" />
-                <strong>.gadael.com</strong>
-                <i class="fa fa-spinner fa-spin"></i>
-                <i class="fa fa-check-circle"></i>
-                <i class="fa fa-times-circle"></i>
-            </div>
+            <%- partial('common/dbname', placeholder='', attributes='') %>
 
         </div>
 

@@ -72,6 +72,12 @@ function($scope, $http) {
                         container.removeClass('dbname-valid');
                         container[0].setAttribute('title', 'This site name is not available');
                     }
+                })
+                .catch(function(err) {
+                    // 404 for example
+                    container.removeClass('dbname-loading');
+                    container.removeClass('dbname-invalid');
+                    container.removeClass('dbname-valid');
                 });
             }, 500);
 

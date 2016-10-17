@@ -8,17 +8,11 @@
             <h3><%= __('company.createtitle') %></h3>
 
             <form>
-                    <p>
+                    <div>
+
                         <label for="dbname"><%= __('signup.site') %></label>
-                        https://
-                        <div class="dbname-container">
-                            <input type="text" id="dbname" ng-model="create.dbname" data-dbname-available="1" required="required" />
-                            <i class="fa fa-spinner fa-spin"></i>
-                            <i class="fa fa-check-circle"></i>
-                            <i class="fa fa-times-circle"></i>
-                        </div>
-                        <strong>.gadael.com</strong>
-                    </p>
+                        <%- partial('common/dbname', placeholder='', attributes='data-dbname-available="1" required="required"') %>
+                    </div>
 
                     <p>
                         <label for="public_text"><%= __('company.country') %></label>
