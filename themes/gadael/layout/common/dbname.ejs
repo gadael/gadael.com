@@ -1,6 +1,6 @@
 <div class="dbname-prefix">https://</div>
 <div class="dbname-container">
-    <input class="field" id="dbname" name="dbname" placeholder="<%= __('create.companyName') %>" type="text" <%- attributes %> data-dbname-available="1" />
+    <input class="field" id="dbname" name="dbname" placeholder="<%= __('create.companyName') %>" ng-value="session.lastValidDbname" type="text" <%- attributes %> data-dbname-available="1" />
     <strong>.gadael.com</strong>
 
     <div class="icon">
@@ -8,4 +8,5 @@
         <i class="fa fa-check-circle"></i>
         <i class="fa fa-times-circle"></i>
     </div>
+
 </div>
