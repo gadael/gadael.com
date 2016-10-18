@@ -20,7 +20,7 @@ function($scope, $http) {
     return {
         scope: true,
         controllerAs: 'searchCtrl',
-        link : function(scope,element,attrs) {
+        link : function(scope, element, attrs) {
 
             /**
              * Returns a function, that, as long as it continues to be invoked, will not
@@ -53,8 +53,10 @@ function($scope, $http) {
 
             var lastcheck = null;
 
-
-            var testAvailability = debounce(function() {
+            /**
+             * Test input content with the HTTP query
+             */
+            function testInput() {
                 var input = this;
                 var container = getDbNameContainer(input);
 
@@ -79,7 +81,20 @@ function($scope, $http) {
                     container.removeClass('dbname-invalid');
                     container.removeClass('dbname-valid');
                 });
-            }, 500);
+            }
+
+
+            var testAvailability = debounce(testInput, 500);
+
+
+            function initLoadingOnContainer(input)
+            {
+                var container = getDbNameContainer(input);
+                container.addClass('dbname-loading');
+                container.removeClass('dbname-invalid');
+                container.removeClass('dbname-valid');
+                container[0].setAttribute('title', '');
+            }
 
 
             element.on('keyup', function() {
@@ -88,13 +103,16 @@ function($scope, $http) {
                     return;
                 }
 
-                var container = getDbNameContainer(this);
-                container.addClass('dbname-loading');
-                container.removeClass('dbname-invalid');
-                container.removeClass('dbname-valid');
-                container[0].setAttribute('title', '');
+                initLoadingOnContainer(this);
                 testAvailability.bind(this)();
             });
+
+
+            // test on load if element contain value
+            if (element.val()) {
+                initLoadingOnContainer(element[0]);
+                testInput.bind(element[0])();
+            }
         }
     };
 }]);
