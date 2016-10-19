@@ -1,0 +1,16 @@
+<section id="main" class="accountform">
+
+    <h2><%= __('reset.sendemail') %></h2>
+
+    <form method="POST" action="../email">
+        <p>
+            <label for="email"><%= __('reset.email') %></label>
+            <input type="text" id="email" name="email" value="" />
+        </p>
+
+        <p><button type="submit"><i class="fa fa-key"></i> <%= __('reset.send') %></button></p>
+    </form>
+
+</section>
+
+<%- partial('common/create') %>
