@@ -5,3 +5,5 @@ website
 
 * [ ] Forgot password page (input email)
 * [ ] Change password page (input password)
+* [ ] Settings page, change email, password, unlink 3rd party accounts
+* [ ] Delete account page
