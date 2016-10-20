@@ -4,7 +4,7 @@
         <h2><%= __('account.title') %></h2>
 
         <div class="create-company" ng-if="!company">
-            <a href="./create-company"><%= __('company.createtitle') %></a>
+            <a href="./create-company">Start the application</a>
         </div>
 
 
@@ -15,10 +15,13 @@
                 </a>
             </div>
 
-            <a href="./company-settings"><%= __('company.edittitle') %></a>
+            <a href="./company-settings">Edit application settings</a>
         </div>
 
-        <a href="./settings">Export the database</a>
+        <a href="./plan">Current plan</a>
+        <a href="./creditcard">Credit card</a>
+
+        <a href="./export-company">Export the database</a>
 
         <a href="./settings">My account settings</a>
 
