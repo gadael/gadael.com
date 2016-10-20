@@ -45,8 +45,9 @@ signin:
     password: 'And your password.'
     button: 'Continue'
     noaccount: 'No account yet?'
-    link: 'Register an account'
+    signuplink: 'Register an account'
     afterlink: 'or login with a third party provider'
+    resetlink: 'Forgot your password?'
 signup:
     title: 'Register in gadael.com'
     site: 'Choose your site name.'
