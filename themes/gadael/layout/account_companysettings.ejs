@@ -1,0 +1,60 @@
+<section id="main">
+
+    <div id="companies" ng-controller="CompaniesController">
+        
+        <h3><%= __('company.edittitle') %></h3>
+
+        <form>
+
+            <p>
+                <label for="companyname"><%= __('company.name') %></label>
+                <input type="text" id="companyname" ng-model="company.name" ng-required="true" />
+                <em>This is used as application title</em>
+            </p>
+
+            <p>
+                <label for="public_text"><%= __('company.public_text') %></label>
+                <textarea id="public_text" ng-model="company.public_text"></textarea>
+            </p>
+
+            <p>
+                <label for="private_text"><%= __('company.private_text') %></label>
+                <textarea id="private_text" ng-model="company.private_text"></textarea>
+            </p>
+
+            <p>
+                <label for="managerName"><%= __('company.managerName') %></label>
+                <input type="text" id="managerName" ng-model="company.managerName" placeholder="{{session.user.firstname}} {{session.user.lastname}}" />
+            </p>
+
+            <p>
+                <label for="managerEmail"><%= __('company.managerEmail') %></label>
+                <input type="text" id="managerEmail" ng-model="company.managerEmail" placeholder="{{session.user.email}}" />
+            </p>
+
+            <p>
+                <label><input type="checkbox" ng-model="company.workperiod_recover_request" /> <%= __('company.workperiod_recover_request') %></label>
+                <em><%= __('company.workperiod_recover_desc') %></em>
+            </p>
+
+            <p>
+                <label><input type="checkbox" ng-model="company.maintenance" /> <%= __('company.maintenance') %></label>
+
+                <em><%= __('company.maintenanceDesc') %></em>
+            </p>
+
+            <p>
+                <label><%= __('company.alert1') %>
+                    <input type="number" step="1" min="0" max="100" ng-model="company.approb_alert" />
+                    <%= __('company.alert2') %></label>
+            </p>
+
+            <p class="button">
+                <button type="submit" ng-click="updateCompany()"><i class="fa fa-save"></i> <%= __('company.editbutton') %></button>
+            </p>
+        </form>
+
+    </div>
+</section>
+
+<%- partial('common/private') %>

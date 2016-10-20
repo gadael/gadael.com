@@ -75,6 +75,8 @@ company:
     name: 'Your company name'
     public_text: 'Home page text for public access'
     private_text: 'Home page text for public access'
+    managerName: 'Full name of the application manager (if not you).'
+    managerEmail: 'Manager email, used for notifications to the users.'
     workperiod_recover_request: 'Use workperiod recoverery'
     workperiod_recover_desc: 'Allow creation of workperiod recover requests for all of your users'
     maintenance: 'Maintenance mode'

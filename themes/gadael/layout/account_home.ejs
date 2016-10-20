@@ -1,0 +1,29 @@
+<section id="main">
+
+    <div id="companies" ng-controller="CompaniesController">
+        <h2><%= __('account.title') %></h2>
+
+        <div class="create-company" ng-if="!company">
+            <a href="./create-company"><%= __('company.createtitle') %></a>
+        </div>
+
+
+        <div class="view-company" ng-if="company">
+            <div class="header">
+                <a ng-href="https://{{company.name}}.gadael.com/" target="_blank">
+                    <i class="fa fa-external-link-square" aria-hidden="true"></i> <%= __('company.open') %>
+                </a>
+            </div>
+
+            <a href="./company-settings"><%= __('company.edittitle') %></a>
+        </div>
+
+        <a href="./settings">Export the database</a>
+
+        <a href="./settings">My account settings</a>
+
+        <a href="./delete">Delete my account</a>
+    </div>
+</section>
+
+<%- partial('common/private') %>
