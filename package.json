@@ -12,6 +12,7 @@
     "hexo-generator-feed": "^1.2.0",
     "hexo-generator-i18n": "0.0.5",
     "hexo-generator-lunr": "git://github.com/polo2ro/hexo-generator-lunr#bdf37ea29c65e88a231d8448642eaa923ce62236",
+    "hexo-generator-seo-friendly-sitemap": "0.0.20",
     "hexo-generator-tag": "^0.2.0",
     "hexo-renderer-ejs": "^0.2.0",
     "hexo-renderer-marked": "^0.2.10",

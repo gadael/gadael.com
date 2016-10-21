@@ -1,0 +1,26 @@
+<section id="main">
+
+    <div id="deleteaccount">
+        <h2>Delete your account</h2>
+
+        <form action="/deleteaccount">
+
+
+            <p>
+                Please confirm thant you really whant to delete your account data and your application database.
+                No saved data will be left on this site and recovery will not be possible.
+            </p>
+
+            <p>
+                If you used the application for a while, we suggest you can use the export functionality before deleting your account to
+                save your data for future use.
+            </p>
+
+            <p class="button">
+                <button type="submit" onclick="return confirm(this.title);" title="Are you really sure?"><i class="fa fa-save"></i> Delete</button>
+            </p>
+        </form>
+    </div>
+</section>
+
+<%- partial('common/private') %>

@@ -1,0 +1,31 @@
+<section id="main">
+
+    <div id="deleteaccount">
+        <h2>Select your plan</h2>
+
+        <form action="/setplan">
+
+            <div>
+                <label><input type="radio" ng-selected="session.plan=='free'" /> Free plan</label>
+                <p>0 &euro;, limited to 5 active users</p>
+            </div>
+
+            <div>
+                <label><input type="radio" ng-selected="session.plan='paid'" /> Paid plan</label>
+                <label for="userLimit">Select your user limit:</label>
+                <input id="userLimit" type="number" min="5" max="1000" />
+            </div>
+
+            <p>
+                Modification of the user limit will be applied immediatly,
+                the payment amount will be modified on the next payout date
+            </p>
+
+            <p class="button">
+                <button type="submit"><i class="fa fa-save"></i> Save</button>
+            </p>
+        </form>
+    </div>
+</section>
+
+<%- partial('common/private') %>

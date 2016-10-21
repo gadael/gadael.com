@@ -1,0 +1,15 @@
+<section id="main">
+
+    <div id="deleteaccount">
+        <h2>Export your database</h2>
+
+        <form action="/download-database">
+
+            <p class="button">
+                <button type="submit"><i class="fa fa-cloud-download"></i> <%= __('export.downloadbutton') %></button>
+            </p>
+        </form>
+    </div>
+</section>
+
+<%- partial('common/private') %>

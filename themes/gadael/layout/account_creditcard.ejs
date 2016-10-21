@@ -1,0 +1,24 @@
+<section id="main">
+
+    <div id="creditcard" ng-controller="CreditCardController">
+        <h2>Credit card settings</h2>
+
+        <div ng-if="session.paymentDay && session.plan=='paid'">
+            <p>
+                Your payout date is the {{session.paymentDay}} of each month.
+            </p>
+        </div>
+
+        <form>
+
+
+
+
+            <p class="button">
+                <button ng-click="saveCreditCard()"><i class="fa fa-save"></i> <%= __('creditcard.savebutton') %></button>
+            </p>
+        </form>
+    </div>
+</section>
+
+<%- partial('common/private') %>

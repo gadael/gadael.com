@@ -1,0 +1,30 @@
+<section id="main">
+
+    <div id="deleteaccount">
+        <h2>Gadael.com account settings</h2>
+
+        <form action="/save-account-settings">
+
+            <p>
+                <label for="lastname"><%= __('signup.lastname') %></label>
+                <input type="text" id="lastname" name="lastname" required="required" value="{{session.lastname}}" />
+            </p>
+
+            <p>
+                <label for="firstname"><%= __('signup.firstname') %></label>
+                <input type="text" id="firstname" name="firstname" value="{{session.firstname}}" />
+            </p>
+
+            <p>
+                <label for="email"><%= __('signup.email') %></label>
+                <input type="text" id="email" name="email" required="required" value="{{session.email}}" />
+            </p>
+
+            <p class="button">
+                <button type="submit"><i class="fa fa-save"></i> Save</button>
+            </p>
+        </form>
+    </div>
+</section>
+
+<%- partial('common/private') %>
