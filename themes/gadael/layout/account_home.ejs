@@ -1,10 +1,17 @@
 <section id="main">
 
-    <div id="companies" ng-controller="CompaniesController">
+    <div id="account_home" class="accountform" ng-controller="CompaniesController">
         <h2><%= __('account.title') %></h2>
 
         <div class="create-company" ng-if="!company">
-            <a href="./create-company">Start the application</a>
+
+            <p>You are connected to gadael.com but your application is not started yet,
+                please use the link below to chose a name for your company application URL.</p>
+
+            <a href="./create-company">
+                <i class="fa fa-bolt"></i><br />
+                <%= __('account.createcompany') %>
+            </a>
         </div>
 
 
@@ -15,17 +22,42 @@
                 </a>
             </div>
 
-            <a href="./company-settings">Edit application settings</a>
+            <a href="./company-settings">
+                <i class="fa fa-gears"></i><br />
+                <%= __('account.companysettings') %>
+            </a>
+
+            <a href="./export-company">
+                <i class="fa fa-cloud-download"></i><br />
+                <%= __('account.exportcompany') %>
+            </a>
+
+
+            <a href="./plan">
+                <i class="fa fa-shopping-cart"></i><br />
+                <%= __('account.plan') %>
+            </a>
+
+            <a href="./creditcard">
+                <i class="fa fa-credit-card"></i><br />
+                <%= __('account.creditcard') %>
+            </a>
         </div>
 
-        <a href="./plan">Current plan</a>
-        <a href="./creditcard">Credit card</a>
 
-        <a href="./export-company">Export the database</a>
 
-        <a href="./settings">My account settings</a>
 
-        <a href="./delete">Delete my account</a>
+        <div class="account">
+            <a href="./settings">
+                <i class="fa fa-user"></i><br />
+                <%= __('account.settings') %>
+            </a>
+
+            <a href="./delete">
+                <i class="fa fa-trash"></i><br />
+                <%= __('account.delete') %>
+            </a>
+        </div>
     </div>
 </section>
 

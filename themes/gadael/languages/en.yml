@@ -90,3 +90,11 @@ reset:
     setpassword: 'You requested a password modification'
     password: 'Enter your new password'
     save: 'Save'
+account:
+    title: 'My account'
+    createcompany: 'Start my application'
+    companysettings: 'Application settings'
+    creditcard: 'Credit card settings'
+    exportcompany: 'Export application database'
+    settings: 'Account settings'
+    delete: 'Delete account'
