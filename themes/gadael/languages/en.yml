@@ -98,3 +98,7 @@ account:
     exportcompany: 'Export application database'
     settings: 'Account settings'
     delete: 'Delete account'
+changepassword:
+    title: 'Update your password'
+    oldpassword: 'Type in the current password.'
+    newpassword: 'Input your new password'

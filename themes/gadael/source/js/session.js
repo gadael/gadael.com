@@ -4,10 +4,16 @@ angular.module('HexoSession', [])
 /**
  * Controller for search result dropdown
  */
-.controller("PageController", ['$scope', '$http',
-function($scope, $http) {
+.controller("PageController", ['$scope', '$http', '$location',
+function($scope, $http, $location) {
     $http.get('/session').then(function(response) {
         $scope.session = response.data;
+
+        // check connexion status on privates pages
+        if ($scope.isPrivate && !$scope.session.isLoggedIn) {
+            var currentRootFolder = document.location.pathname.split('/')[1];
+            document.location.href = '/'+currentRootFolder+'/private';
+        }
     });
 }])
 
