@@ -3,21 +3,21 @@
     <div id="account_settings" class="accountform">
         <h2><%= __('settings.title') %></h2>
 
-        <form action="/save-account-settings">
+        <form method="POST" action="<%= langurl('save-account-settings') %>">
 
             <p>
                 <label for="lastname"><%= __('signup.lastname') %></label>
-                <input type="text" id="lastname" name="lastname" required="required" value="{{session.lastname}}" />
+                <input type="text" id="lastname" name="lastname" required="required" ng-value="session.user.lastname" />
             </p>
 
             <p>
                 <label for="firstname"><%= __('signup.firstname') %></label>
-                <input type="text" id="firstname" name="firstname" value="{{session.firstname}}" />
+                <input type="text" id="firstname" name="firstname" ng-value="session.user.firstname" />
             </p>
 
             <p>
                 <label for="email"><%= __('signup.email') %></label>
-                <input type="text" id="email" name="email" required="required" value="{{session.email}}" />
+                <input type="text" id="email" name="email" required="required" ng-value="session.user.email" />
             </p>
 
             <p class="button">
