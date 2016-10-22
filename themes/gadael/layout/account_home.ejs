@@ -17,9 +17,18 @@
 
         <div class="view-company" ng-if="company">
             <div class="header">
-                <a ng-href="https://{{company.name}}.gadael.com/" target="_blank">
-                    <i class="fa fa-external-link-square" aria-hidden="true"></i> <%= __('company.open') %>
-                </a>
+                <div class="left">
+                    <span class="url">https://{{company.name}}.gadael.com/</span><br />
+                    <span class="status"><i class="fa fa-circle"></i> {{company.status}}</span>
+                </div>
+
+                <div class="right">
+                    <a ng-href="https://{{company.name}}.gadael.com/" target="_blank">
+                        <i class="fa fa-external-link-square" aria-hidden="true"></i> <%= __('company.open') %>
+                    </a>
+                </div>
+
+                <div style="clear:both"></div>
             </div>
 
             <a href="./company-settings">
