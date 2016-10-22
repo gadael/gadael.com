@@ -26,6 +26,7 @@
     .catch-your-eye
         padding: 5px 20px
         background:color-dark-background
+        color:color-text-on-dark-background
         height: 60px
 
         .left,.right
@@ -42,7 +43,8 @@
             &:hover
                 background: color-button-onfire + #111
         form input[type=text]
-            width: 9em
+            width: 6em
+            text-align: right
             padding: 5px
             vertical-align: middle
             border: none
@@ -51,6 +53,12 @@
             border-bottom: #333 1px solid
             &:focus
                 background:rgba(255,255,255,.1)
+
+        .logged-in
+            padding-top: .5em
+            font-size: 16px
+            .fa-user
+                color: color-dark-background
 
     .functionalities
         padding: 3em 0

@@ -33,9 +33,11 @@ article:
 create:
     title: 'Try it now'
     companyName: 'Company name'
+    dbname: 'Name'
     button: 'Start your own'
 home:
     subtitle: 'Time management for your company'
+    registerbutton: 'Register'
     customerbutton: 'Customer Area'
     github: 'Github project'
     issues: 'Report Gadael issue'
@@ -98,6 +100,7 @@ account:
     exportcompany: 'Export application database'
     settings: 'Account settings'
     delete: 'Delete account'
+    plan: 'Current plan'
 changepassword:
     title: 'Update your password'
     oldpassword: 'Type in the current password.'

@@ -8,11 +8,18 @@
 
     <div class="catch-your-eye">
 
-        <form class="left" action="./signup">
+        <form class="left logged-out" method="GET" action="./signup" ng-if="!session.isLoggedIn">
 
             <%- partial('common/dbname', attributes='required="required"') %>
-            <button type="submit"><i class="fa fa-magic"></i> <%= __('create.button') %></button>
+            <button type="submit"><i class="fa fa-magic"></i> <%= __('home.registerbutton') %></button>
         </form>
+
+        <div class="left logged-in" ng-if="session.isLoggedIn">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-user fa-stack-1x"></i>
+            </span> {{session.user.firstname}} {{session.user.lastname}}
+        </div>
 
         <div class="right">
             <a class="customer-button" href="private">
