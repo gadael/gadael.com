@@ -1,40 +1,41 @@
-<section id="main" class="accountform">
+<section id="main">
 
-    <h2><%= __('signup.title') %></h2>
+    <div id="signup" class="accountform">
 
-    <form method="POST" action="../local-signup">
+        <h2><%= __('signup.title') %></h2>
 
-        <div>
-            <label for="dbname"><%= __('signup.site') %></label>
-            <%- partial('common/dbname', attributes='') %>
+        <form method="POST" action="../local-signup">
 
-        </div>
+            <div>
+                <label for="dbname"><%= __('signup.site') %></label>
+                <%- partial('common/dbname', attributes='') %>
 
-        <p>
-            <label for="lastname"><%= __('signup.lastname') %></label>
-            <input type="text" id="lastname" name="lastname" required="required" value="" />
-        </p>
+            </div>
 
-        <p>
-            <label for="firstname"><%= __('signup.firstname') %></label>
-            <input type="text" id="firstname" name="firstname" value="" />
-        </p>
+            <p>
+                <label for="lastname"><%= __('signup.lastname') %></label>
+                <input type="text" id="lastname" name="lastname" required="required" value="" />
+            </p>
 
-        <p>
-            <label for="email"><%= __('signup.email') %></label>
-            <input type="text" id="email" name="email" required="required" value="" />
-        </p>
+            <p>
+                <label for="firstname"><%= __('signup.firstname') %></label>
+                <input type="text" id="firstname" name="firstname" value="" />
+            </p>
 
-        <p>
-            <label for="password"><%= __('signup.password') %></label>
-            <input type="password" id="password" name="password" required="required" value="" />
-        </p>
+            <p>
+                <label for="email"><%= __('signup.email') %></label>
+                <input type="text" id="email" name="email" required="required" value="" />
+            </p>
 
-        <p><button type="submit"><i class="fa fa-bolt"></i> <%= __('signup.button') %></button></p>
+            <p>
+                <label for="password"><%= __('signup.password') %></label>
+                <input type="password" id="password" name="password" required="required" value="" />
+            </p>
 
-    </form>
+            <p><button type="submit"><i class="fa fa-bolt"></i> <%= __('signup.button') %></button></p>
 
-
+        </form>
+    </div>
 </section>
 
 <%- partial('common/loginservices') %>

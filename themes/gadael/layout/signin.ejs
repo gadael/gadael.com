@@ -1,24 +1,26 @@
-<section id="main" class="accountform">
+<section id="main">
 
-    <h2><%= __('signin.title') %></h2>
+    <div id="signin" class="accountform">
 
-    <form method="POST" action="../local-signin">
-        <p>
-            <label for="email"><%= __('signin.email') %></label>
-            <input type="text" id="email" name="email" value="" />
-        </p>
+        <h2><%= __('signin.title') %></h2>
 
-        <p>
-            <label for="password"><%= __('signin.password') %></label>
-            <input type="password" id="password" name="password" value="" />
-        </p>
+        <form method="POST" action="../local-signin">
+            <p>
+                <label for="email"><%= __('signin.email') %></label>
+                <input type="text" id="email" name="email" value="" />
+            </p>
 
-        <p><button type="submit"><i class="fa fa-key"></i> <%= __('signin.button') %></button></p>
+            <p>
+                <label for="password"><%= __('signin.password') %></label>
+                <input type="password" id="password" name="password" value="" />
+            </p>
 
-        <p><%= __('signin.noaccount') %> <a href="../signup"><%= __('signin.signuplink') %></a> <%= __('signin.afterlink') %></p>
-        <p><i class="fa fa-question-circle-o"></i> <a href="../reset/request"><%= __('signin.resetlink') %></a></p>
-    </form>
+            <p><button type="submit"><i class="fa fa-key"></i> <%= __('signin.button') %></button></p>
 
+            <p><%= __('signin.noaccount') %> <a href="../signup"><%= __('signin.signuplink') %></a> <%= __('signin.afterlink') %></p>
+            <p><i class="fa fa-question-circle-o"></i> <a href="../reset/request"><%= __('signin.resetlink') %></a></p>
+        </form>
+    </div>
 </section>
 
 
