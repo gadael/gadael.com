@@ -26,11 +26,35 @@
                 <i class="fa fa-key"></i> <%= __('home.customerbutton') %>
             </a>
         </div>
+
+        <div style="clear:both"></div>
     </div>
 
-    <div class="presentation">
-        
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "pageDots": false }'>
+        <div class="carousel-cell">
+            <img class="carousel-cell-image" alt="Account home screenshot"
+                src="<%= langurl('docs/version-master/images/account-home.png') %>" />
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-cell-image" alt="Create absence screenshot"
+                src="<%= langurl('docs/version-master/images/account-absence-create.png') %>" />
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-cell-image" alt="View annal leave right screenshot"
+                src="<%= langurl('docs/version-master/images/right-view-annual-leave.png') %>" />
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-cell-image" alt="Exports menu screenshot"
+                src="<%= langurl('docs/version-master/images/exports.png') %>" />
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-cell-image" alt="Waiting request view from the manager screenshot" 
+                src="<%= langurl('docs/version-master/images/manager-waiting-requests.png') %>" />
+        </div>
     </div>
+
+    <link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css" media="screen">
+    <%- js('/bower_components/flickity/dist/flickity.pkgd.min.js') %>
 
     <div class="functionalities">
         <div>

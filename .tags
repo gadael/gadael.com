@@ -10,6 +10,7 @@ angular-strap	bower.json	/^    "angular-strap": "~2.3.9",$/;"	f
 createTagForLang	addDocVersions.sh	/^createTagForLang()$/;"	f
 dependencies	bower.json	/^  "dependencies": {$/;"	f
 dependencies	package.json	/^  "dependencies": {$/;"	f
+flickity	bower.json	/^    "flickity": "~2.0.5"$/;"	f
 font-awesome	bower.json	/^    "font-awesome": "~4.6.3",$/;"	f
 getParameterByName	themes/gadael/source/js/main.js	/^function getParameterByName(name, url) {$/;"	f
 hexo	package.json	/^    "hexo": "^3.2.0",$/;"	f
@@ -28,7 +29,7 @@ hexo-server	package.json	/^    "hexo-server": "^0.2.0"$/;"	f
 lunr-languages	bower.json	/^    "lunr-languages": "master",$/;"	f
 lunr.js	bower.json	/^    "lunr.js": "0.7.1",$/;"	f
 main	themes/gadael/source/js/main.js	/^var main = document.querySelector("#main");$/;"	v
-mark.js	bower.json	/^    "mark.js": "~8.4.0"$/;"	f
+mark.js	bower.json	/^    "mark.js": "~8.4.0",$/;"	f
 name	bower.json	/^  "name": "gadael-site",$/;"	f
 name	package.json	/^  "name": "hexo-site",$/;"	f
 open-sans-fontface	bower.json	/^    "open-sans-fontface": "~1.4.2",$/;"	f

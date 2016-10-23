@@ -11,3 +11,4 @@ website
 * [ ] Delete account page
 * [ ] Download database page
 * [ ] Terms of use when creating the database
+* [ ] Resized version of images for slideshow

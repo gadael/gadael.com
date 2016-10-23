@@ -27,13 +27,7 @@
         padding: 5px 20px
         background:color-dark-background
         color:color-text-on-dark-background
-        height: 60px
 
-        .left,.right
-            width: 50%
-            display:block
-        .right
-            text-align: right
         .customer-button, button
             @extend $base-button
             display:inline-block
@@ -59,6 +53,22 @@
             font-size: 16px
             .fa-user
                 color: color-dark-background
+
+
+    .main-carousel
+        .carousel-cell
+            width: 400px
+            height: 300px
+            margin: 40px
+
+            .carousel-cell-image
+                padding: 2px
+                border:#ccc 1px solid;
+                @extend $block-shadow
+                margin: 20px
+                width: 70%
+
+
 
     .functionalities
         padding: 3em 0

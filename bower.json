@@ -8,6 +8,7 @@
     "lunr.js": "0.7.1",
     "lunr-languages": "master",
     "angular-strap": "~2.3.9",
-    "mark.js": "~8.4.0"
+    "mark.js": "~8.4.0",
+    "flickity": "~2.0.5"
   }
 }
