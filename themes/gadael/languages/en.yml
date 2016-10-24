@@ -101,6 +101,7 @@ account:
     settings: 'Account settings'
     delete: 'Delete account'
     plan: 'Current plan'
+    changepassword: 'Change password'
 changepassword:
     title: 'Update your password'
     oldpassword: 'Type in the current password.'
