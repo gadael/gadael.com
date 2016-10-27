@@ -5,7 +5,8 @@ angular.module('HexoSession', [])
  * Controller for search result dropdown
  */
 .controller("PageController", ['$scope', '$http', '$location',
-function($scope, $http, $location) {
+function($scope, $http, $location, $locationProvider) {
+
     $http.get('/session').then(function(response) {
         $scope.session = response.data;
 
