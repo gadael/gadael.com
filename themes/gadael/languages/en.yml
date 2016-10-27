@@ -108,3 +108,6 @@ changepassword:
     newpassword: 'Input your new password'
 settings:
     title: 'Account settings'
+doc:
+    version: 'Version:'
+    latest: 'Latest'
