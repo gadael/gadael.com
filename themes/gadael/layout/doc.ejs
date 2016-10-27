@@ -16,7 +16,10 @@
         <label for="doc_version"><%= __('doc.version') %></label>
 
         <select id="doc_version" onchange="document.location.href=this.value">
-            <option value="<%= versionurl('version-master') %>"><%= __('doc.latest') %></option>
+            <% var versions = getDocPageVersions(site);
+            for (var i=0; i<versions.length; i++) { %>
+            <option value="<%= versions[i].url %>"><%= versions[i].label %></option>
+            <% } %>
         </select>
 
     </div>
