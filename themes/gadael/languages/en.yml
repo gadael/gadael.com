@@ -18,6 +18,8 @@ nav:
     prev: 'Prev'
     older: 'Older'
     newer: 'Newer'
+footer:
+    otherlang: 'Available languages:'
 widget:
     recents: 'recent'
     archives: 'archives'
@@ -107,6 +109,10 @@ account:
     delete: 'Delete account'
     plan: 'Current plan'
     changepassword: 'Change password'
+    disabled: 'Disabled'
+    maintenance: 'Maintenance'
+    running: 'Running'
+    notstarted: 'You are connected to gadael.com but your application is not started yet, please use the link below to chose a name for your company application URL.'
 changepassword:
     title: 'Update your password'
     oldpassword: 'Type in the current password.'

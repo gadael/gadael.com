@@ -5,8 +5,7 @@
 
         <div class="create-company" ng-if="!company">
 
-            <p>You are connected to gadael.com but your application is not started yet,
-                please use the link below to chose a name for your company application URL.</p>
+            <p><%= __('account.notstarted') %></p>
 
             <a href="./create-company">
                 <i class="fa fa-bolt"></i><br />
@@ -18,8 +17,12 @@
         <div class="view-company" ng-if="company">
             <div class="header">
                 <div class="left">
-                    <span class="url">https://{{company.name}}.gadael.com/</span><br />
-                    <span class="status"><i class="fa fa-circle"></i> {{company.status}}</span>
+                    <p class="url">https://{{company.name}}.gadael.com/</p>
+                    <p class="status">
+                        <span ng-if="company.disabled" class="disabled"><i class="fa fa-circle"></i> <%= __('account.disabled') %></span>
+                        <span ng-if="!company.disabled && company.maintenance" class="maintenance"><i class="fa fa-circle"></i> <%= __('account.maintenance') %></span>
+                        <span ng-if="!company.disabled && !company.maintenance" class="online"><i class="fa fa-circle"></i> <%= __('account.running') %></span>
+                    </p>
                 </div>
 
                 <div class="right">
