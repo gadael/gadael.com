@@ -1,6 +1,5 @@
 angular.module('HexoApp', ['HexoSearch', 'HexoPage', 'HexoSession', 'HexoCompanies'])
 
-.config(['$locationProvider', function($locationProvider) {
-
-    $locationProvider.html5Mode(true);
+.run(['$location', '$rootElement', function ($location, $rootElement) {
+      $rootElement.off('click');
 }]);

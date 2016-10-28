@@ -41,6 +41,11 @@ home:
     customerbutton: 'Customer Area'
     github: 'Github project'
     issues: 'Report Gadael issue'
+    description: 'Gadael dematerialize absence management and working time recovery in a simple way.'
+    advantages: 'Better monitoring and more autonomy for your team'
+    international:
+        title: 'International leave management'
+        description: 'The same software can be used in several countries with different leave rights.'
 signin:
     title: 'Sign in with your gadael.com account'
     email: 'Enter your email.'
