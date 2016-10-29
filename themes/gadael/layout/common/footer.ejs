@@ -3,7 +3,7 @@
 
         <dl>
             <dt><%= __('footer.otherlang') %></dt>
-            <% var versions = getPageLanguages(site);
+            <% var versions = getPageLanguages();
             for (var i=0; i<versions.length; i++) { %>
             <dd><a href="<%= versions[i].url %>"><%= versions[i].label %></a></dd>
             <% } %>

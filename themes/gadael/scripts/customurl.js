@@ -1,16 +1,3 @@
-/**
-* Langurl Helper
-* @description Get the url from a path in the same language
-* @example
-*     <%= langurl('account/settings') %>
-*/
-hexo.extend.helper.register('langurl', function(relativePath) {
-    var currentRootFolder = this.page.path.split('/')[0];
-    return '/'+currentRootFolder+'/'+relativePath;
-});
-
-
-
 
 
 /**
@@ -19,7 +6,7 @@ hexo.extend.helper.register('langurl', function(relativePath) {
 * @example
 *     <% var arr = getDocPageVersions() %>
 */
-hexo.extend.helper.register('getDocPageVersions', function(site) {
+hexo.extend.helper.register('getDocPageVersions', function() {
     function pInfo(page) {
         var currentFolders = page.path.split('/');
 
@@ -41,11 +28,11 @@ hexo.extend.helper.register('getDocPageVersions', function(site) {
         return [];
     }
 
-    for (var i=0; i<site.pages.length; i++) {
-        var other = pInfo(site.pages.data[i]);
+    for (var i=0; i<this.site.pages.length; i++) {
+        var other = pInfo(this.site.pages.data[i]);
         if (null !== other && other.lang === here.lang && other.num === here.num) {
             versions.push({
-                url: '/'+site.pages.data[i].path,
+                url: '/'+this.site.pages.data[i].path,
                 label: other.version
             });
         }
@@ -63,8 +50,8 @@ hexo.extend.helper.register('getDocPageVersions', function(site) {
 * @description Get all languages urls of the same page
 * @example
 *     <% var arr = getPageLanguages() %>
-*/
-hexo.extend.helper.register('getPageLanguages', function(site) {
+
+hexo.extend.helper.register('getPageLanguages', function() {
     function pInfo(page) {
         var currentFolders = page.path.split('/');
 
@@ -98,11 +85,11 @@ hexo.extend.helper.register('getPageLanguages', function(site) {
         return [];
     }
 
-    for (var i=0; i<site.pages.length; i++) {
-        var other = pInfo(site.pages.data[i]);
+    for (var i=0; i<this.site.pages.length; i++) {
+        var other = pInfo(this.site.pages.data[i]);
         if (null !== other && other.key === here.key) {
             versions.push({
-                url: '/'+site.pages.data[i].path,
+                url: '/'+this.site.pages.data[i].path,
                 label: other.lang
             });
         }
@@ -112,3 +99,4 @@ hexo.extend.helper.register('getPageLanguages', function(site) {
 
     return versions;
 });
+*/

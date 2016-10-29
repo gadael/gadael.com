@@ -22,10 +22,11 @@ hexo-generator-i18n	package.json	/^    "hexo-generator-i18n": "0.0.5",$/;"	f
 hexo-generator-lunr	package.json	/^    "hexo-generator-lunr": "git:\/\/github.com\/polo2ro\/hexo-generator-lunr#bdf37ea29c65e88a231d8448642eaa923ce62236",$/;"	f
 hexo-generator-seo-friendly-sitemap	package.json	/^    "hexo-generator-seo-friendly-sitemap": "0.0.20",$/;"	f
 hexo-generator-tag	package.json	/^    "hexo-generator-tag": "^0.2.0",$/;"	f
+hexo-helper-page-languages	package.json	/^    "hexo-helper-page-languages": "^0.0.1"$/;"	f
 hexo-renderer-ejs	package.json	/^    "hexo-renderer-ejs": "^0.2.0",$/;"	f
 hexo-renderer-marked	package.json	/^    "hexo-renderer-marked": "^0.2.10",$/;"	f
 hexo-renderer-stylus	package.json	/^    "hexo-renderer-stylus": "^0.3.1",$/;"	f
-hexo-server	package.json	/^    "hexo-server": "^0.2.0"$/;"	f
+hexo-server	package.json	/^    "hexo-server": "^0.2.0",$/;"	f
 lunr-languages	bower.json	/^    "lunr-languages": "master",$/;"	f
 lunr.js	bower.json	/^    "lunr.js": "0.7.1",$/;"	f
 main	themes/gadael/source/js/main.js	/^var main = document.querySelector("#main");$/;"	v
