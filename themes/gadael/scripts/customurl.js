@@ -1,4 +1,26 @@
+/**
+* getDocUrl Helper
+* @description Get url, same doc version, same language
+* @example
+*     <%= getDocUrl(path) %>
+*/
+hexo.extend.helper.register('getDocUrl', function(path) {
+    var currentUrl = this.page.path.replace(/^\/+|\/+$/g, '');
+    var currentFolders = currentUrl.split('/');
 
+    if ('index.html' === currentFolders[currentFolders.length-1]) {
+        currentFolders.pop();
+    }
+
+    if (currentFolders.length <= 3) {
+        return null;
+    }
+
+    var lang = currentFolders.shift();
+    currentFolders.shift();
+    var version = currentFolders.shift();
+    return '/'+lang+'/docs/'+version+'/'+path;
+});
 
 /**
 * getDocPageVersions Helper

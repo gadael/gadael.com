@@ -5,12 +5,18 @@
 
 
 <aside id="sidebar" bs-affix>
+    <% var homeurl = getDocUrl('')
+    if (null !== homeurl) { %>
+    <div class="doc-nav">
+        <p class="doc-home">
+            <a href="<%= homeurl %>"><i class="fa fa-home"></i> <%= __('doc.homelink') %></a>
+        </p>
 
-
-
-    <div class="toc" bs-scrollspy-list>
-        <%- toc(page.content, { class: 'nav', list_number: false }) %>
+        <div class="toc" bs-scrollspy-list>
+            <%- toc(page.content, { class: 'nav', list_number: false }) %>
+        </div>
     </div>
+    <% } %>
 
     <div class="version">
         <label for="doc_version"><%= __('doc.version') %></label>

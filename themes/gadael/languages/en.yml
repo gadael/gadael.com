@@ -120,5 +120,6 @@ changepassword:
 settings:
     title: 'Account settings'
 doc:
+    homelink: 'Documentation'
     version: 'Version:'
     latest: 'Latest'

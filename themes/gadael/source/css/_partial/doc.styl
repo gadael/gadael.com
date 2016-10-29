@@ -1,10 +1,27 @@
-#sidebar .version
-    @extend $block
-    margin-top: block-margin
-    padding: 1em 2em
+#sidebar
 
-    label
-        @extend $base-label
+    .doc-nav
+        @extend $block
+        margin-top: block-margin
+        padding: 0 0 2em 0
 
-    select
-        @extend $base-input
+    .doc-home
+        margin: 0 0 1em 0
+        padding: .5em 2em
+        background: color-light-bg
+        a
+            color: #000
+            &:hover
+                text-decoration: none
+                color: #333
+
+    .version
+        @extend $block
+        margin-top: block-margin
+        padding: 1em 2em
+
+        label
+            @extend $base-label
+
+        select
+            @extend $base-input
