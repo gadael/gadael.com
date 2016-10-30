@@ -22,8 +22,12 @@
         </div>
 
         <div class="right">
-            <a class="customer-button" href="private">
-                <i class="fa fa-key"></i> <%= __('home.customerbutton') %>
+            <a ng-if="!session.isLoggedIn" class="login-button" href="private">
+                <i class="fa fa-key"></i> <%= __('home.login') %>
+            </a>
+
+            <a ng-if="session.isLoggedIn" class="customer-button" href="private">
+                <i class="fa fa-gear"></i> <%= __('home.privatespace') %>
             </a>
         </div>
 

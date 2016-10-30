@@ -28,14 +28,21 @@
         background:color-dark-background
         color:color-text-on-dark-background
 
-        .customer-button, button
+        .login-button, .customer-button, button
             @extend $base-button
             display:inline-block
             vertical-align: middle
+
+        .customer-button
+            background: color-button-soft
+            &:hover
+                background: color-button-soft + #111
+
         form button
             background: color-button-onfire
             &:hover
                 background: color-button-onfire + #111
+
         form input[type=text]
             width: 6em
             text-align: right
@@ -68,12 +75,11 @@
             opacity:.4
 
     .product-advantages
-        background: color-fashy-background + #111
+        background: color-fashy-background
         text-align:right
 
     .main-carousel
         background: color-light-bg
-        padding: 1em 0 4em 0
         .carousel-cell
             width: 350px
             height: 300px
@@ -85,12 +91,22 @@
                 @extend $block-shadow
                 margin: 20px
                 width: 80%
+                transform: scale(1,1)
+                transition: all 0.2s ease-in-out
+                &:hover
+                    position: relative
+                    z-index: 999
+                    transform: scale(1.8,1.8)
+                    box-shadow: 0 1px 10px rgba(0,0,0,0.6)
+
+
 
 
 
     .functionalities
         padding: 3em 0
         text-align:center
+        background: color-light-bg
 
         >div
             display: inline-block

@@ -1,76 +1,86 @@
 <section id="main">
 
-    <div id="account_home" class="accountform" ng-controller="CompaniesController">
-        <h2><%= __('account.title') %></h2>
-
-        <div class="create-company" ng-if="!company">
-
-            <p><%= __('account.notstarted') %></p>
-
-            <a href="./create-company">
-                <i class="fa fa-bolt"></i><br />
-                <%= __('account.createcompany') %>
-            </a>
-        </div>
 
 
-        <div class="view-company" ng-if="company">
-            <div class="header">
-                <div class="left">
-                    <p class="url">https://{{company.name}}.gadael.com/</p>
-                    <p class="status">
-                        <span ng-if="company.disabled" class="disabled"><i class="fa fa-circle"></i> <%= __('account.disabled') %></span>
-                        <span ng-if="!company.disabled && company.maintenance" class="maintenance"><i class="fa fa-circle"></i> <%= __('account.maintenance') %></span>
-                        <span ng-if="!company.disabled && !company.maintenance" class="online"><i class="fa fa-circle"></i> <%= __('account.running') %></span>
-                    </p>
-                </div>
 
-                <div class="right">
-                    <a ng-href="https://{{company.name}}.gadael.com/" target="_blank">
-                        <i class="fa fa-external-link-square" aria-hidden="true"></i> <%= __('company.open') %>
-                    </a>
-                </div>
 
-                <div style="clear:both"></div>
+    <div id="account_home" ng-controller="CompaniesController">
+
+        <div class="header" ng-if="company">
+            <div class="left">
+                <p class="url">https://{{company.name}}.gadael.com/</p>
+                <p class="status">
+                    <span ng-if="company.disabled" class="disabled"><i class="fa fa-circle"></i> <%= __('account.disabled') %></span>
+                    <span ng-if="!company.disabled && company.maintenance" class="maintenance"><i class="fa fa-circle"></i> <%= __('account.maintenance') %></span>
+                    <span ng-if="!company.disabled && !company.maintenance" class="online"><i class="fa fa-circle"></i> <%= __('account.running') %></span>
+                </p>
             </div>
 
-            <a href="./company-settings">
-                <i class="fa fa-gears"></i><br />
-                <%= __('account.companysettings') %>
-            </a>
+            <div class="right">
+                <a ng-href="https://{{company.name}}.gadael.com/" target="_blank">
+                    <i class="fa fa-external-link-square" aria-hidden="true"></i> <%= __('company.open') %>
+                </a>
+            </div>
 
-            <a href="./export-company">
-                <i class="fa fa-cloud-download"></i><br />
-                <%= __('account.exportcompany') %>
-            </a>
-
-
-            <a href="./plan">
-                <i class="fa fa-shopping-cart"></i><br />
-                <%= __('account.plan') %>
-            </a>
-
-            <a href="./creditcard">
-                <i class="fa fa-credit-card"></i><br />
-                <%= __('account.creditcard') %>
-            </a>
+            <div style="clear:both"></div>
         </div>
 
 
+        <div class="home-body">
+            <h2><%= __('account.title') %></h2>
+
+            <div class="create-company" ng-if="!company">
+
+                <p><%= __('account.notstarted') %></p>
+
+                <a href="./create-company">
+                    <i class="fa fa-bolt"></i><br />
+                    <%= __('account.createcompany') %>
+                </a>
+            </div>
 
 
-        <div class="view-account">
-            <a href="./settings">
-                <i class="fa fa-user"></i> <%= __('account.settings') %>
-            </a>
+            <div class="view-company" ng-if="company">
 
-            <a href="./changepassword">
-                <i class="fa fa-key"></i> <%= __('account.changepassword') %>
-            </a>
 
-            <a href="./delete">
-                <i class="fa fa-trash"></i> <%= __('account.delete') %>
-            </a>
+                <a href="./company-settings">
+                    <i class="fa fa-gears"></i><br />
+                    <%= __('account.companysettings') %>
+                </a>
+
+                <a href="./export-company">
+                    <i class="fa fa-cloud-download"></i><br />
+                    <%= __('account.exportcompany') %>
+                </a>
+
+
+                <a href="./plan">
+                    <i class="fa fa-shopping-cart"></i><br />
+                    <%= __('account.plan') %>
+                </a>
+
+                <a href="./creditcard">
+                    <i class="fa fa-credit-card"></i><br />
+                    <%= __('account.creditcard') %>
+                </a>
+            </div>
+
+
+
+
+            <div class="view-account">
+                <a href="./settings">
+                    <i class="fa fa-user"></i> <%= __('account.settings') %>
+                </a>
+
+                <a href="./changepassword">
+                    <i class="fa fa-key"></i> <%= __('account.changepassword') %>
+                </a>
+
+                <a href="./delete">
+                    <i class="fa fa-trash"></i> <%= __('account.delete') %>
+                </a>
+            </div>
         </div>
     </div>
 </section>

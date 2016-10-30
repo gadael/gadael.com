@@ -19,7 +19,8 @@ create:
     button: 'Démarrez'
 home:
     subtitle: 'La gestion du temps de travail en entreprise'
-    customerbutton: 'Espace client'
+    login: 'Connexion'
+    privatespace: 'Espace privé'
     github: 'projet sur Github'
     issues: 'Signaler un bug'
     description: 'Gadael vous offre un moyen simple de dématérialiser la gestion des absences et la récupération du temps de travail.'

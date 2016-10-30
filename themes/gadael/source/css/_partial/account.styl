@@ -1,7 +1,6 @@
 .accountform
     margin: block-margin 0
     @extend $base-style
-
     @extend $block
     line-height: line-height
 
@@ -40,38 +39,49 @@
             padding: 2em 0 3em 0
 
 
-    .view-company
-        .header
-            padding: 1em 2em
-            text-align: right
-            background: color-widget-background
-            border: color-widget-border 1px solid
-            a
-                @extend $base-button
-                width: 200px
-                margin:0 0 0 auto
-                background: color-dark-background
-                &:hover
-                    background: color-dark-background + #333
-
-            .status
-                color: #000
-                font-size: 80%
-                font-weight: bold
-                text-shadow: #fff 0 0 4px
-
-                .disabled .fa
-                    color: rgb(224, 0, 0)
-                .maintenance .fa
-                    color: rgb(255, 145, 0)
-                .online .fa
-                    color: rgb(97, 237, 0)
 
 
 
 #account_home
-    .header .left
-        text-align:left
+    margin: block-margin 0
+    @extend $base-style
+    @extend $block
+    line-height: line-height
+
+    .home-body
+        padding: 0 1.8em
+        h2
+            padding: line-height 0
+
+    .header
+        padding: 2em line-height
+        text-align: right
+        background: color-fashy-background
+        a
+            @extend $base-button
+            width: 200px
+            margin:0 0 0 auto
+            background: color-dark-background
+            &:hover
+                background: color-dark-background + #333
+
+        .status
+            color: #000
+            font-size: 80%
+            font-weight: bold
+            text-shadow: #fff 0 0 4px
+
+            .disabled .fa
+                color: rgb(224, 0, 0)
+            .maintenance .fa
+                color: rgb(255, 145, 0)
+            .online .fa
+                color: rgb(97, 237, 0)
+
+        .left
+            text-align:left
+
+
     .view-company>a, .create-company>a
         border: none
         width: 300px
@@ -95,9 +105,11 @@
         a
             width: 200px
             display: inline-block
-            font-size: 12px
+            font-size: 14px
             text-align: center
             line-height: 1.2em
             margin: 30px 5px
             padding: 10px 0
             color: color-grey
+            &:hover
+                color: #000

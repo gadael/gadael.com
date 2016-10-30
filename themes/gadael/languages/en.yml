@@ -40,7 +40,8 @@ create:
 home:
     subtitle: 'Time management for your company'
     registerbutton: 'Register'
-    customerbutton: 'Customer Area'
+    login: 'Login'
+    privatespace: 'Private space'
     github: 'Github project'
     issues: 'Report Gadael issue'
     description: 'Gadael dematerialize absence management and working time recovery in a simple way.'
