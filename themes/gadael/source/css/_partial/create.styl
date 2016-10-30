@@ -20,11 +20,7 @@
 .bio
     text-align: center
 
-#create input[type=text]
-    width:95%
-    border: 1px solid #eceff2
-    padding:3px
-    margin:2em auto
+
 
 
 #create .inner .bio h2
@@ -49,6 +45,20 @@
         @extend $block
         margin-top: block-margin
         background: white
+
+        form
+            padding: line-height 0
+            text-align: center
+            input[type=text]
+                @extend $base-input
+                width: 6em
+                text-align: right
+            button
+                margin-top: 2em
+                background: color-button-onfire
+                &:hover
+                    background: color-button-onfire + #111
+
         .base-info
             #avatar
                 display: block
@@ -129,18 +139,3 @@
         display: block
         min-width: 280px
         position: absolute
-        .profile-inner
-            position: relative
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
-            &:before, &:after
-                z-index: 1
-                content: ''
-                top: -20px
-                right: 10px
-                position: absolute
-                border-width: 10px
-                border-style: solid
-                border-color: transparent transparent white transparent
-            &:after
-                z-index: 0
-                border-color: transparent transparent color-border - #111 transparent

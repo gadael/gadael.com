@@ -1,6 +1,12 @@
 
 <aside id="private">
     <div id="account" ng-init="isPrivate=true">
+        <% if (page.path !== page.lang+'/account/index.html') { %>
+        <div class="back">
+            <a href="<%= url_for_lang('private') %>"><i class="fa fa-chevron-circle-left"></i> Private space</a>
+        </div>
+        <% } %>
+
         <br />
 
         <a class="display-name" href="<%= url_for_lang('account') %>">

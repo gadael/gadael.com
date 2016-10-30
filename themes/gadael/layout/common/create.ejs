@@ -1,17 +1,15 @@
 <% var profile = theme.customize.profile; %>
 <% var tagCount = site.tags.filter(function(tag) { return tag.length; }).length; %>
 <aside id="create">
-    <div class="inner profile-inner">
-        <form class="base-info profile-block">
+    <div class="inner signup" ng-if="!session.isLoggedIn">
+        <form method="GET" action="<%= url_for_lang('signup') %>">
 
-            <h2 id="name"><%= __('create.title') %></h2>
-            <input type="text" class="field" name="company[name]" placeholder="<%= __('create.companyName') %>" />
-            <button type="submit"><i class="fa fa-magic"></i> <%= __('create.button') %></button>
-
+            <%- partial('common/dbname', attributes='required="required"') %>
+            <button type="submit"><i class="fa fa-magic"></i> <%= __('home.registerbutton') %></button>
         </form>
     </div>
 
-    <div class="inner profile-inner">
+    <div class="inner follow">
 
         <div class="health">
             <a class="btn" href="/categories/Health"><i class="fa fa-heartbeat"></i> Server health</a>
