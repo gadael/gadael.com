@@ -6,6 +6,10 @@
 
     .top-info
         height: 280px
+        @media mq-mobile
+            height: 180px
+        @media mq-mini
+            display: none
         background: grey url(images/home-fruit.png) no-repeat 0 0
         .content
             padding: 2.5em 0 0 3em
@@ -17,11 +21,20 @@
 
             p
                 font-size: 2em
-                margin: 3em 0 0 4em
+                margin: 3em 1.2em 0 0
+                text-align: right
+                @media mq-mobile
+                    margin: 1em .8em 0 0
+                    font-size: 1.4em
+                @media mq-mini
+                    display: none
 
     .bottom-info
         height: 280px
         background: white url(images/bottom-mountains.png) no-repeat 0 0
+        @media mq-mini
+            display: none
+
 
     .catch-your-eye
         padding: 5px 20px
@@ -60,6 +73,14 @@
             font-size: 16px
             .fa-user
                 color: color-dark-background
+
+        .left, .right
+            @media mq-mobile
+                float:none
+                text-align:center
+            @media mq-mini
+                float:none
+                text-align:center
 
 
     .product-description, .product-advantages
