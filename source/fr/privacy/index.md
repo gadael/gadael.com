@@ -30,7 +30,7 @@ __Informations que nous collectons lorsque vous utilisez notre service__ : Une f
 
 __Informations de contact__
 
-
+Vos informations de contact renseignées sur votre compte gadael.com sont utilisées pour vous contacter a des fins administratives seulement, les éventuelles lettres d'informations a propos du service devrons faire l'objet d'une inscription à l'initiate de l'utilisateur. Par défault aucun email commercial ne vous sera addressé.
 
 __Informations bancaires__
 
@@ -42,7 +42,7 @@ Pour assurer la suppression des coordonnés bancaires, il faut soit résillier l
 
 __Garanties__
 
-
+Les informations de votre compte sur gadael.com serons utilisés uniquement dans cadre du service et ne serons jamais vendues ni fournies a des tiers, la seule exception a cette règle concerne les informations nécessaires aux paiement, dans ce cas seule la passerelle de paiement stripe.com recevra ces informations. Les donnés fournies à stripe.com sont soumises aux [règles de confidentialité du service](https://stripe.com/privacy).
 
 
 ### Données de votre application
