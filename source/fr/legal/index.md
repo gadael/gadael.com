@@ -36,3 +36,15 @@ Gadael.com n'est pas destiné aux enfants, et nous nous attendons à ce que tout
 
 ## FACTURATION / CONDITIONS DE PAIEMENT
 
+Un ensemble de fonctionnalités supplémentaires peuvent être ajouter au service mis à votre disposition de manière payante si vous choisissez de souscrire à un mode payant, vous devrez payer des frais (décrits ci-dessous) pour Gadael.com. Lors de la sélection mode payante, Vous fournirez Gadael.com avec les informations de facturation nécessaires ( «données de facturation»).
+
+Les cartes de crédit sont le seul mécanisme de paiement Gadael.com acceptera le paiement d'un abonnement mensuel ou annuel ( «Commission de souscription») pour un plan payé. Toutes les références de devises sont en dollars américains. Plans payés peuvent être payés soit comme un frais d'abonnement mensuel ou un abonnement annuel.
+
+Si vous sélectionnez le mode payant , vous devez fournir des données de facturation actuelles, complètes et exactes. Vous devez mettre à jour rapidement tous les Données de facturation pour garder votre compte courant, complet et précis (comme un changement d'adresse de facturation, numéro de carte de crédit ou carte de crédit date d'expiration) et vous devez immédiatement aviser Gadael.com si votre mode de paiement est modifié (pour par exemple, en cas de perte ou de vol) ou si vous avez connaissance d'une violation potentielle de la sécurité, tels que la divulgation non autorisée ou l'utilisation de votre nom ou mot de passe. Si vous ne fournissez aucune des informations ci-dessus, vous acceptez que Gadael.com peut continuer de vous facturer pour toute utilisation du mode payant  sous vos données de facturation, sauf si vous avez terminé votre mode  payant tel que défini dans les présentes
+
+La carte de crédit que vous fournissez dans le cadre des données de facturation sera automatiquement et immédiatement facturé sur le premier jour ouvrable de chaque mois. Vous acceptez que Gadael.com puisse facturer à votre carte de crédit tous les montants dus et exigibles pour votre compte sur cette base mensuelle ou en cas d'annulation (voir «Résiliation, Breach, Suspension et annulation» et «Remboursement»). Gadael.com prendra contact avec vous par courrier électronique pour vous alerter sur chaque charge. Gadael.com peut modifier ses prix à tout moment, mais essayera de fournir un préavis raisonnable via le site Gadael.com et le courrier électronique. Vous acceptez que dans le cas Gadael.com soit incapable de percevoir les honoraires dus à Gadael.com pour votre compte par vos frais d'abonnement, votre compte sera suspendu après une période de tolérance d'un mois (vous aurez un mois pour fournir la carte de crédit correcte informations si le paiement échoue).
+
+Tant que votre compte reste actif et en règle, vous serez facturé les frais d'abonnement, même si vous ne jamais utiliser le service. Vous pouvez toutefois annuler votre abonnement à tout moment.
+
+
+
