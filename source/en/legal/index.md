@@ -64,19 +64,12 @@ If You terminate Your Account, via means provided for cancellation on the Gadael
 
 ## REFUND
 
-Gadael.com provides means for Account and Paid Plan cancellation on the Gadael.com website. If You cancel Your Account within 90 calendar days of the date of sign up, and You request a refund, Gadael.com will refund all payments You have made to Gadael.com within the 90 calendar days prior to the cancellation and refund request.
+Gadael.com provides means for Account and Paid Plan cancellation on the Gadael.com website. If You cancel Your Account within 40 calendar days of the date of sign up to the paid plan, and You request a refund, Gadael.com will refund all payments You have made to Gadael.com within the 40 calendar days prior to the cancellation and refund request.
 
 
 ## PROPRIETARY/INTELLECTUAL PROPERTY RIGHTS
 
-Gadael.com and/or its suppliers, as applicable, retain ownership of all proprietary rights in the Service and in all trade names, trademarks and service marks associated or displayed with the Service. You will not remove, deface or obscure any of Gadael.com's or its suppliers' copyright or trademark notices and/or legends or other proprietary notices on, incorporated therein, or associated with the Service. You may not reverse engineer, reverse compile or otherwise reduce to human readable form any software associated with the Service.
-
-Gadael.com is a Trademark of Gadael.com, Inc.
-
-
-## EXPORT RESTRICTIONS
-
-You acknowledge that the Service, or portion thereof may be subject to the export control laws of the United States. You will not export, re-export, divert, transfer or disclose any portion of the Service or any related technical information or materials, directly or indirectly, in violation of any applicable export law or regulation.
+Gadael.com and/or its suppliers, as applicable, retain ownership of all proprietary rights in the Service and in all trade names, trademarks and service marks associated or displayed with the Service. You will not remove, deface or obscure any of Gadael.com's or its suppliers' copyright or trademark notices and/or legends or other proprietary notices on, incorporated therein, or associated with the Service. You may not reverse engineer any software associated with the Service.
 
 
 ## INJUNCTIVE RELIEF
@@ -88,9 +81,9 @@ You acknowledge that any use of the Service contrary to this Agreement, or any t
 
 Gadael.com does not claim ownership over any User Content submitted on or through the Service. Your User Content belongs to You. However, by uploading any User Content to the Service, You agree that Gadael.com may store and display (only to You, to the extent that You make such User Content private) Your User Content solely as necessary in connection with the Service. To the extent You choose to share any of Your User Content with other users of the Service, You agree to allow these users (i.e., only the users you specify) to view Your User Content and, to the extent applicable, collaborate with You and Your User Content.
 
-You understand that all User Content is the sole responsibility of the person from which such User Content originated. This means that You, and not Gadael.com, are entirely responsible for all User Content that You upload, post, transmit or otherwise make available via Your Account. Gadael.com does not control the User Content posted via the Service and, as such, does not guarantee the accuracy, integrity or quality of such User Content.
+You understand that all User Content is the sole responsibility of the person from which such User Content originated. This means that You and your users, and not Gadael.com, are entirely responsible for all User Content that You and your users upload, post, transmit or otherwise make available via Your Account and your application instance. Gadael.com does not control the User Content posted via the Service and, as such, does not guarantee the accuracy, integrity or quality of such User Content.
 
-You understand that by using the Service, You may be exposed to User Content that is offensive, indecent or objectionable. Under no circumstances will Gadael.com be liable in any way for any User Content, including, but not limited to, for any errors or omissions in any Content, or for any loss or damage of any kind incurred as a result of the use of any Content posted, transmitted or otherwise made available via the Service. You acknowledge that Gadael.com does not pre-screen User Content, but that Gadael.com and its designees shall have the right (but not the obligation) in their sole discretion to refuse, modify or move any Content that is available via the Service. Without limiting the foregoing, Gadael.com and its designees shall have the right to remove any User Content that violates the Agreement or is otherwise objectionable. You agree that You must evaluate, and bear all risks associated with, the use of any Content, including any reliance on the accuracy, completeness, or usefulness of such Content. In this regard, You acknowledge that You may not reasonably rely on any Content created by Gadael.com or submitted to Gadael.com. You acknowledge and agree that Gadael.com may preserve User Content and may also disclose User Content if required to do so by law or in the good faith belief that such preservation or disclosure is reasonably necessary to:
+You understand that by using the Service, You may be exposed to User Content that is offensive, indecent or objectionable. Under no circumstances will Gadael.com be liable in any way for any User Content, including, but not limited to, for any errors or omissions in any Content, or for any loss or damage of any kind incurred as a result of the use of any Content posted, transmitted or otherwise made available via the Service. You acknowledge that Gadael.com does not pre-screen User Content, but that Gadael.com and its designees shall have the right (but not the obligation) in their sole discretion to refuse, modify or move any Content that is available via the Service. Without limiting the foregoing, Gadael.com and its designees shall have the right to remove any User Content that violates the Agreement or is otherwise objectionable. You agree that You must evaluate, and bear all risks associated with, the use of any Content, including any reliance on the accuracy, completeness, or usefulness of such Content. You acknowledge and agree that Gadael.com may preserve User Content and may also disclose User Content if required to do so by law or in the good faith belief that such preservation or disclosure is reasonably necessary to:
 
 (a) comply with legal process;
 
@@ -110,7 +103,7 @@ Should User Content be found or reported to be in violation with, but not limite
 
 (b) harm minors in any way;
 
-(c) impersonate any person or entity, including, but not limited to, a Gadael.com official, forum leader, guide or host, or falsely state or otherwise misrepresent Your affiliation with a person or entity;
+(c) impersonate any person or entity, including, but not limited to, a Gadael.com official, guide or host, or falsely state or otherwise misrepresent Your affiliation with a person or entity;
 
 (d) forge headers or otherwise manipulate identifiers in order to disguise the origin of any User Content transmitted through the Service;
 
@@ -118,67 +111,68 @@ Should User Content be found or reported to be in violation with, but not limite
 
 (f) upload, post or otherwise transmit any User Content that infringes any patent, trademark, trade secret, copyright, rights of privacy or publicity, or other proprietary rights of any party;
 
-(g) upload, post, or transmit unsolicited commercial email or "spam". This includes unethical marketing, advertising, or any other practice that is in any way connected with "spam", including but not limited to (a) sending mass email to recipients who haven't requested email from You or with a fake return address, (b) promoting a site with inappropriate links, titles, descriptions, or (c) promoting Your site by posting multiple submissions in public forums that are identical;
+(g) upload, post or otherwise transmit any material that contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment;
 
-(h) upload, post or otherwise transmit any material that contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment;
+(h) interfere with or disrupt the Service or servers or networks connected to the Service, or disobey any requirements, procedures, policies or regulations of networks connected to the Service;
 
-(i) interfere with or disrupt the Service or servers or networks connected to the Service, or disobey any requirements, procedures, policies or regulations of networks connected to the Service;
-
-(j) intentionally or unintentionally violate any applicable local, state, national or international law, including, but not limited to, regulations promulgated by the U.S. Securities and Exchange Commission, any rules of any national or other securities exchange, including without limitation, the New York Stock Exchange, the American Stock Exchange or the NASDAQ, and any regulations having the force of law;
-
-(k) "stalk" or otherwise harass another;
-
-(l) promote or provide instructional information about illegal activities, promote physical harm or injury against any group or individual, or promote any act of cruelty to animals. This may include, without limitation, providing instructions on how to assemble bombs, grenades and other weapons or incendiary devices.
-(m) offer for sale or sell any item, good or service that (i) violates any applicable federal, state, or local law or regulation, (ii) You do not have full power and authority under all relevant laws and regulations to offer and sell, including all necessary licenses and authorizations, or (iii) Gadael.com determines, in its sole discretion, is inappropriate for sale through the Service provided by Gadael.com;
-
-(n) use the Account website as a redirecting/forwarding service to another website;
-
-(o) exceed the scope of the Service that You have signed up for; for example, accessing and using the tools that You do not have a right to use, or having humans share User logins, or deleting, adding to, or otherwise changing other people's comments or User Content as an Account holder. If any user is reported to be in violation with the letter or spirit of these terms, Gadael.com retains the right to terminate such account at any time without further warning.
+(i) "stalk" or otherwise harass another;
 
 
 
 ## GENERAL PRACTICES REGARDING USE AND STORAGE.
 
-You agree that Gadael.com has no responsibility or liability for the deletion of, or the failure to store or to transmit, any User Content and other communications maintained by the Service. You acknowledge that Gadael.com may establish general practices and limits concerning use of the Service and may modify such practices and limits from time to time. Gadael.com retains the right to create limits on use and storage at our sole discretion at any time with or without notice. You acknowledge that we reserve the right to log off users who are inactive for an extended period of time.
+You agree that Gadael.com has no responsibility or liability for the deletion of, or the failure to store or to transmit, any User Content and other communications maintained by the Service. You acknowledge that Gadael.com may establish general practices and limits concerning use of the Service and may modify such practices and limits from time to time. Gadael.com retains the right to create limits on use and storage at our sole discretion at any time with or without notice. You acknowledge that we reserve the right to delete account and databases of users who are inactive for an extended period of time.
 
 You agree that You will not:
 
 (a) upload, post, email, or otherwise transmit any computer routines, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment;
 
-(b) interfere with or disrupt our Service or networks connected to our website or through the use of our Service, or disobey any requirements, procedures, policies or regulations of networks connected to our website or through the use of our Service, or otherwise interfere with our Service in any way, including through the use of JavaScript, ActiveX or other coding;
+(b) interfere with or disrupt our Service or networks connected to our website or through the use of our Service, or disobey any requirements, procedures, policies or regulations of networks connected to our website or through the use of our Service, or otherwise interfere with our Service in any way, including through the use of JavaScript or other coding;
 
-(c) take any action that imposes an unreasonable or disproportionately large load on our infrastructure; or
+(c) take any action that imposes an unreasonable or disproportionately large load on our infrastructure;
 
-(d) copy, reproduce, alter, modify, or publicly display any information displayed on the Service (except for Your User Content), or create derivative works from our website (other than from Your User Content), to the extent that such action(s) would constitute copyright infringement or otherwise violate the intellectual property rights of Gadael.com or any other third party, except with the prior written consent of Gadael.com or the appropriate third party.
+(d) copy, reproduce, alter, modify, or publicly display any information displayed on the Service (except for Your downloadable Database), or create derivative works from our website (except for Your downloadable Database), to the extent that such action(s) would constitute copyright infringement or otherwise violate the intellectual property rights of Gadael.com or any other third party, except with the prior written consent of Gadael.com or the appropriate third party.
 
 
 ## CONTENT OF THE SERVICE.
 
-Gadael.com takes no responsibility for any third-party Content or User Content (including, without limitation,any viruses or other disabling features), nor does Gadael.com have any obligation to monitor such third-party Content. Gadael.com reserves the right at all times to remove or refuse to distribute any Content on the Service, such as Content which violates these Terms of Service. Gadael.com also reserves the right to access, read, preserve, and disclose any information as it reasonably believes is necessary to (a) satisfy any applicable law, regulation, legal process or governmental request, (b) enforce these Terms of Service, including investigation of potential violations hereof, (c) detect, prevent, or otherwise address fraud, security or technical issues, (d) respond to user support requests, or (e) protect the rights, property or safety of Gadael.com, its users and the public. Gadael.com will not be responsible or liable for the exercise or non-exercise of its rights under this Agreement.
+Gadael.com takes no responsibility for any third-party Content or User Content (including, without limitation,any viruses or other disabling features), nor does Gadael.com have any obligation to monitor such third-party Content. Gadael.com reserves the right at all times to remove or refuse to distribute any Content on the Service, such as Content which violates these Terms of Service. Gadael.com also reserves the right to access, read, preserve, and disclose any information as it reasonably believes is necessary to
+
+(a) satisfy any applicable law, regulation, legal process or governmental request,
+(b) enforce these Terms of Service, including investigation of potential violations hereof,
+(c) detect, prevent, or otherwise address fraud, security or technical issues,
+(d) respond to user support requests, or
+(e) protect the rights, property or safety of Gadael.com, its users and the public.
+
+Gadael.com will not be responsible or liable for the exercise or non-exercise of its rights under this Agreement.
 
 If Gadael.com discloses such information to satisfy any applicable law, regulation, legal process or governmental request or to respond to user support requests, to the extent permitted by law, regulation or legal process, Gadael.com agrees to provide You with prompt notice of any such demand and reasonably cooperate with You in any effort to seek a protective order or otherwise to contest such required disclosure.
 
-Your Gadael.com profile page is public. This includes your name and any activity that you have had on (including without limitation any User Content that you have submitted to) public boards.
+Your application home page is public. This includes your application name and public description text that you have had on.
 
 
 ## INTERNATIONAL USE
 
-Recognizing the global nature of the Internet, You agree to comply with all local rules regarding online conduct and acceptable User Content. Specifically, You agree to comply with all applicable laws regarding the transmission of technical data exported from the United States or the country in which You reside.
+Recognizing the global nature of the Internet, You agree to comply with all local rules regarding online conduct and acceptable User Content. Specifically, You agree to comply with all applicable laws regarding the transmission of technical data exported from the country in which You reside.
 
 
 ## NO RESALE OF THE SERVICE
 
-You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, use of the Service, or access to the Service without the express permission by Gadael.com.
+You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service hosted on gadael.com. The usage of the gadael open source software can be done within the compliance of the software licence and without utilisation of the gadael.com name and website.
 
 
 ## YOUR REPRESENTATIONS AND WARRANTIES
 
-You represent and warrant that (a) all of the information provided by You to Gadael.com to participate in the Service is correct and current; and (b) You have all necessary right, power and authority to enter into these Terms of Service and to perform the acts required of You hereunder.
+You represent and warrant that
+
+(a) all of the information provided by You to Gadael.com to participate in the Service is correct and current.
+(b) By accepting this agreement, You take responsibility for infringements of the agreement by the users of the application you start from this service.
+(c) You have all necessary right, power and authority to enter into these Terms of Service and to perform the acts required of You hereunder.
 
 
 ## NO WARRANTIES OR REPRESENTATIONS BY Gadael.com
 
-You understand and agree that the Service is provided "as is" and Gadael.com, its affiliates, suppliers and Resellers expressly disclaim all warranties of any kind, express or implied, including without limitation any warranty of merchantability, fitness for a particular purpose, non-infringement or bailment of your data on Gadael.com's servers. Gadael.com, its affiliates, suppliers and Resellers make no warranty or representation regarding the results that may be obtained from the use of the Service, the security of the Service, or that the Service will meet any user's requirements. Use of the Service is at Your sole risk. You will be solely responsible for any damage to You resulting from the use of the Service. The entire risk arising out of use, security or performance of the Service remains with You. No oral or written information or advice given by Gadael.com or its authorized representatives shall create a warranty or in any way increase the scope of Gadael.com's obligations. Without limiting the foregoing, the Service is not designed or licensed for use in hazardous environments requiring fail-safe controls, including without limitation operation of nuclear facilities, aircraft navigation/communication systems, air traffic control, and life support or weapons systems. Without limiting the generality of the foregoing, Gadael.com, its affiliates, suppliers and Resellers specifically disclaim any express or implied warranty of fitness for such purposes.
+You understand and agree that the Service is provided "as is" and Gadael.com, its affiliates, suppliers and Resellers expressly disclaim all warranties of any kind, express or implied, including without limitation any warranty of merchantability, fitness for a particular purpose, non-infringement or bailment of your data on Gadael.com's servers. Gadael.com, its affiliates, suppliers and Resellers make no warranty or representation regarding the results that may be obtained from the use of the Service, the security of the Service, or that the Service will meet any user's requirements. Use of the Service is at Your sole risk. You will be solely responsible for any damage to You resulting from the use of the Service. The entire risk arising out of use, security or performance of the Service remains with You. No oral or written information or advice given by Gadael.com or its authorized representatives shall create a warranty or in any way increase the scope of Gadael.com's obligations.
 
 ## INDEMNITY
 
@@ -216,11 +210,11 @@ This Agreement is governed by the laws of France and any dispute shall be finall
 
 ## ENTIRE AGREEMENT/GENERAL PROVISIONS
 
-This Agreement embodies the entire understanding and agreement between the parties respecting the subject matter of this Agreement and supersedes any and all prior understandings and agreements between the parties respecting such subject matter. Gadael.com may change the terms of this Agreement at any time by posting modified terms on its website. This Agreement has been prepared in the English Language and such version shall be controlling in all respects and any non-English version of this Agreement is solely for accommodation purposes. Any and all rights and remedies of Gadael.com upon Your breach or other default under this Agreement will be deemed cumulative and not exclusive of any other right or remedy conferred by this Agreement or by law or equity on Gadael.com, and the exercise of any one remedy will not preclude the exercise of any other. The captions and headings appearing in this Agreement are for reference only and will not be considered in construing this Agreement. Notices to You may be made via either email or regular mail. The Service may also provide notices of changes to the Agreement or other matters by displaying notices or links to notices to You generally on the Service. All notices or other correspondence to Gadael.com under this Agreement must be sent to the following electronic mail address for such purpose: [support@gadael.com](mailto:support@gadael.com)
+This Agreement embodies the entire understanding and agreement between the parties respecting the subject matter of this Agreement and supersedes any and all prior understandings and agreements between the parties respecting such subject matter. Gadael.com may change the terms of this Agreement at any time by posting modified terms on its website. This Agreement has been prepared in the English Language and such version shall be controlling in all respects and any non-English version of this Agreement is solely for accommodation purposes. Any and all rights and remedies of Gadael.com upon Your breach or other default under this Agreement will be deemed cumulative and not exclusive of any other right or remedy conferred by this Agreement or by law or equity on Gadael.com, and the exercise of any one remedy will not preclude the exercise of any other. Notices to You may be made via email. The Service may also provide notices of changes to the Agreement or other matters by displaying notices or links to notices to You generally on the Service. All notices or other correspondence to Gadael.com under this Agreement must be sent to the following electronic mail address for such purpose: [support@gadael.com](mailto:support@gadael.com)
 
 Or the following physical address:
 
-Gadael.com.
+Gadael.com
 Paul de Rosanbo
 19 rue Jacquard
 76500 Elbeuf
