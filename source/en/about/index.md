@@ -3,7 +3,7 @@ layout: "page"
 
 ---
 
-## Gadael
+## Gadael open source software
 
 Gadael is a time managament software created to be used in small to large companies. It can be used to efficently manage leave requests with an approval workflow.
 
@@ -20,9 +20,13 @@ The application is built on a [MEAN stack](https://en.wikipedia.org/wiki/MEAN_%2
 [MongoDB](https://www.mongodb.com/),
 [Express.js](http://expressjs.com/),
 [Angular](https://angularjs.org/), and
-[Node.js](https://nodejs.org/). 
+[Node.js](https://nodejs.org/).
 
 
-## gadael.com website
+## gadael.com website and SASS service
 
-This site is built using the hexo static site generator and angularjs. The current interface is base on the [Icarus theme](https://github.com/ppoffice/hexo-theme-icarus).
+This service is subject to compliance with a [terms of service](/en/legal) document agreement and a [privacy policy](/en/privacy). The registration process will require you to accept the [terms of service](/en/legal).
+
+The documentation on this site is hosted on github in the gadael-documentation repository, contributions are accepted. The documentation licence is [GFDL](https://www.gnu.org/licenses/fdl-1.3.html) witch imply to give credit to the author is case of external usage.
+
+This site is built using the hexo static site generator and angularjs. The current interface is base on the [Icarus theme](https://github.com/ppoffice/hexo-theme-icarus)from [PPoffice](https://github.com/ppoffice).
