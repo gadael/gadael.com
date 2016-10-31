@@ -28,3 +28,11 @@ Gadael.com ne peut pas et ne sera pas responsable de toute perte ou dommage déc
 (A) fournir des informations vraies, exactes, à jour et complètes sur vous-même comme demandé dans le formulaire d'inscription au Service, et (b) maintenir et mettre à jour rapidement les données d'enregistrement pour les  maintenir vraies, précises, à jour et complètes.
 
 Gadael.com assume aucune obligation de vérifier des informations telles que détaillées dans le contenu de la section SERVICE de ces conditions d'utilisation. Si vous fournissez des informations fausses, inexactes, périmées ou incomplètes, ou Gadael.com a des motifs raisonnables de soupçonner que ces informations sont fausses, inexactes, périmées ou incomplètes, Gadael.com a le droit de suspendre ou de résilier votre compte et refuser toute utilisation actuelle ou future du service (ou toute partie de celle-ci). En utilisant le service (et l'enregistrement d'un compte sur le service), vous déclarez et garantissez que vous avez au moins 13 ans, et aucune personne de moins de 13 ans peut utiliser le Service - sauf comme indiqué ci-dessous sous la rubrique «Enfants et Gadael.com ". Gadael.com peut, à sa seule discrétion, de refuser d'offrir le service à toute personne ou entité et modifier ses critères d'admissibilité à tout moment. Vous êtes seul responsable de veiller à ce que ces conditions générales d'utilisation sont en conformité avec toutes les lois, règles et règlements applicables à vous et le droit d'accès au service est révoqué lorsque ces conditions d'utilisation ou l'utilisation du Service sont interdites ou dans la mesure offre , la vente ou la fourniture des conflits de service à toute loi applicable, règle ou réglementation
+
+## ENFANTS ET Gadael.com
+
+Gadael.com n'est pas destiné aux enfants, et nous nous attendons à ce que toute utilisation par des enfants ne sera pas faite avec la direction, la supervision et le consentement de leurs parents, tuteurs et / ou des autorités scolaires autorisées. Gadael.com repose sur les parents et les tuteurs à veiller à ce que les mineurs utilisent uniquement Gadael.com si elles peuvent comprendre leurs droits et responsabilités énoncées dans les présentes Conditions d'utilisation et notre Politique de confidentialité.
+
+
+## FACTURATION / CONDITIONS DE PAIEMENT
+
