@@ -3,17 +3,21 @@
     <div id="account_plan" class="accountform">
         <h2>Select your plan</h2>
 
-        <form action="/setplan">
+        <form action="<%= url_for_lang('setplan') %>">
 
             <div>
-                <label><input type="radio" ng-selected="session.plan=='free'" /> Free plan</label>
-                <p>0 &euro;, limited to 5 active users</p>
+                <label class="main"><input type="radio" name="plan" ng-selected="session.user.plan=='free'" /> Free plan</label>
+                <div class="plan-description">0 &euro;, limited to 5 active users</div>
             </div>
 
             <div>
-                <label><input type="radio" ng-selected="session.plan='paid'" /> Paid plan</label>
-                <label for="userLimit">Select your user limit:</label>
-                <input id="userLimit" type="number" min="5" max="1000" />
+                <label class="main"><input type="radio" name="plan" ng-selected="session.user.plan=='paid'" /> Paid plan</label>
+                <div class="plan-description">
+                    <label for="userLimit">Select your user limit:</label>
+                    limited to
+                    <input id="userLimit" type="number" name="userlimit" ng-model="session.user.userlimit" min="10" max="1000" step="5" />
+                    active users, {{session.user.userlimit-5}} &euro; / month
+                </div>
             </div>
 
             <p>
