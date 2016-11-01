@@ -42,7 +42,7 @@ Pour assurer la suppression des coordonnés bancaires, il faut soit résillier l
 
 __Garanties__
 
-Les informations de votre compte sur gadael.com serons utilisés uniquement dans cadre du service et ne serons jamais vendues ni fournies a des tiers, la seule exception a cette règle concerne les informations nécessaires aux paiement, dans ce cas seule la passerelle de paiement stripe.com recevra ces informations. Les donnés fournies à stripe.com sont soumises aux [règles de confidentialité du service](https://stripe.com/privacy).
+Les informations de votre compte sur gadael.com serons utilisés uniquement dans cadre du service et ne serons jamais vendues ni fournies a des tiers, la seule exception a cette règle concerne les informations nécessaires aux paiement, dans ce cas seule la passerelle de paiement stripe.com recevra ces informations. Les donnés fournies à stripe.com sont soumises aux [règles du service](https://stripe.com/).
 
 
 ### Données de votre application
