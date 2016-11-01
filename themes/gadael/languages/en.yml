@@ -40,7 +40,6 @@ home:
     subtitle: 'Time management for your company'
     registerbutton: 'Register'
     login: 'Login'
-    privatespace: 'Private space'
     github: 'Github project'
     issues: 'Report Gadael issue'
     description: 'Gadael dematerialize absence management and working time recovery in a simple way.'
@@ -113,6 +112,8 @@ account:
     maintenance: 'Maintenance'
     running: 'Running'
     notstarted: 'You are connected to gadael.com but your application is not started yet, please use the link below to chose a name for your company application URL.'
+    privatespace: 'Private space'
+    logout: 'Logout'
 changepassword:
     title: 'Update your password'
     oldpassword: 'Type in the current password.'

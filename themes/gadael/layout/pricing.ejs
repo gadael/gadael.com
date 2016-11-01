@@ -15,12 +15,17 @@
                     <tr>
                         <td></td>
                         <td class="free">
-                            <p>Allways free</p>
-                            <a href="start">Start now</a>
+                            <p>Always free</p>
+                            <a ng-if="!session.isLoggedIn" href="<%= url_for_lang('signup') %>">Start now</a>
+                            <a ng-if="session.isLoggedIn && !session.user.dbname" href="<%= url_for_lang('account/create-company') %>">Start now</a>
+                            <em ng-if="session.isLoggedIn && session.user.plan=='free'">This is your current plan</em>
                         </td>
                         <td class="paid">
                             <p>5€/Month for 5 more users</p>
-                            <a href="subscribe">Subscribe</a>
+                            <a ng-if="!session.isLoggedIn" href="<%= url_for_lang('signup') %>">Subscribe</a>
+                            <a ng-if="session.isLoggedIn && !session.user.dbname" href="<%= url_for_lang('account/create-company') %>">Subscribe</a>
+                            <a ng-if="session.isLoggedIn && session.user.dbname && session.user.plan=='free'" href="<%= url_for_lang('account/plan') %>">Subscribe</a>
+                            <em ng-if="session.isLoggedIn && session.user.dbname && session.user.plan=='paid'">This is your current plan</em>
                         </td>
                     </tr>
                 </tfoot>
