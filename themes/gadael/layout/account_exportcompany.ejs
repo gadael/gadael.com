@@ -5,10 +5,12 @@
 
         <p><%= __('export.format') %></p>
 
-        <form action="/download-database">
+        <form method="GET" action="<%= url_for_lang('download-database') %>">
 
             <p class="button">
-                <button type="submit"><i class="fa fa-cloud-download"></i> <%= __('export.downloadbutton') %></button>
+                <button type="submit">
+                    <i class="fa fa-cloud-download"></i> <%= __('export.downloadbutton') %>
+                </button>
             </p>
         </form>
     </div>
