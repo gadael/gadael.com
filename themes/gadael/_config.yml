@@ -20,9 +20,8 @@ customize:
     favicon: # path to favicon
     social_links:
         github: http://github.com/gadael/gadael
-        twitter: /
-        facebook: /
-        dribbble: /
+        bug: http://github.com/gadael/gadael/issues
+        twitter: https://twitter.com/polo2ro
         rss: /atom.xml
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
