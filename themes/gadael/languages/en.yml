@@ -38,7 +38,6 @@ create:
     button: 'Start your own'
 home:
     subtitle: 'Time management for your company'
-    registerbutton: 'Register'
     login: 'Login'
     github: 'Github project'
     issues: 'Report Gadael issue'
@@ -114,6 +113,8 @@ account:
     notstarted: 'You are connected to gadael.com but your application is not started yet, please use the link below to chose a name for your company application URL.'
     privatespace: 'Private space'
     logout: 'Logout'
+    health: 'Server health'
+    registerbutton: 'Register'
 changepassword:
     title: 'Update your password'
     oldpassword: 'Type in the current password.'

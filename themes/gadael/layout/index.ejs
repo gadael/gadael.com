@@ -11,7 +11,7 @@
         <form class="left logged-out" method="GET" action="./signup" ng-if="!session.isLoggedIn">
 
             <%- partial('common/dbname', attributes='required="required"') %>
-            <button type="submit"><i class="fa fa-magic"></i> <%= __('home.registerbutton') %></button>
+            <button type="submit"><i class="fa fa-magic"></i> <%= __('account.registerbutton') %></button>
         </form>
 
         <div class="left logged-in" ng-if="session.isLoggedIn">
@@ -22,12 +22,12 @@
         </div>
 
         <div class="right">
-            <a ng-if="!session.isLoggedIn" class="login-button" href="private">
+            <a ng-if="!session.isLoggedIn" class="login-button" href="<%= url_for_lang('private') %>">
                 <i class="fa fa-key"></i> <%= __('home.login') %>
             </a>
 
-            <a ng-if="session.isLoggedIn" class="customer-button" href="private">
-                <i class="fa fa-gear"></i> <%= __('home.privatespace') %>
+            <a ng-if="session.isLoggedIn" class="customer-button" href="<%= url_for_lang('private') %>">
+                <i class="fa fa-gear"></i> <%= __('account.privatespace') %>
             </a>
         </div>
 

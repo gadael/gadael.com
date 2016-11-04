@@ -20,7 +20,6 @@ create:
 home:
     subtitle: 'La gestion du temps de travail en entreprise'
     login: 'Connexion'
-    privatespace: 'Espace privé'
     github: 'projet sur Github'
     issues: 'Signaler un bug'
     description: 'Gadael vous offre un moyen simple de dématérialiser la gestion des absences et la récupération du temps de travail.'
@@ -28,3 +27,5 @@ home:
     international:
         title: 'Gestion des congés internationale'
         description: 'Un même logiciel peut être utilisé dans plusieurs pays avec des droits de congés différents.'
+account:
+    privatespace: 'Espace privé'
