@@ -5,6 +5,7 @@
 
         <form method="POST" action="<%= url_for_lang('deleteaccount') %>">
 
+            <p class="danger"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></p>
 
             <p>
                 Please confirm thant you really whant to delete your account data and your application database.
@@ -17,7 +18,7 @@
             </p>
 
             <p class="button">
-                <button type="submit" onclick="return confirm(this.title);" title="Are you really sure?"><i class="fa fa-save"></i> Delete</button>
+                <button type="submit" onclick="return confirm(this.title);" title="Are you really sure?"><i class="fa fa-times"></i> Delete</button>
             </p>
         </form>
     </div>

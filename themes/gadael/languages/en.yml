@@ -71,6 +71,7 @@ country:
     ch: 'Switzerland'
     be: 'Belgium'
     ie: 'Ireland'
+    de: 'Germany'
 company:
     title: 'My application dashboard'
     createtitle: 'Your own application is not started, please create it with the form below'

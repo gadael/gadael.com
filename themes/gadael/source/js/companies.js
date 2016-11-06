@@ -21,16 +21,6 @@ function($scope, $http) {
     });
 
 
-    $scope.createCompany = function() {
-
-        $http.post('/company', $scope.create).then(function(response) {
-            document.location.reload();
-        }).catch(function(response) {
-            var err = response.data;
-            alert(err.message);
-        });
-    };
-
 
     $scope.updateCompany = function() {
 

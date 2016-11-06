@@ -3,16 +3,16 @@
     <div id="account_createcompany" class="accountform" ng-controller="CompaniesController">
         <h2><%= __('company.createtitle') %></h2>
 
-        <form>
+        <form method="POST" action="<%= url_for_lang('company') %>">
             <div>
 
                 <label for="dbname"><%= __('signup.site') %></label>
-                <%- partial('common/dbname', attributes='data-dbname-available="1" required="required"') %>
+                <%- partial('common/dbname', attributes=' required="required"') %>
             </div>
 
             <p>
                 <label for="public_text"><%= __('company.country') %></label>
-                <select id="public_text" ng-model="create.country">
+                <select id="public_text" name="country">
                     <option value=""><%= __('company.nocountry') %></option>
                     <option value="FR"><%= __('country.fr') %></option>
                     <option value="UK"><%= __('country.uk') %></option>
@@ -20,11 +20,12 @@
                     <option value="CH"><%= __('country.ch') %></option>
                     <option value="BE"><%= __('country.be') %></option>
                     <option value="IE"><%= __('country.ie') %></option>
+                    <option value="DE"><%= __('country.de') %></option>
                 </select>
             </p>
 
             <p class="button">
-                <button ng-click="createCompany()"><i class="fa fa-bolt"></i> <%= __('company.createbutton') %></button>
+                <button type="submit"><i class="fa fa-bolt"></i> <%= __('company.createbutton') %></button>
             </p>
         </form>
     </div>
