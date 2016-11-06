@@ -46,5 +46,38 @@ La carte de crédit que vous fournissez dans le cadre des données de facturatio
 
 Tant que votre compte reste actif et en règle, vous serez facturé les frais d'abonnement, même si vous ne jamais utiliser le service. Vous pouvez toutefois annuler votre abonnement à tout moment.
 
+## CESSATION, VIOLATION, SUSPENSION ET ANNULATION
 
+Si votre paiement de frais d'abonnement est en retard, Gadael.com désactivera votre accès aux fonctionnalités fournies par l'abonnement. Gadael.com peut, à sa seule discrétion, à tout moment et pour quelque raison que ce soit, mettre fin au Service, résilier le présent contrat, suspendre ou résilier votre compte. En cas de suspension ou de résiliation, votre compte sera désactivé et Vous ne pourrez pas accéder à votre compte ou à tout autre Contenu (y compris votre contenu utilisateur) contenu dans votre compte, et Gadael.com pourra supprimer votre contenu utilisateur, bien que des copies résiduelles d'informations puissent rester dans notre système pendant un certain temps à des fins de sauvegarde. En cas de résiliation, Gadael.com peut également retirer et, à sa discrétion, réattribuer l'adresse publique de votre compte.
+
+Si vous résiliez votre compte, par les moyens prévus pour l'annulation sur le site Gadael.com, ou par téléphone ou par courrier électronique à Gadael.com, et vous demandez que Gadael.com supprime votre contenu utilisateur et les fichiers contenus dans votre compte, Gadael. Com fera tous les efforts raisonnables pour le faire.
+
+
+## REMBOURSER
+
+Gadael.com fournit des moyens d'annulation de compte et d'annulation de paiement sur le site Gadael.com. Si vous annulez votre compte dans les 40 jours civils suivant la date d'inscription au plan payé et que vous demandez un remboursement, Gadael.com remboursera tous les paiements que vous avez faits à Gadael.com dans les 40 jours calendaires précédant l'annulation et demande de remboursement.
+
+## DROITS DE PROPRIETE / PROPRIETE INTELLECTUELLE
+
+Gadael.com et / où ses fournisseurs, selon le cas, conserveront la propriété de tous les droits de propriété du Service et de tous les noms commerciaux, marques de commerce et marques de service associées ou affichées au Service. Vous ne supprimez pas, ne défigurisez où obscurcissez aucun des avis de droits d'auteur ou de marques de commerce de Gadael.com ou de ses fournisseurs, ni de légendes ou d'autres avis de propriété, incorporés ou associés au Service. Vous ne pouvez pas effectuer d'ingénierie inverse de tout logiciel associé au Service.
+
+## Injonction 
+
+Vous reconnaissez que toute utilisation du Service contraire au présent contrat ou tout transfert, sous licence, copie ou divulgation d'informations techniques ou de matériel relatif au Service peut causer un préjudice irréparable à Gadael.com, ses affiliés, ses fournisseurs et toute autre partie autorisée Gadael.com, ses sociétés affiliées, ses fournisseurs et ses revendeurs auront droit à un dédommagement équitable, sans obligation d'envoyer une caution ou autre garanti, y compris, mais sans s'y limiter, ne se limitant pas à une injonction provisoire.
+
+## UTILISATION APPROPRIÉE
+
+Gadael.com ne revendique pas la propriété de tout contenu utilisateur soumis sur ou via le Service. Votre contenu utilisateur vous appartient. Cependant, en téléchargeant tout contenu utilisateur vers le Service, vous acceptez que Gadael.com puisse stocker et afficher (uniquement pour vous, dans la mesure où vous le rendez privé) votre contenu utilisateur uniquement en tant que nécessaire en relation avec le Service. Dans la mesure où vous choisissez de partager tout contenu utilisateur avec d'autres utilisateurs du Service, Vous acceptez d'autoriser ces utilisateurs (c'est-à-dire uniquement les utilisateurs que vous spécifiez) à afficher votre contenu utilisateur et, dans la mesure du possible, à collaborer avec Vous et votre contenu utilisateur.
+
+Vous comprenez que tout contenu utilisateur est la responsabilité exclusive de la personne à partir de laquelle le contenu utilisateur a été créé. Cela signifie que vous et vos utilisateurs, et non Gadael.com, êtes entièrement responsables de tout le contenu utilisateur que vous et vos utilisateurs téléchargent, publiez, transmettez ou rendez disponible via votre compte et votre instance d'application. Gadael.com ne contrôle pas le contenu de l'utilisateur affiché via le service et, en tant que tel, ne garantit pas l'exactitude, l'intégrité ou la qualité de ce contenu utilisateur.
+
+Vous comprenez qu'en utilisant le Service, vous pouvez être exposé à un contenu utilisateur qui est offensant, indécent ou répréhensible. En aucun cas, Gadael.com ne sera responsable de quelque manière que ce soit pour tout contenu Utilisateur, y compris, mais sans s'y limiter, pour toute erreur ou omission dans tout contenu, ou pour toute perte ou dommage de quelque nature que ce soit résultant de l'utilisation de Tout contenu affiché, transmis ou autrement mis à disposition via le service. Vous reconnaissez que Gadael.com né pré-affiche pas le contenu de l'utilisateur, mais que Gadael.com et ses personnes désignéesauront le droit (mais pas l'obligation) à leur seule discrétion de refuser, de modifier ou de déplacer tout contenu disponible via le Service . Sans limiter ce qui précède, Gadael.com et ses délégués ont le droit de supprimer tout contenu utilisateur qui viole l'accord ou est par ailleurs répréhensible. Vous convenez que Vous devez évaluer et assumer tous les risques associés à l'utilisation de tout contenu, y compris toute confiance dans l'exactitude, l'intégralité ou l'utilité de ce contenu. Vous reconnaissez et acceptez que Gadael.com puisse conserver le contenu utilisateur et peut  également divulguer le contenu utilisateur si la loi l'exige ou si, de bonne foi, une telle conservation ou divulgation est raisonnablement nécessaire pour:
+(A) se conformer à un processus légal;
+(B) faire appliquer l'Accord;
+(C) répondre aux revendications selon lesquelles tout contenu viole les droits de tiers;
+(D) protéger les droits, la propriété ou la sécurité personnelle de Gadael.com, de ses utilisateurs et du public.
+
+Si Gadael.com divulgue le contenu utilisateur pour se conformer à un processus légal ou répondre aux revendications selon lesquelles tout contenu utilisateur viole les droits de tiers, dans la mesure autorisée par la loi, la réglementation ou le processus légal, Gadael.com accepte de vous fournir un préavis D'une telle demande légale ou gouvernementale et raisonnablement coopérer avec vous dans toute tentative de demander une ordonnance de protection ou de contester autrement la divulgation requise.
+
+Vous comprenez que le traitement technique et la transmission du Service, y compris votre contenu utilisateur, peuvent impliquer (a) des transmissions sur différents réseaux; Et (b) des changements pour se conformer et s'adapter aux exigences techniques de la connexion des réseaux ou des dispositifs.
 
