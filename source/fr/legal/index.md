@@ -81,3 +81,23 @@ Si Gadael.com divulgue le contenu utilisateur pour se conformer à un processus 
 
 Vous comprenez que le traitement technique et la transmission du Service, y compris votre contenu utilisateur, peuvent impliquer (a) des transmissions sur différents réseaux; Et (b) des changements pour se conformer et s'adapter aux exigences techniques de la connexion des réseaux ou des dispositifs.
 
+Si le contenu de l'utilisateur est trouvé ou déclaré être en violation avec, mais sans s'y limiter, les termes suivants, il sera à la seule discrétion de Gadael.com quant aux mesures à prendre. Vous acceptez de ne pas:
+
+(A) télécharger, poster, transmettre ou rendre disponible tout contenu utilisateur illégal, nuisible, menaçant, abusif, harcelant, tortueux, diffamatoire, vulgaire, obscène, diffamatoire, envahissant la vie privée d'autrui (jusqu'à, Courriel, numéro de téléphone ou toute autre information de contact sans le consentement écrit du propriétaire de ces informations), haineux, raciale, ethnique ou autrement répréhensible;
+
+B) porter atteinte aux mineurs de quelque manière que ce soit;
+
+
+(C) se faire passer pour une personne ou entité, y compris, mais sans s'y limiter, un fonctionnaire, un guide ou un hôte Gadael.com, ou faussement déclarer ou fausser votre affiliation avec une personne ou une entité;
+
+(D) forger des en-têtes ou manipuler des identificateurs pour dissimuler l'origine du tout contenu utilisateur transmis par le Service;
+
+(E) transférer, afficher ou autrement transmettre tout contenu d'utilisateur que vous n'avez pas le droit de transmettre en vertu d'une loi ou dans le cadre de relations contractuelles ou fiduciaires (telles que des informations privilégiées, accords de non-divulgation);
+
+(F) télécharger, afficher ou autrement transmettre tout contenu Utilisateur qui viole les brevets, marques de commerce, secrets commerciaux, droits d'auteur, droits de la vie privée ou publicité ou autres droits de propriété;
+
+G) télécharger, afficher ou autrement transmettre tout matériel contenant des virus logiciels ou tout autre code, fichier ou programme informatique conçut pour interrompre, détruire ou limiter la fonctionnalité de tout logiciel ou matériel informatique ou équipement de télécommunication;
+
+(H) interférer ou interrompre le service ou les serveurs ou les réseaux connectés au service, ou désobéir à toute exigence, procédure, politique ou réglementation des réseaux connectés au service;
+
+(i) poursuivre où harceler une personne
