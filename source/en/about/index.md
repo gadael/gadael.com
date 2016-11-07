@@ -29,4 +29,4 @@ This service is subject to compliance with a [terms of service](/en/legal) docum
 
 The documentation on this site is hosted on github in the gadael-documentation repository, contributions are accepted. The documentation licence is [GFDL](https://www.gnu.org/licenses/fdl-1.3.html) witch imply to give credit to the author is case of external usage.
 
-This site is built using the hexo static site generator and angularjs. The current interface is base on the [Icarus theme](https://github.com/ppoffice/hexo-theme-icarus)from [PPoffice](https://github.com/ppoffice).
+This site is built using the hexo static site generator and angularjs. The current interface is base on the [Icarus theme](https://github.com/ppoffice/hexo-theme-icarus) from [PPoffice](https://github.com/ppoffice).
