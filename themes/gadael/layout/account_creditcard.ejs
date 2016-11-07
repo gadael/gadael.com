@@ -1,21 +1,27 @@
 <section id="main">
 
-    <div id="account_creditcard" class="accountform" ng-controller="CreditCardController">
+    <div id="account_creditcard" class="accountform">
         <h2>Credit card settings</h2>
 
         <div ng-if="session.paymentDay && session.plan=='paid'">
             <p>
-                Your payout date is the {{session.paymentDay}} of each month.
+                <%= __('creditcard.paymentday') %>
             </p>
         </div>
 
-        <form>
+        <div ng-if="session.plan!='paid'">
+            <p>
+                <%= __('creditcard.freeplan') %>
+            </p>
+        </div>
 
+        <form action="/">
 
+            <p><%= __('creditcard.todo') %></p>
 
 
             <p class="button">
-                <button ng-click="saveCreditCard()"><i class="fa fa-save"></i> <%= __('creditcard.savebutton') %></button>
+                <button type="submit"><i class="fa fa-save"></i> <%= __('creditcard.savebutton') %></button>
             </p>
         </form>
     </div>

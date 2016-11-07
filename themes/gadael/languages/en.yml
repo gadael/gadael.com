@@ -131,3 +131,8 @@ export:
     title: 'Download your application database.'
     format: 'The file is a compressed mongodb dump database.'
     downloadbutton: 'Download'
+creditcard:
+    paymentday: 'Your payout date is the {{session.paymentDay}} of each month.'
+    savebutton: 'Save'
+    freeplan: 'Payment informations are not required for your plan.'
+    todo: 'This functionality is not yet available'
