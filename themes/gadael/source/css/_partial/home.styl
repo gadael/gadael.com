@@ -78,6 +78,8 @@
             right: 20px
             width: 290px
             height: @width
+            @media mq-mobile
+                display: none
 
 
     .catch-your-eye
@@ -202,3 +204,6 @@
         text-align: right
         a
             margin-left: 2em
+            span
+                @media mq-mini
+                    display: none

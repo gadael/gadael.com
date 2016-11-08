@@ -107,7 +107,8 @@
             <div class="open">
                 <i class="fa fa-github fa-4x"></i>
                 <h3>Open source</h3>
-                <p>Développement ouvert sur <a href="https://github.com/gadael">github</a></p>
+                <p>Développement ouvert sur <a href="https://github.com/gadael">github</a>.
+                Le code disponible est le même que celui utilisé en <abbr title="Software as a service">SaaS</abbr> sur gadael.com</p>
             </div>
         </div>
 
@@ -133,7 +134,7 @@
 
         <% for(var i in theme.customize.social_links) { %>
         <a href="<%- url_for(theme.customize.social_links[i]) %>" target="_blank">
-            <i class="fa fa-<%= i %>"></i> <%= __('social.'+i) %>
+            <i title="<%= __('social.'+i) %>" class="fa fa-<%= i %>"></i> <span><%= __('social.'+i) %></span>
         </a>
         <% } %>
     </div>
