@@ -136,3 +136,8 @@ creditcard:
     savebutton: 'Save'
     freeplan: 'Payment informations are not required for your plan.'
     todo: 'This functionality is not yet available'
+social:
+    github: 'Github'
+    bug: 'Report a bug'
+    rss: 'News feed'
+    twitter: 'Twitter'

@@ -5,7 +5,7 @@
             <% var tooltipClass = theme.customize.social_link_tooltip === false ? '' : 'class=tooltip'; %>
             <% for(var i in theme.customize.social_links) { %>
             <td>
-                <a href="<%- url_for(theme.customize.social_links[i]) %>" target="_blank" title="<%= i %>" <%= tooltipClass %>>
+                <a href="<%- url_for(theme.customize.social_links[i]) %>" target="_blank" title="<%= __('social.'+i) %>" <%= tooltipClass %>>
                     <i class="fa fa-<%= i %>"></i>
                 </a>
             </td>

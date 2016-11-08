@@ -122,10 +122,19 @@
 
     <div class="bottom-info">
 
+        <div class="paidplan"><p><a href="<%= url_for_lang('pricing') %>">5&euro;/month for 10 users</a></p></div>
+        <div class="freeplan"><p><a href="<%= url_for_lang('pricing') %>">Free up to 5 users</a></p></div>
+
+
+        <div class="biglogo"></div>
     </div>
 
     <div class="home-footer">
-        <a href="https://github.com/gadael/gadael"><i class="fa fa-github"></i> <%= __('home.github') %></a>
-        <a href="https://github.com/gadael/gadael/issues"><i class="fa fa-bug"></i> <%= __('home.issues') %></a>
+
+        <% for(var i in theme.customize.social_links) { %>
+        <a href="<%- url_for(theme.customize.social_links[i]) %>" target="_blank">
+            <i class="fa fa-<%= i %>"></i> <%= __('social.'+i) %>
+        </a>
+        <% } %>
     </div>
 </section>
