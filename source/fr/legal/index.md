@@ -161,3 +161,24 @@ Aucune relation d'agence, de partenariat, de coentreprise, d'employé-employeur 
 ## LIMITATION DES RESPONSABILITÉS
 
 En aucun cas, Gadael.com ou ses sociétés affiliées, fournisseurs ou revendeurs ne pourront être tenus responsables des dommages particuliers, accessoires, indirects, exemplaires ou consécutifs (y compris, sans s'y limiter, les dommages pour perte de profits, interruption d'activité, ou toute autre perte ou dommage matériel) découlant de l'utilisation ou de l'impossibilité d'utiliser le Service, ou de la fourniture ou de la non-fourniture d'un service technique ou d'un autre service de soutien, qu'il s'agisse d'un acte délictuel (y compris de négligence) même si Gadael.com, ses sociétés affiliées, fournisseurs ou Revendeurs ont été avisés de lapossibilité de tels dommages. En tout état de cause, la responsabilité cumulative maximale de Gadael.com, de ses affiliés, fournisseurs et revendeurs et votre recours exclusif pour toute réclamation découlant d'où liée à la présente convention sera limitée au montant effectivement payé par vous pour le service (si Aucun) au cours des douze (12) mois précédents.
+
+## RENONCIATION(DÉROGATION) ET INDÉPENDANCE DES CLAUSES
+
+
+Le fait que l'une ou l'autre des parties n'exerce aucun de ses droits en vertu du présent accord ou n'en applique aucune ne sera considérée comme une renonciation ou une déchéance de ces droits ou la capacité de faire appliquer cette disposition. Si une disposition de la présente convention est jugée illégale, invalide ou inapplicable par un tribunal compétent, cette disposition sera modifiée afin d'obtenir le plus possible le même effet économique de la disposition initiale et le reste  de cet Accord restera en vigueur.
+
+## DÉLAI DE PRESCRIPTION
+
+Vous reconnaissez qu'indépendamment de n'importe quelle loi ou loi au contraire, n'importe quelle réclamation ou cause de surgissement d'action d'ou lié à l'utilisation de services Gadael.com ou les Mandats de service doivent être déposés(classés) dans un (1) an après qu'une telle réclamation ou la cause d'action ont surgi ou être pour toujours défendu.
+
+## CHOIX DU DROIT ET DU FORUM
+
+Le présent Accord est régi par le droit français et tout litige sera définitivement réglé par les tribunaux français.
+
+## ENTENTE ENTIÈRE / DISPOSITIONS GÉNÉRALES
+
+Cet accord incarne la compréhension entière et l'accord entre les parties respectant le sujet de cet accord et remplace tous les accords antérieurs et des accords entre les parties respectant un tel sujet. Gadael.com peut changer les termes de cet accord à tout moment en affichant des termes modifiés sur son site Web. Cet accord a été préparé dans la langue anglaise et une telle version contrôlera à tous égards et toute version non anglaise de cet accord est seulement pour des buts d'adaptation. Tous les droits et les remèdes de Gadael.com sur Votre infraction ou d'autre défauts conformément à cet accord seront considérés cumulatifs et non exclusifs d'un autre droit ou recours conféré par cet accord ou conformément à la loi ou l'équité sur Gadael.com et l'exercice
+
+Ou l'adresse physique suivante:
+
+Gadael.com Paul de Rosanbo 19 rue Jacquard 76500 Elbeuf France
