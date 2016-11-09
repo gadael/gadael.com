@@ -1,7 +1,9 @@
 title: "Conditions d'utilisation"
 layout: "page"
+contentId: "terms"
 
 ---
+
 LIRE ATTENTIVEMENT: En créant un compte sur gadael.com, vous acceptez d'être lié par ces termes et conditions.
 
 Bienvenue au service Gadael.com. Votre utilisation du service est soumise aux présentes Conditions d'utilisation et Gadael.com Politique de confidentialité (collectivement, les «conditions d'utilisation» ou «accord»). Ces conditions d'utilisation sont un contrat entre vous et Gadael.com. "vous" se réfère à toute personne qui crée un compte sur le service, ou, si le service est utilisé pour le compte d'une entité par une personne autorisée à accepter ces termes au nom d'une telle entité, puis "vous" se réfère à une telle entité. Si vous accédez au service pour le compte de votre employeur, vous déclarez et garantissez que vous avez le pouvoir d'accepter ces conditions d'utilisation en son nom. Si vous n'êtes pas d'accord avec les termes du présent Accord, ne pas utiliser le Service. Nous nous réservons le droit de mettre à jour et de modifier l'accord de temps à autre, sans préavis ni acceptation par vous. L'accord sera également applicable à l'utilisation du Service sur une base d'essais. En utilisant le service, vous signifiez votre acceptation irrévocable du présent accord. Le site est protégé par les lois et les traités internationaux sur le copyright, ainsi que d'autres lois sur la propriété intellectuelle et des traités.
@@ -61,7 +63,7 @@ Gadael.com fournit des moyens d'annulation de compte et d'annulation de paiement
 
 Gadael.com et / où ses fournisseurs, selon le cas, conserveront la propriété de tous les droits de propriété du Service et de tous les noms commerciaux, marques de commerce et marques de service associées ou affichées au Service. Vous ne supprimez pas, ne défigurisez où obscurcissez aucun des avis de droits d'auteur ou de marques de commerce de Gadael.com ou de ses fournisseurs, ni de légendes ou d'autres avis de propriété, incorporés ou associés au Service. Vous ne pouvez pas effectuer d'ingénierie inverse de tout logiciel associé au Service.
 
-## Injonction 
+## Injonction
 
 Vous reconnaissez que toute utilisation du Service contraire au présent contrat ou tout transfert, sous licence, copie ou divulgation d'informations techniques ou de matériel relatif au Service peut causer un préjudice irréparable à Gadael.com, ses affiliés, ses fournisseurs et toute autre partie autorisée Gadael.com, ses sociétés affiliées, ses fournisseurs et ses revendeurs auront droit à un dédommagement équitable, sans obligation d'envoyer une caution ou autre garanti, y compris, mais sans s'y limiter, ne se limitant pas à une injonction provisoire.
 
@@ -143,7 +145,7 @@ Vous déclarez et garantissez (A) tous les renseignements fournis par vous à Ga
 
 ## AUCUNE GARANTIE PAR Gadael.com
 
-Vous comprenez et acceptez que le Service soit fourni «tel quel» et Gadael.com, ses sociétés affiliées, ses fournisseurs et ses revendeurs déclinent expressément toute garantie de quelque nature que ce soit, expresse ou implicite, incluant sans limitation toute garantie de qualité marchande, non-contrefaçon ou bailment de vos données sur les serveurs de Gadael.com. Gadael.com, ses sociétés affiliées, ses fournisseurs et ses revendeurs n'offrent aucune garantie ni aucune représentation concernant les résultats qui peuvent être obtenus par l'utilisation du Service, la sécurité du Service ou que le Service répondra aux exigences de l'utilisateur. 
+Vous comprenez et acceptez que le Service soit fourni «tel quel» et Gadael.com, ses sociétés affiliées, ses fournisseurs et ses revendeurs déclinent expressément toute garantie de quelque nature que ce soit, expresse ou implicite, incluant sans limitation toute garantie de qualité marchande, non-contrefaçon ou bailment de vos données sur les serveurs de Gadael.com. Gadael.com, ses sociétés affiliées, ses fournisseurs et ses revendeurs n'offrent aucune garantie ni aucune représentation concernant les résultats qui peuvent être obtenus par l'utilisation du Service, la sécurité du Service ou que le Service répondra aux exigences de l'utilisateur.
 L'utilisation du Service est à votre seul risque. Vous serez seul responsable de tout dommage causé à Vous résultant de l'utilisation du Service. Tout le risque découlant de l'utilisation, de la sécurité ou de la performance du Service demeure avec vous. Aucun renseignement ou conseil oral ou écrit donné par Gadael.com où ses représentants autorisés n'engendreront une garantie ou n'augmenteront de quelque manière que ce soit la portée des obligations de Gadael.com.
 
 ## INDEMNITÉ

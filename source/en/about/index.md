@@ -25,7 +25,7 @@ The application is built on a [MEAN stack](https://en.wikipedia.org/wiki/MEAN_%2
 
 ## gadael.com website and SASS service
 
-This service is subject to compliance with a [terms of service](/en/legal) document agreement and a [privacy policy](/en/privacy). The registration process will require you to accept the [terms of service](/en/legal).
+This service is subject to compliance with a [terms of service](/en/legal) document agreement and a [privacy policy](/en/legal/privacy-policy.html). The registration process will require you to accept the [terms of service](/en/legal/terms-of-service.html).
 
 The documentation on this site is hosted on github in the gadael-documentation repository, contributions are accepted. The documentation licence is [GFDL](https://www.gnu.org/licenses/fdl-1.3.html) witch imply to give credit to the author is case of external usage.
 

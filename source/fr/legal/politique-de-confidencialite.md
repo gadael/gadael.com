@@ -1,5 +1,6 @@
 title: "Politique de confidentialité"
 layout: "page"
+contentId: "privacy"
 
 ---
 

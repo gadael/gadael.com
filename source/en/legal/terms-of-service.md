@@ -1,5 +1,6 @@
 title: "Terms of Service"
 layout: "page"
+contentId: "terms"
 
 ---
 
