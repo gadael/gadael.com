@@ -4,7 +4,7 @@ layout: "page"
 ---
 
 
-## The Author.
+## L'auteur
 
 Gadael est un logiciel dont le développemnt à été initié par Paul de Rosanbo, un développeur indépendant expérimenté dans le domaine des applications métiers.
 
