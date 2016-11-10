@@ -1,10 +1,19 @@
 # Menus
 menu:
-  home: .
-  about: about
-  docs: docs/version-master
-  pricing: pricing
-  news: news
+    home: .
+    about: about
+    docs: docs/version-master
+    pricing: pricing
+    news: news
+
+home:
+    icons:  # font awesome names, and matches in languages files
+        - globe
+        - mobile
+        - google
+        - tasks
+        - github
+        - database
 
 # Customize
 customize:
@@ -24,6 +33,7 @@ customize:
         twitter: https://twitter.com/polo2ro
         rss: /atom.xml
     social_link_tooltip: true # enable the social link tooltip, options: true, false
+
 
 # Widgets
 widgets:

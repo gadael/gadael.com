@@ -70,55 +70,18 @@
     </div>
 
     <div class="functionalities">
+
+        <% for(var i=0; i<theme.home.icons.length; i++) { %>
+
         <div>
-            <div class="international">
-                <i class="fa fa-globe fa-4x"></i>
-                <h3><%= __('home.international.title') %></h3>
-                <p><%= __('home.international.description') %></p>
+            <div>
+                <i class="fa fa-<%= theme.home.icons[i] %> fa-4x"></i>
+                <h3><%= __('home.icons.'+theme.home.icons[i]+'.title') %></h3>
+                <p><%- __('home.icons.'+theme.home.icons[i]+'.html') %></p>
             </div>
         </div>
 
-        <div>
-            <div class="mobile">
-                <i class="fa fa-mobile fa-4x"></i>
-                <h3>Mobile ready</h3>
-                <p>Tous les interfaces sont concus en utilisant les règles du
-                    <a href="https://fr.wikipedia.org/wiki/Site_web_adaptatif">responsible design</a></p>
-            </div>
-        </div>
-
-        <div>
-            <div class="google">
-                <i class="fa fa-google fa-4x"></i>
-                <h3>Use your google calendar</h3>
-                <p>Gadael utilise les API google pour renseigner automatiquement les périodes d'absences sur l'agenda</p>
-            </div>
-        </div>
-
-        <div>
-            <div class="plan">
-                <i class="fa fa-tasks fa-4x"></i>
-                <h3>Planification avancée</h3>
-                <p>Les changements de régime de congés et de rythme de travail peuvent être planifiés à l'avance</p>
-            </div>
-        </div>
-
-        <div>
-            <div class="open">
-                <i class="fa fa-github fa-4x"></i>
-                <h3>Open source</h3>
-                <p>Licence <a href="https://opensource.org/licenses/mit-license.php">MIT</a>, développement ouvert sur <a href="https://github.com/gadael">github</a>.
-                Le code disponible est le même que celui utilisé en <abbr title="Software as a service">SaaS</abbr> sur gadael.com</p>
-            </div>
-        </div>
-
-        <div>
-            <div class="data">
-                <i class="fa fa-database fa-4x"></i>
-                <h3>You own your data</h3>
-                <p>A copy of your database can be downloaded from ou server at every moment, you can reboot your service elswere</p>
-            </div>
-        </div>
+        <% } %>
     </div>
 
     <div class="bottom-info">

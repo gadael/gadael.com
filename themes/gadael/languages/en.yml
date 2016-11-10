@@ -43,9 +43,25 @@ home:
     issues: 'Report Gadael issue'
     description: 'Gadael dematerialize absence management and working time recovery in a simple way.'
     advantages: 'Better monitoring and more autonomy for your team'
-    international:
-        title: 'International leave management'
-        description: 'The same software can be used in several countries with different leave rights.'
+    icons:
+        globe:
+            title: 'International leave management'
+            html: 'The same software can be used in several <a href="/en/docs/version-master/008-the-countries.html">countries</a> with different leave rights.'
+        mobile:
+            title: 'Mobile ready'
+            html: 'All interfaces are designed using the <a href="https://fr.wikipedia.org/wiki/Site_web_adaptatif">responsive design</a> rules'
+        google:
+            title: 'Use your google calendar'
+            html: 'Gadael uses google APIs to automatically add absence periods on the calendar'
+        tasks:
+            title: 'Advanced Planning'
+            html: 'Changes in leave collection and workschedules can be planned in advance'
+        github:
+            title: 'Open source'
+            html: '<a href="https://opensource.org/licenses/mit-license.php">MIT</a> licence, open code base on <a href="https://github.com/gadael">github</a>. The available source code is the same as the one used as <abbr title="Software as a service">SaaS</abbr> on gadael.com'
+        database:
+            title: 'You own your data'
+            html: 'A copy of your database can be downloaded from our server at every moment, you can reboot your service elsewhere'
 signin:
     title: 'Sign in with your gadael.com account'
     email: 'Enter your email.'
