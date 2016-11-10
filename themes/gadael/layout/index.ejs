@@ -107,7 +107,7 @@
             <div class="open">
                 <i class="fa fa-github fa-4x"></i>
                 <h3>Open source</h3>
-                <p>Développement ouvert sur <a href="https://github.com/gadael">github</a>.
+                <p>Licence <a href="https://opensource.org/licenses/mit-license.php">MIT</a>, développement ouvert sur <a href="https://github.com/gadael">github</a>.
                 Le code disponible est le même que celui utilisé en <abbr title="Software as a service">SaaS</abbr> sur gadael.com</p>
             </div>
         </div>
@@ -123,11 +123,18 @@
 
     <div class="bottom-info">
 
-        <div class="paidplan"><p><a href="<%= url_for_lang('pricing') %>">5&euro;/month for 10 users</a></p></div>
-        <div class="freeplan"><p><i class="fa fa-thumbs-up"></i><br /><a href="<%= url_for_lang('pricing') %>">Free up to 5 users</a></p></div>
+
+        <div class="freeplan">
+            <p><i class="fa fa-thumbs-up"></i><br /><a href="<%= url_for_lang('pricing') %>">Free up to 5 users</a></p>
+            <div class="paidplan"><a href="<%= url_for_lang('pricing') %>">And 5&euro;/month for 10 users</a></div>
+        </div>
 
 
-        <div class="biglogo"></div>
+        <div class="logos">
+            <a href="https://opensource.org/" title="OSI"><img src="/css/images/osi.png" alt="Open source Logo" /></a>
+            <a href="https://nodejs.org/" title="Node.js"><img src="/css/images/nodejs.png" alt="Nodejs logo" /></a>
+            <a href="https://www.mongodb.com/" title="MongoDB"><img src="/css/images/MongoDB.png" alt="MongoDB logo" /></a>
+        </div>
     </div>
 
     <div class="home-footer">

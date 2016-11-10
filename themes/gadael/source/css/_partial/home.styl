@@ -37,51 +37,61 @@
         @media mq-mini
             display: none
 
-        .freeplan, .paidplan
-            position: absolute
-            top: 0px
-            left: 0px
+        .freeplan
+            vertical-align:top
+            display:inline-block
+            left: 150px
+            top: 50px
             width: 180px
             height: @width
+            margin: 1em 4em
             border-radius: 50%
             border: 6px solid #fff
             background: color-dark-background
             color: color-text-on-dark-background
             text-align: center
-            font-size: 20px
-            p
-                padding: 40px 40px 30px 40px
-
-
-        .freeplan
-            left: 250px
             transform: scale(1,1)
             transition: all 0.2s ease-in-out
             font-weight: bold
             border-color: color-fashy-background
-            i
-                font-size: 150%
-                color: color-fashy-background
-            a
-                color: color-button-onfire
+            p
+                padding: 40px 40px 30px 40px
+                font-size: 20px
+                i
+                    font-size: 150%
+                    color: color-fashy-background
+                a
+                    color: color-button-onfire
+            .paidplan
+                visibility: hidden
+                background: rgba(#ffffff, 0.58)
+                padding: .5em 1em
+                font-size: 14px
+                a
+                    color: #444
+
             &:hover
                 z-index: 999
                 transform: scale(1.2,1.2)
                 box-shadow: 0 1px 10px rgba(0,0,0,0.6)
                 background: transparentify(color-dark-background)
 
-        .paidplan
-            left: 100px
-            top: 40px
+                .paidplan
+                    visibility: visible
 
-        .biglogo
-            position: absolute
-            background: transparent url(images/logoText256.png) no-repeat 0 0
-            right: 20px
-            width: 290px
-            height: @width
+        .logos
+            margin: 10em 0 0 4em
+            vertical-align:bottom
+            display:inline-block
             @media mq-mobile
                 display: none
+
+            a
+                margin: 2em 3em 0 3em
+                display:inline-block
+                vertical-align:middle
+
+
 
 
     .catch-your-eye
