@@ -37,7 +37,6 @@ customize:
 
 # Widgets
 widgets:
-    - recent_posts
     - category
     - archive
     - tag

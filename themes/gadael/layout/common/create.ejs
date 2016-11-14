@@ -1,26 +1,24 @@
 <aside id="create">
 
-    <div class="inner signup" ng-if="!session.isLoggedIn">
-        <form method="GET" action="<%= url_for_lang('signup') %>">
+    <div class="inner">
 
-            <%- partial('common/dbname', attributes='required="required"') %>
-            <button type="submit"><i class="fa fa-magic"></i> <%= __('account.registerbutton') %></button>
-        </form>
-    </div>
+        <div class="context" ng-if="!session.isLoggedIn">
+            <form method="GET" action="<%= url_for_lang('signup') %>">
 
-    <div class="inner follow">
+                <%- partial('common/dbname', attributes='required="required"') %>
+                <button type="submit"><i class="fa fa-magic"></i> <%= __('account.registerbutton') %></button>
+            </form>
 
+            <p class="login"><a href="<%= url_for_lang('private') %>">Or login into your account</a></p>
+        </div>
 
-
-        <div class="buttons">
-
-            <a ng-if="session.isLoggedIn" class="btn" href="<%= url_for_lang('private') %>">
+        <div class="context" ng-if="session.isLoggedIn">
+            <a class="btn" href="<%= url_for_lang('private') %>">
                 <i class="fa fa-gear"></i> <%= __('account.privatespace') %>
             </a>
-
-            <a class="btn" href="/categories/Health"><i class="fa fa-heartbeat"></i> <%= __('account.health') %></a>
         </div>
 
         <%- partial('common/social') %>
+
     </div>
 </aside>
