@@ -89,6 +89,9 @@ signup:
     password: 'Choose a new password.'
     button: 'Register'
     emailhelp: 'Only the email from your gadael.com account will be modified, the admin account from your application will not change from this action.'
+    legal: 'I accept the %s and the %s'
+    terms: 'terms of service'
+    privacy: 'privacy policy'
 country:
     fr: 'France'
     uk: 'United Kingdoms'

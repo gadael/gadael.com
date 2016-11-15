@@ -5,11 +5,10 @@ website
 
 * [x] Forgot password page (input email)
 * [x] Change password page (input password)
-* [ ] Settings page, change email
-* [ ] Change password page
+* [x] Settings page, change email
+* [x] Change password page
 * [ ] unlink 3rd party accounts
-* [ ] Delete account page
-* [ ] Download database page
-* [ ] Terms of use when creating the database
-* [ ] Resized version of images for slideshow
-* [ ] Documentation version, use only available versions for the file
+* [x] Delete account page
+* [x] Download database page
+* [ ] Terms of use when creating the account with google
+* [ ] verify terms acceptation on submit
