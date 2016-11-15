@@ -9,12 +9,12 @@ Gadael is a time managament software created to be used in small to large compan
 
 Various integrations are proposed to integrate well into your business current usages.
 
-* integration with personal google calendar
-* Export to sage or excel stylesheets
-* Responsible design for visualisation on all mobile devices
-* On click actions from your gmail account for department managers
+* Integration with personal google calendar.
+* Export to sage or excel stylesheets.
+* Responsible design for usage on all mobile devices.
+* One click actions from your gmail account for department managers.
 
-Gadael is distribued under the MIT licence, if you want to install it on your own server or contribute to the project, please go to the [github repository](https://github.com/gadael/gadael).
+Gadael is distribued under the [MIT licence](https://fr.wikipedia.org/wiki/Licence_MIT), if you want to install it on your own server or contribute to the project, please go to the [github repository](https://github.com/gadael/gadael).
 
 The application is built on a [MEAN stack](https://en.wikipedia.org/wiki/MEAN_%28software_bundle%29) and make use of theses open source softwares :
 [MongoDB](https://www.mongodb.com/),
@@ -25,11 +25,11 @@ The application is built on a [MEAN stack](https://en.wikipedia.org/wiki/MEAN_%2
 
 ## gadael.com website and SASS service
 
-This service is subject to compliance with a [terms of service](/en/legal) document agreement and a [privacy policy](/en/legal/privacy-policy.html). The registration process will require you to accept the [terms of service](/en/legal/terms-of-service.html).
+This service is subject to compliance with a [terms of service](/en/legal/terms-of-service.html) document agreement and a [privacy policy](/en/legal/privacy-policy.html). The registration process will require you to accept the [terms of service](/en/legal/terms-of-service.html).
 
 The documentation on this site is hosted on github in the gadael-documentation repository, contributions are accepted. The documentation licence is [GFDL](https://www.gnu.org/licenses/fdl-1.3.html) witch imply to give credit to the author is case of external usage.
 
-This site is built using the hexo static site generator and angularjs. The current interface is base on the [Icarus theme](https://github.com/ppoffice/hexo-theme-icarus) from [PPoffice](https://github.com/ppoffice).
+This site is built using the [hexo](https://hexo.io/) static site generator and [angularjs](https://angularjs.org/). The current interface is base on the [Icarus theme](https://github.com/ppoffice/hexo-theme-icarus) from [PPoffice](https://github.com/ppoffice).
 
 
 ## The Author.

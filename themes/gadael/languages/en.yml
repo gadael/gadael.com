@@ -43,6 +43,12 @@ home:
     issues: 'Report Gadael issue'
     description: 'Gadael dematerialize absence management and working time recovery in a simple way.'
     advantages: 'Better monitoring and more autonomy for your team'
+    screenshots:
+        accounthome: 'Account home screenshot'
+        absencecreate: 'Create absence screenshot'
+        viewleave: 'View annual leave right screenshot'
+        export: 'Exports menu screenshot'
+        waitingrequests: 'Waiting request view from the manager screenshot'
     icons:
         globe:
             title: 'International leave management'
@@ -62,6 +68,9 @@ home:
         database:
             title: 'You own your data'
             html: 'A copy of your database can be downloaded from our server at every moment, you can reboot your service elsewhere'
+    pricing:
+        freeplan: 'Free up to 5 users'
+        paidplan: 'And 5€/month for 10 users'
 signin:
     title: 'Sign in with your gadael.com account'
     email: 'Enter your email.'

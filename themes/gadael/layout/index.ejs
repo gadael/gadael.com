@@ -41,23 +41,23 @@
 
     <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "pageDots": false }'>
         <div class="carousel-cell">
-            <img class="carousel-cell-image" alt="Account home screenshot"
+            <img class="carousel-cell-image" alt="<%= __('home.screenshots.accounthome') %>"
                 src="<%= url_for_lang('docs/version-master/images/account-home.png') %>" />
         </div>
         <div class="carousel-cell">
-            <img class="carousel-cell-image" alt="Create absence screenshot"
+            <img class="carousel-cell-image" alt="<%= __('home.screenshots.absencecreate') %>"
                 src="<%= url_for_lang('docs/version-master/images/account-absence-create.png') %>" />
         </div>
         <div class="carousel-cell">
-            <img class="carousel-cell-image" alt="View annal leave right screenshot"
+            <img class="carousel-cell-image" alt="<%= __('home.screenshots.viewleave') %>"
                 src="<%= url_for_lang('docs/version-master/images/right-view-annual-leave.png') %>" />
         </div>
         <div class="carousel-cell">
-            <img class="carousel-cell-image" alt="Exports menu screenshot"
+            <img class="carousel-cell-image" alt="<%= __('home.screenshots.export') %>"
                 src="<%= url_for_lang('docs/version-master/images/exports.png') %>" />
         </div>
         <div class="carousel-cell">
-            <img class="carousel-cell-image" alt="Waiting request view from the manager screenshot"
+            <img class="carousel-cell-image" alt="<%= __('home.screenshots.waitingrequests') %>"
                 src="<%= url_for_lang('docs/version-master/images/manager-waiting-requests.png') %>" />
         </div>
     </div>
@@ -88,8 +88,8 @@
 
 
         <div class="freeplan">
-            <p><i class="fa fa-thumbs-up"></i><br /><a href="<%= url_for_lang('pricing') %>">Free up to 5 users</a></p>
-            <div class="paidplan"><a href="<%= url_for_lang('pricing') %>">And 5&euro;/month for 10 users</a></div>
+            <p><i class="fa fa-thumbs-up"></i><br /><a href="<%= url_for_lang('pricing') %>"><%= __('home.pricing.freeplan') %></a></p>
+            <div class="paidplan"><a href="<%= url_for_lang('pricing') %>"><%= __('home.pricing.paidplan') %></a></div>
         </div>
 
 
