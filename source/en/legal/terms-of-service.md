@@ -37,7 +37,7 @@ Gadael.com cannot and will not be liable for any loss or damage arising from You
 
 Gadael.com assumes no duty to verify such information as further detailed in the CONTENT OF THE SERVICE section of these Terms of Service. If You provide any information that is untrue, inaccurate, not current or incomplete, or Gadael.com has reasonable grounds to suspect that such information is untrue, inaccurate, not current or incomplete, Gadael.com has the right to suspend or terminate Your Account and refuse any and all current or future use of the Service (or any portion thereof). By using the Service, You represent and warrant that You are at least 13 years of age, and no one under the age of 13 may use the Service - except as set forth below under "Kids and Gadael.com". Gadael.com may, in its sole discretion, refuse to offer the Service to any person or entity and change its eligibility criteria at any time. You are solely responsible for ensuring that these Terms of Service are in compliance with all laws, the right to access the Service is revoked where these Terms of Service or use of the Service is prohibited by any applicable law.
 
-## KIDS AND Gadael.com
+## KIDS USAGE
 
 Gadael.com is not directed to children, and we expect that any use by children will only be done with the guidance, supervision and consent of their parents, guardians and/or authorized school officials. Gadael.com relies on parents and guardians to ensure that minors only use Gadael.com if they can understand their rights and responsibilities as laid out in these Terms of Service and in our Privacy Policy.
 
@@ -48,9 +48,9 @@ Additional groupings of features may be added to the Service and made available 
 
 Credit cards are the only payment mechanism accepted for payment of a monthly subscription fee for a Paid Plan. All currency references are in Euros. Paid Plans must be paid monthly.
 
-If you select a Paid Plan, You must provide current, complete and accurate Billing Data. You must promptly update all Billing Data to keep Your Account current, complete and accurate (such as a change in billing address, credit card number or credit card expiration date) and You must promptly notify Gadael.com if Your Payment Method is changed (for example, for loss or theft) or if You become aware of a potential breach of security, such as the unauthorized disclosure or use of Your name or password. If You fail to provide any of the foregoing information, You agree that Gadael.com may continue charging You for any use of the Paid Plan under your Billing Data unless You have terminated Your Paid Plan as set forth herein.
+If you select a Paid Plan, You must provide current, complete and accurate Billing Data. You must promptly update all Billing Data to keep Your Account current, complete and accurate (such as a change in billing address, credit card number or credit card expiration date) and You must promptly notify support@gadael.com if Your Payment Method is changed (for example, for loss or theft) or if You become aware of a potential breach of security, such as the unauthorized disclosure or use of Your name or password. If You fail to provide any of the foregoing information, You agree that Gadael.com may continue charging You for any use of the Paid Plan under your Billing Data unless You have terminated Your Paid Plan as set forth herein.
 
-The credit card that You provide as part of the Billing Data will be automatically and immediately billed on the first Business Day of each Month. You agree that Gadael.com may charge to Your credit card all amounts due and owing for Your Account on that monthly basis or upon cancellation (see "Termination, Breach, Suspension and Cancellation" and "Refund"). Gadael.com will contact You via electronic mail to alert You upon each charge. Gadael.com may change prices at any time, but will endeavor to provide reasonable advance notice via the Gadael.com website and electronic mail. You agree that in the event Gadael.com is unable to collect the fees owed to Gadael.com for Your Account through Your Subscription Fee, your account will be suspended after a one month tolerance period (you will have one month to provide correct credit card informations if the payment fails).
+The credit card that You provide as part of the Billing Data will be automatically and immediately billed on the first Business Day of each Month. You agree that Gadael.com may charge to Your credit card all amounts due and owing for Your Account on that monthly basis or upon cancellation (see "Termination, Breach, Suspension and Cancellation" and "Refund"). Gadael.com will contact You via electronic mail to alert You upon each charge. Gadael.com may change prices at any time, but will endeavor to provide reasonable advance notice via the Gadael.com website and electronic mail. You agree that in the event Gadael.com is unable to collect the fees owed to Gadael.com, your account will be suspended after a one month tolerance period (you will have one month to provide correct credit card informations if the payment fails).
 
 As long as Your Account remains active and in good standing, You will be charged the Subscription Fee even if You never use the service. You may, however, cancel Your Paid Plan at any time.
 
@@ -59,7 +59,7 @@ As long as Your Account remains active and in good standing, You will be charged
 
 If Your Subscription Fee payment is overdue, Gadael.com will disable Your access to the features provided by the Paid Plan. Gadael.com may, at its sole discretion, at any time and for any reason, terminate the Service, terminate this Agreement, or suspend or terminate Your Account. In the event of suspension or termination, Your account will be disabled and You may not be granted access to Your Account or any files or other Content (including Your User Content) contained in Your Account, and Gadael.com may delete Your User Content, although residual copies of information may remain in our system for some time for back-up purposes. In the event of termination, Gadael.com may also withdraw and at its discretion reallocate the public web address of Your Account.
 
-If You terminate Your Account, via means provided for cancellation on the Gadael.com website, or via telephone call or electronic mail to Gadael.com, and You request that Gadael.com delete Your User Content and files contained in Your Account, Gadael.com will make all reasonable efforts to do so.
+If You terminate Your Account, via means provided for cancellation on the Gadael.com website, or via telephone call or electronic mail to Gadael.com, and You request that Gadael.com delete Your User Content contained in Your Account, Gadael.com will make all reasonable efforts to do so.
 
 
 ## REFUND
@@ -67,19 +67,10 @@ If You terminate Your Account, via means provided for cancellation on the Gadael
 Gadael.com provides means for Account and Paid Plan cancellation on the Gadael.com website. If You cancel Your Account within 40 calendar days of the date of sign up to the paid plan, and You request a refund, Gadael.com will refund all payments You have made to Gadael.com within the 40 calendar days prior to the cancellation and refund request.
 
 
-## PROPRIETARY/INTELLECTUAL PROPERTY RIGHTS
-
-Gadael.com and/or its suppliers, as applicable, retain ownership of all proprietary rights in the Service and in all trade names, trademarks and service marks associated or displayed with the Service. You will not remove, deface or obscure any of Gadael.com's or its suppliers' copyright or trademark notices and/or legends or other proprietary notices on, incorporated therein, or associated with the Service. You may not reverse engineer any software associated with the Service.
-
-
-## INJUNCTIVE RELIEF
-
-You acknowledge that any use of the Service contrary to this Agreement, or any transfer, sublicensing, copying or disclosure of technical information or materials related to the Service, may cause irreparable injury to Gadael.com, its affiliates, suppliers and any other party authorized by Gadael.com to resell, distribute, or promote the Service ("Resellers"), and under such circumstances Gadael.com, its affiliates, suppliers and Resellers will be entitled to equitable relief, without posting bond or other security, including, but not limited to, preliminary and permanent injunctive relief.
-
 
 ## PROPER USE
 
-Gadael.com does not claim ownership over any User Content submitted on or through the Service. Your User Content belongs to You. However, by uploading any User Content to the Service, You agree that Gadael.com may store and display (only to You, to the extent that You make such User Content private) Your User Content solely as necessary in connection with the Service. To the extent You choose to share any of Your User Content with other users of the Service, You agree to allow these users (i.e., only the users you specify) to view Your User Content and, to the extent applicable, collaborate with You and Your User Content.
+Gadael.com does not claim ownership over any User Content submitted on or through the Service. Your User Content belongs to You. However, by uploading any User Content to the Service, You agree that Gadael.com may store and display  your User Content solely as necessary in connection with the Service. To the extent You choose to share any of Your User Content with other users of the Service, You agree to allow these users (i.e., only the users you specify) to view Your User Content and, to the extent applicable, collaborate with You and Your User Content.
 
 You understand that all User Content is the sole responsibility of the person from which such User Content originated. This means that You and your users, and not Gadael.com, are entirely responsible for all User Content that You and your users upload, post, transmit or otherwise make available via Your Account and your application instance. Gadael.com does not control the User Content posted via the Service and, as such, does not guarantee the accuracy, integrity or quality of such User Content.
 
