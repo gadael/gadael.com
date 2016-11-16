@@ -15,7 +15,7 @@ Le Service comprend, et se limite à un site web qui vous permet d'accéder et d
 
 
 
-Un "compte Gadael.com» où «compte» mentionné ici signifie un service, site Web, fourni par Gadael.com, où vous pouvez utiliser Gadael.com pour démarrer une instance d'application avec une base de données et vos données des utilisateurs ou d'autres matériaux ( "contenu utilisateur").
+Un «compte» mentionné ici signifie un service, fourni par Gadael.com, où vous pouvez utiliser Gadael.com pour démarrer une instance d'application avec une base de données et vos données des utilisateurs ou d'autres contenus ("contenu utilisateur").
 
 Sauf mention contraire explicite, toutes les nouvelles fonctionnalités qui étendent ou améliorent le Service, y compris le lancement de nouveaux outils et de ressources, sont soumises à l'accord. Pour utiliser ce service, vous devez avoir accès au World Wide Web, soit directement, soit à travers des dispositifs qui accèdent à du contenu Web, et payer les frais de service associés à un tel accès. En outre, vous devez fournir tout l'équipement nécessaire à la connexion aux World Wide Web, y compris un ordinateur et un autre dispositif d'accès. Vous comprenez et acceptez également que le service puisse inclure certaines communications de Gadael.com, telles que des annonces de service, des messages administratifs, etc., et que ces communications sont considérées comme faisant partie du Service et vous ne serez pas en mesure de refuser de les recevoir . Gadael.com fournira le Service conformément au présent accord. Gadael.com peut, à sa seule discrétion, modifier les caractéristiques du Service de temps en temps sans préavis.
 
