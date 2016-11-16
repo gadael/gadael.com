@@ -44,9 +44,9 @@ Gadael.com is not directed to children, and we expect that any use by children w
 
 ## BILLING/PAYMENT TERMS
 
-Additional groupings of features may be added to the Service and made available to You as a paid upgrade ("Paid Plan"). If You choose to subscribe to a Paid Plan, You shall pay fees (described below) to Gadael.com. Upon selection of a Paid Plan, You will provide Gadael.com with the necessary billing information ("Billing Data").
+Additional groupings of features may be added to the Service and made available to You as a paid upgrade ("Paid Plan"). If You choose to subscribe to a Paid Plan, You shall pay fees (described below. Upon selection of a Paid Plan, You will provide Gadael.com with the necessary billing information ("Billing Data").
 
-Credit cards are the only payment mechanism Gadael.com will accept for payment of a monthly or yearly subscription fee ("Subscription Fee") for a Paid Plan. All currency references are in U.S. dollars. Paid Plans can be paid as either a monthly Subscription Fee or a yearly Subscription Fee.
+Credit cards are the only payment mechanism accepted for payment of a monthly subscription fee for a Paid Plan. All currency references are in Euros. Paid Plans must be paid monthly.
 
 If you select a Paid Plan, You must provide current, complete and accurate Billing Data. You must promptly update all Billing Data to keep Your Account current, complete and accurate (such as a change in billing address, credit card number or credit card expiration date) and You must promptly notify Gadael.com if Your Payment Method is changed (for example, for loss or theft) or if You become aware of a potential breach of security, such as the unauthorized disclosure or use of Your name or password. If You fail to provide any of the foregoing information, You agree that Gadael.com may continue charging You for any use of the Paid Plan under your Billing Data unless You have terminated Your Paid Plan as set forth herein.
 
