@@ -24,6 +24,15 @@
                 </select>
             </p>
 
+            <p ng-if="session.user.legal">
+                <%= __('company.legalchecked') %>
+                
+            </p>
+
+            <p ng-if="!session.user.legal">
+                <%- partial('common/legal') %>
+            </p>
+
             <p class="button">
                 <button type="submit"><i class="fa fa-bolt"></i> <%= __('company.createbutton') %></button>
             </p>

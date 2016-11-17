@@ -32,16 +32,8 @@
                 <input type="password" id="password" name="password" required="required" value="" />
             </p>
 
-
             <p>
-                <label>
-                    <input type="checkbox" name="legal" required="required" value="1" />&nbsp;
-                    <% var terms='<a target="_blank" href="'+url_for_lang('legal/terms-of-service.html')+'">'+__('signup.terms')+'</a>' %>
-                    <% var privacy='<a target="_blank" href="'+url_for_lang('legal/privacy-policy.html')+'">'+__('signup.privacy')+'</a>' %>
-
-                    <%- __('signup.legal', terms, privacy) %>
-                </label>
-
+                <%- partial('common/legal') %>
             </p>
 
             <p><button type="submit"><i class="fa fa-bolt"></i> <%= __('signup.button') %></button></p>
