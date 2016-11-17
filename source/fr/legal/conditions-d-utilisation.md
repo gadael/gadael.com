@@ -100,7 +100,7 @@ G) télécharger, afficher ou autrement transmettre tout matériel contenant des
 
 ## PRATIQUES GÉNÉRALES CONCERNANT L'UTILISATION ET LE STOCKAGE.
 
-Vous acceptez que Gadael.com n'ait aucune responsabilité pour la suppression, ou le défaut de stocker ou de transmettre, tout contenu utilisateur et autres communications maintenus par le Service. Vous reconnaissez que Gadael.com peut établir des pratiques générales et des limites concernant l'utilisation du Service et peut modifier ces pratiques et limites de temps à autre. Gadael.com se réserve le droit de créer des limites d'utilisation et de stockage à notre seule discrétion à tout moment, avec ou sans préavis. Vous reconnaissez que nous nous réservons le droit de supprimer le compte et les bases de données des utilisateurs inactifs pendant une période prolongée.
+Vous acceptez que Gadael.com n'ait aucune responsabilité pour la suppression, ou l'impossibilité de stocker ou de transmettre, tout contenu utilisateur et autres communications maintenus par le Service. Vous reconnaissez que Gadael.com peut établir des pratiques générales et des limites concernant l'utilisation du Service et peut modifier ces pratiques et limites de temps à autre. Gadael.com se réserve le droit de créer des limites d'utilisation et de stockage à notre seule discrétion à tout moment, avec ou sans préavis. Vous reconnaissez que nous nous réservons le droit de supprimer le compte et les bases de données des utilisateurs inactifs pendant une période prolongée.
 
 Vous acceptez de ne pas:
 
@@ -110,20 +110,17 @@ Vous acceptez de ne pas:
 
 C) prendre toute mesure qui impose une charge déraisonnable ou disproportionnée sur notre infrastructure;
 
-D) copier, reproduire, modifier ou afficher publiquement les informations affichées sur le Service (à l'exception de votre base de données téléchargeable) ou créer des œuvres dérivées à partir de notre site Web (à l'exception de votre base de données téléchargeable) S) constituerait une violation du droit d'auteur ou autrement violerait les droits de propriété intellectuelle de Gadael.com ou tout autre tiers, sauf avec le consentement écrit préalable de Gadael.com ou du tiers approprié.
+D) copier, reproduire, modifier ou afficher publiquement les informations affichées sur le Service (à l'exception de votre base de données téléchargeable) ou créer des œuvres dérivées à partir de notre site Web (à l'exception de votre base de données téléchargeable) constituerait une violation du droit d'auteur ou autrement violerait les droits de propriété intellectuelle de Gadael.com ou tout autre tiers, sauf avec le consentement écrit préalable de Gadael.com ou du tiers approprié.
 
 ## CONTENU DU SERVICE.
 
-Gadael.com décline toute responsabilité quant au contenu de tiers ou au contenu de l'utilisateur (y compris, sans limitation, les virus ou autres fonctionnalités de désactivation), et Gadael.com n'a aucune obligation de surveiller ce contenu tiers. Gadael.com se réserve le droit à tout moment de supprimer ou de refuser de distribuer tout contenu sur le Service, tel que le contenu qui viole ces conditions d'utilisation. Gadael.com se réserve également le droit d'accéder, de lire, de conserver et de divulguer toute information jugée nécessaire pour
-
-(C) détecter, prévenir ou traiter autrement des questions de fraude, de sécurité ou technique, (b) faire respecter les présentes Conditions générales d'utilisation, D) répondre aux demandes de soutien des utilisateurs, ou (e) protéger les droits, la propriété ou la sécurité de Gadael.com, ses utilisateurs et le public.
-
+Gadael.com décline toute responsabilité quant au contenu de tiers ou au contenu de l'utilisateur (y compris, sans limitation, les virus ou autres fonctionnalités de désactivation), et Gadael.com n'a aucune obligation de surveiller ce contenu tiers. Gadael.com se réserve le droit à tout moment de supprimer ou de refuser de distribuer tout contenu sur le Service, tel que le contenu qui viole ces conditions d'utilisation. Gadael.com se réserve également le droit d'accéder, de lire, de conserver et de divulguer toute information jugée nécessaire pour détecter, prévenir ou traiter autrement des questions de fraude, de sécurité ou technique, faire respecter les présentes Conditions générales d'utilisation, répondre aux demandes de soutien des utilisateurs, ou protéger les droits, la propriété ou la sécurité de Gadael.com, ses utilisateurs et le public.
 
 Gadael.com ne sera pas responsable de l'exercice ou du non-exercice de ses droits en vertu du présent Contrat.
 
 Si Gadael.com divulgue ces informations pour satisfaire à toute loi, réglementation, processus légal ou demande gouvernementale applicable ou pour répondre aux demandes d'assistance d'utilisateurs, dans la mesure permise par une loi, un règlement ou un processus légal, Gadael.com accepte de vous fournir un préavis de toute demande de ce genre et coopérer raisonnablement avec vous dans tout effort visant à obtenir une ordonnance de protection ou à contester autrement cette divulgation requise.
 
-La page d'accueil de votre application est publique. Cela inclut le nom de votre application et le texte de description publique que vous avez utilisé.
+La page d'accueil de votre application est publique. Cela inclut le nom de votre application et le texte de description publique que vous avez configuré.
 
 ## UTILISATION INTERNATIONALE
 
@@ -131,50 +128,53 @@ Reconnaissant la nature mondiale de l'Internet, vous acceptez de vous conformer 
 
 ## PAS DE REVENTE DU SERVICE
 
-Vous acceptez de ne pas reproduire, dupliquer, copier, vendre, revendre ou exploiter une partie du Service hébergé sur gadael.com. L'utilisation du logiciel open source gadael peut se faire dans le respect de la licence du logiciel et sans utilisation du nom et du site web gadael com.
+Vous acceptez de ne pas reproduire, dupliquer, copier, vendre, revendre ou exploiter une partie du Service hébergé sur gadael.com. L'utilisation du logiciel open source gadael peut se faire dans le respect de la licence du logiciel et sans utilisation du nom et du site web gadael.com.
 
 ## VOS DECLARATIONS ET OBLIGATIONS
 
-Vous déclarez et garantissez (A) tous les renseignements fournis par vous à Gadael.com pour participer au Service sont exacts et à jour. (B) En acceptant ce contrat, Vous assumez la responsabilité des violations de la convention par les utilisateurs de la demande que vous démarrez à partir de ce service. (C) Vous avez tous les droits, le pouvoir et l'autorité nécessaires pour conclure les présentes Conditions d'utilisation et pour accomplir les actes que vous devez faire en vertu des présentes.
+Vous déclarez et garantissez que tous les renseignements fournis par vous à Gadael.com pour participer au Service sont exacts et à jour. En acceptant ce contrat, Vous assumez la responsabilité des violations de la convention par les utilisateurs que vous avez autorisé à accéder a votre instance démarrée depuis ce service. Vous avez tous les droits, le pouvoir et l'autorité nécessaires pour accepter les présentes Conditions d'utilisation et pour accomplir les actes que vous devez faire en vertu des présentes.
 
 ## AUCUNE GARANTIE PAR Gadael.com
 
-Vous comprenez et acceptez que le Service soit fourni «tel quel» et Gadael.com, ses sociétés affiliées, ses fournisseurs et ses revendeurs déclinent expressément toute garantie de quelque nature que ce soit, expresse ou implicite, incluant sans limitation toute garantie de qualité marchande, non-contrefaçon ou bailment de vos données sur les serveurs de Gadael.com. Gadael.com, ses sociétés affiliées, ses fournisseurs et ses revendeurs n'offrent aucune garantie ni aucune représentation concernant les résultats qui peuvent être obtenus par l'utilisation du Service, la sécurité du Service ou que le Service répondra aux exigences de l'utilisateur.
-L'utilisation du Service est à votre seul risque. Vous serez seul responsable de tout dommage causé à Vous résultant de l'utilisation du Service. Tout le risque découlant de l'utilisation, de la sécurité ou de la performance du Service demeure avec vous. Aucun renseignement ou conseil oral ou écrit donné par Gadael.com où ses représentants autorisés n'engendreront une garantie ou n'augmenteront de quelque manière que ce soit la portée des obligations de Gadael.com.
+Vous comprenez et acceptez que le Service soit fourni «tel quel» et Gadael.com, ses sociétés affiliées, ses fournisseurs et ses revendeurs déclinent expressément toute garantie de quelque nature que ce soit, expresse ou implicite, incluant sans limitation toute garantie de qualité marchande, non-contrefaçon de vos données sur les serveurs de Gadael.com. Gadael.com, ses sociétés affiliées, ses fournisseurs et ses revendeurs n'offrent aucune garantie ni aucune représentation concernant les résultats qui peuvent être obtenus par l'utilisation du Service, la sécurité du Service ou que le Service répondra aux exigences de l'utilisateur.
+L'utilisation du Service est à votre seul risque. Vous serez seul responsable de tout dommage qui vous sera causé résultant de l'utilisation du Service. Aucun renseignement ou conseil oral ou écrit donné par Gadael.com où ses représentants autorisés n'engendreront une garantie ou n'augmenteront de quelque manière que ce soit la portée des obligations de Gadael.com.
 
-## INDEMNITÉ
-
-Vous acceptez d'indemniser, de défendre et de dégager Gadael.com, ses affiliés, dirigeants, administrateurs, employés, consultants, agents, fournisseurs et revendeurs contre toute réclamation, responsabilité, dommages et / ou coûts (y compris, mais sans s'y limiter) de votre utilisation de votre compte, de votre violation des présentes conditions d'utilisation ou de l'infraction ou de la violation par vous ou tout autre utilisateur de votre compte de toute propriété intellectuelle liée au Service (y compris, sans limitation, votre contenu utilisateur) ou tout autre droit de toute personne ou entité.
+Aucune relation d'agence, de partenariat, de coentreprise, d'employé-employeur ou de franchiseur-franchisé entre vous et le logiciel Gadael.com n'est prévue ou créée par les présentes Conditions d'utilisation.
 
 ## MODIFICATIONS DU SERVICE
 
 Gadael.com se réserve le droit, à tout moment et de temps à autre, de modifier ou d'interrompre temporairement ou définitivement le Service (ou une partie de celui-ci) avec ou sans préavis à tout moment. Vous acceptez que Gadael.com ne soit pas responsable envers Vous ou envers un tiers pour toute modification, suspension, résiliation ou interruption du Service.
 
-## PAS D'AGENCE
 
-Aucune relation d'agence, de partenariat, de coentreprise, d'employé-employeur ou de franchiseur-franchisé entre vous et le logiciel Gadael.com n'est prévue ou créée par les présentes Conditions d'utilisation.
+
 
 ## LIMITATION DES RESPONSABILITÉS
 
-En aucun cas, Gadael.com ou ses sociétés affiliées, fournisseurs ou revendeurs ne pourront être tenus responsables des dommages particuliers, accessoires, indirects, exemplaires ou consécutifs (y compris, sans s'y limiter, les dommages pour perte de profits, interruption d'activité, ou toute autre perte ou dommage matériel) découlant de l'utilisation ou de l'impossibilité d'utiliser le Service, ou de la fourniture ou de la non-fourniture d'un service technique ou d'un autre service de soutien, qu'il s'agisse d'un acte délictuel (y compris de négligence) même si Gadael.com, ses sociétés affiliées, fournisseurs ou Revendeurs ont été avisés de lapossibilité de tels dommages. En tout état de cause, la responsabilité cumulative maximale de Gadael.com, de ses affiliés, fournisseurs et revendeurs et votre recours exclusif pour toute réclamation découlant d'où liée à la présente convention sera limitée au montant effectivement payé par vous pour le service (si Aucun) au cours des douze (12) mois précédents.
+En aucun cas, Gadael.com ou ses sociétés affiliées, fournisseurs ou revendeurs ne pourront être tenus responsables des dommages particuliers, accessoires, indirects, exemplaires ou consécutifs (y compris, sans s'y limiter, les dommages pour perte de profits, interruption d'activité, ou toute autre perte ou dommage matériel) découlant de l'utilisation ou de l'impossibilité d'utiliser le Service, ou de la fourniture ou de la non-fourniture d'un service technique ou d'un autre service de soutien, qu'il s'agisse d'un acte délictuel (y compris de négligence) même si Gadael.com, ses sociétés affiliées, fournisseurs ou Revendeurs ont été avisés de la possibilité de tels dommages. En tout état de cause, la responsabilité cumulative maximale de Gadael.com, de ses affiliés, fournisseurs et revendeurs et votre recours exclusif pour toute réclamation découlant d'où liée à la présente convention sera limitée au montant effectivement payé par vous pour le service au cours des douze derniers mois.
 
 ## RENONCIATION(DÉROGATION) ET INDÉPENDANCE DES CLAUSES
-
 
 Le fait que l'une ou l'autre des parties n'exerce aucun de ses droits en vertu du présent accord ou n'en applique aucune ne sera considérée comme une renonciation ou une déchéance de ces droits ou la capacité de faire appliquer cette disposition. Si une disposition de la présente convention est jugée illégale, invalide ou inapplicable par un tribunal compétent, cette disposition sera modifiée afin d'obtenir le plus possible le même effet économique de la disposition initiale et le reste  de cet Accord restera en vigueur.
 
 ## DÉLAI DE PRESCRIPTION
 
-Vous reconnaissez qu'indépendamment de n'importe quelle loi ou loi au contraire, n'importe quelle réclamation ou cause de surgissement d'action d'ou lié à l'utilisation de services Gadael.com ou les Mandats de service doivent être déposés(classés) dans un (1) an après qu'une telle réclamation ou la cause d'action ont surgi ou être pour toujours défendu.
+Vous reconnaissez qu'indépendamment de n'importe quelle loi ou loi au contraire, n'importe quelle réclamation ou cause de surgissement d'action d'ou lié à l'utilisation de services Gadael.com ou les Mandats de service doivent être déposés(classés) un an après qu'une telle réclamation ai eu lieu.
 
 ## CHOIX DU DROIT ET DU FORUM
 
 Le présent Accord est régi par le droit français et tout litige sera définitivement réglé par les tribunaux français.
 
+
 ## ENTENTE ENTIÈRE / DISPOSITIONS GÉNÉRALES
 
-Cet accord incarne la compréhension entière et l'accord entre les parties respectant le sujet de cet accord et remplace tous les accords antérieurs et des accords entre les parties respectant un tel sujet. Gadael.com peut changer les termes de cet accord à tout moment en affichant des termes modifiés sur son site Web. Cet accord a été préparé dans la langue anglaise et une telle version contrôlera à tous égards et toute version non anglaise de cet accord est seulement pour des buts d'adaptation. Tous les droits et les remèdes de Gadael.com sur Votre infraction ou d'autre défauts conformément à cet accord seront considérés cumulatifs et non exclusifs d'un autre droit ou recours conféré par cet accord ou conformément à la loi ou l'équité sur Gadael.com et l'exercice
+Cet accord incarne la compréhension entière et l'accord entre les parties respectant le sujet de cet accord et remplace tous les accords antérieurs et des accords entre les parties respectant un tel sujet. Gadael.com peut changer les termes de cet accord à tout moment en affichant des termes modifiés sur son site Web. Cet accord a été préparé dans la langue anglaise et une telle version contrôlera à tous égards et toute version non anglaise de cet accord est seulement pour des buts d'adaptation. Tous les droits et les recours de Gadael.com sur Votre infraction ou d'autre défauts conformément à cet accord seront considérés cumulatifs et non exclusifs d'un autre droit ou recours conféré par cet accord ou conformément à la loi et l'exercice d'un seul recours n'empêchera pas l'exercice de tout autre.
+
+Des notifications peuvent vous être faites par email. Le Service peut également fournir des avis de modifications à l'Accord ou d'autres sujets en affichant des liens vers des avis sur le Service. Tous les avis ou toute autre correspondance adressée à Gadael.com en vertu de la présente convention doivent être envoyés à l'adresse électronique suivante: [support@gadael.com](mailto:support@gadael.com)
 
 Ou l'adresse physique suivante:
 
-Gadael.com Paul de Rosanbo 19 rue Jacquard 76500 Elbeuf France
+Gadael.com
+Paul de Rosanbo
+19 rue Jacquard
+76500 Elbeuf
+France

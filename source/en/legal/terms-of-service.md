@@ -127,13 +127,7 @@ You agree that You will not:
 
 ## CONTENT OF THE SERVICE.
 
-Gadael.com takes no responsibility for any third-party Content or User Content (including, without limitation,any viruses or other disabling features), nor does Gadael.com have any obligation to monitor such third-party Content. Gadael.com reserves the right at all times to remove or refuse to distribute any Content on the Service, such as Content which violates these Terms of Service. Gadael.com also reserves the right to access, read, preserve, and disclose any information as it reasonably believes is necessary to
-
-(a) satisfy any applicable law, regulation, legal process or governmental request,
-(b) enforce these Terms of Service, including investigation of potential violations hereof,
-(c) detect, prevent, or otherwise address fraud, security or technical issues,
-(d) respond to user support requests, or
-(e) protect the rights, property or safety of Gadael.com, its users and the public.
+Gadael.com takes no responsibility for any third-party Content or User Content (including, without limitation,any viruses or other disabling features), nor does Gadael.com have any obligation to monitor such third-party Content. Gadael.com reserves the right at all times to remove or refuse to distribute any Content on the Service, such as Content which violates these Terms of Service. Gadael.com also reserves the right to access, read, preserve, and disclose any information as it reasonably believes is necessary to enforce these Terms of Service, including investigation of potential violations hereof, detect, prevent, or otherwise address fraud, security or technical issues, respond to user support requests, or protect the rights, property or safety of Gadael.com, its users and the public.
 
 Gadael.com will not be responsible or liable for the exercise or non-exercise of its rights under this Agreement.
 
@@ -154,20 +148,14 @@ You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion
 
 ## YOUR REPRESENTATIONS AND WARRANTIES
 
-You represent and warrant that
-
-(a) all of the information provided by You to Gadael.com to participate in the Service is correct and current.
-(b) By accepting this agreement, You take responsibility for infringements of the agreement by the users of the application you start from this service.
-(c) You have all necessary right, power and authority to enter into these Terms of Service and to perform the acts required of You hereunder.
+You represent and warrant that all of the information provided by You to Gadael.com to participate in the Service is correct and current. By accepting this agreement, You take responsibility for infringements of the agreement by the users of the application you start from this service. You have all necessary right, power and authority to accept these Terms of Service and to perform the acts required of You hereunder.
 
 
-## NO WARRANTIES OR REPRESENTATIONS BY Gadael.com
+## NO WARRANTIES FROM Gadael.com
 
-You understand and agree that the Service is provided "as is" and Gadael.com, its affiliates, suppliers and Resellers expressly disclaim all warranties of any kind, express or implied, including without limitation any warranty of merchantability, fitness for a particular purpose, non-infringement or bailment of your data on Gadael.com's servers. Gadael.com, its affiliates, suppliers and Resellers make no warranty or representation regarding the results that may be obtained from the use of the Service, the security of the Service, or that the Service will meet any user's requirements. Use of the Service is at Your sole risk. You will be solely responsible for any damage to You resulting from the use of the Service. The entire risk arising out of use, security or performance of the Service remains with You. No oral or written information or advice given by Gadael.com or its authorized representatives shall create a warranty or in any way increase the scope of Gadael.com's obligations.
+You understand and agree that the Service is provided "as is" and Gadael.com, its affiliates, suppliers and Resellers expressly disclaim all warranties of any kind, express or implied, including without limitation any warranty of merchantability, fitness for a particular purpose, non-infringement of your data on Gadael.com's servers. Gadael.com, its affiliates, suppliers and Resellers make no warranty or representation regarding the results that may be obtained from the use of the Service, the security of the Service, or that the Service will meet any user's requirements. Use of the Service is at Your sole risk. You will be solely responsible for any damage to You resulting from the use of the Service. No oral or written information or advice given by Gadael.com or its authorized representatives shall create a warranty or in any way increase the scope of Gadael.com's obligations.
 
-## INDEMNITY
-
-You agree to indemnify, defend and hold harmless Gadael.com, its affiliates, officers, directors, employees, consultants, agents, suppliers and Resellers from any and all third party claims, liability, damages and/or costs (including, but not limited to, attorneys fees as and when incurred) arising from Your use of the Service, Your use of Your Account, Your violation of these Terms of Service or the infringement or violation by You or any other User of Your Account, of any intellectual property relating to the Service (including without limitation Your User Content) or other right of any person or entity.
+No agency, partnership, joint venture, employee-employer or franchiser-franchisee relationship between You and Gadael.com Software is intended or created by these Terms of Service.
 
 
 ## MODIFICATIONS TO SERVICE
@@ -175,14 +163,9 @@ You agree to indemnify, defend and hold harmless Gadael.com, its affiliates, off
 Gadael.com reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with or without notice at any time. You agree that Gadael.com shall not be liable to You or to any third party for any modification, suspension, termination or discontinuance of the Service.
 
 
-## NO AGENCY
-
-No agency, partnership, joint venture, employee-employer or franchiser-franchisee relationship between You and Gadael.com Software is intended or created by these Terms of Service.
-
-
 ## LIMITATION OF LIABILITY
 
-In no event will Gadael.com or its affiliates, suppliers or Resellers be liable for any special, incidental, indirect, exemplary or consequential damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss or damage) arising out of the use of or inability to use the Service, or the provision of or failure to provide technical or other support service, whether arising in tort (including negligence) contract or any other legal theory, even if Gadael.com, its affiliates, suppliers or Resellers have been advised of the possibility of such damages. In any case, Gadael.com's, its affiliates', suppliers' and Resellers' maximum cumulative liability and Your exclusive remedy for any claims arising out of or related to this Agreement will be limited to the amount actually paid by You for the Service (if any) in the previous twelve (12) months.
+In no event will Gadael.com or its affiliates, suppliers or Resellers be liable for any special, incidental, indirect, exemplary or consequential damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss or damage) arising out of the use of or inability to use the Service, or the provision of or failure to provide technical or other support service, whether arising in tort (including negligence) contract or any other legal theory, even if Gadael.com, its affiliates, suppliers or Resellers have been advised of the possibility of such damages. In any case, Gadael.com's, its affiliates', suppliers' and Resellers' maximum cumulative liability and Your exclusive remedy for any claims arising out of or related to this Agreement will be limited to the amount actually paid by You for the Service in the previous twelve months.
 
 
 ## WAIVER AND SEVERABILITY
@@ -201,7 +184,9 @@ This Agreement is governed by the laws of France and any dispute shall be finall
 
 ## ENTIRE AGREEMENT/GENERAL PROVISIONS
 
-This Agreement embodies the entire understanding and agreement between the parties respecting the subject matter of this Agreement and supersedes any and all prior understandings and agreements between the parties respecting such subject matter. Gadael.com may change the terms of this Agreement at any time by posting modified terms on its website. This Agreement has been prepared in the English Language and such version shall be controlling in all respects and any non-English version of this Agreement is solely for accommodation purposes. Any and all rights and remedies of Gadael.com upon Your breach or other default under this Agreement will be deemed cumulative and not exclusive of any other right or remedy conferred by this Agreement or by law or equity on Gadael.com, and the exercise of any one remedy will not preclude the exercise of any other. Notices to You may be made via email. The Service may also provide notices of changes to the Agreement or other matters by displaying notices or links to notices to You generally on the Service. All notices or other correspondence to Gadael.com under this Agreement must be sent to the following electronic mail address for such purpose: [support@gadael.com](mailto:support@gadael.com)
+This Agreement embodies the entire understanding and agreement between the parties respecting the subject matter of this Agreement and supersedes any and all prior understandings and agreements between the parties respecting such subject matter. Gadael.com may change the terms of this Agreement at any time by posting modified terms on its website. This Agreement has been prepared in the English Language and such version shall be controlling in all respects and any non-English version of this Agreement is solely for accommodation purposes. Any and all rights and remedies of Gadael.com upon Your breach or other default under this Agreement will be deemed cumulative and not exclusive of any other right or remedy conferred by this Agreement or by law and the exercise of any one remedy will not preclude the exercise of any other.
+
+Notices to You may be made via email. The Service may also provide notices of changes to the Agreement or other matters by displaying notices or links to notices to You generally on the Service. All notices or other correspondence to Gadael.com under this Agreement must be sent to the following electronic mail address for such purpose: [support@gadael.com](mailto:support@gadael.com)
 
 Or the following physical address:
 
