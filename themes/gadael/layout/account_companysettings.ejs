@@ -49,6 +49,36 @@
                     <%= __('company.alert2') %></label>
             </p>
 
+            <p>
+                <label>
+                    <input type="checkbox" value="1" ng-model="company.loginservices.form.enable" />
+                    <%= __('company.login_form') %></label>
+            </p>
+
+
+
+            <p>
+                <label>
+                    <input type="checkbox" value="1" ng-model="company.loginservices.google.enable" />
+                    <%= __('company.login_google') %></label>
+            </p>
+
+            <div ng-if="company.loginservices.google.enable">
+                <em><%= __('company.login_google_help') %>
+                    <a href="https://developers.google.com/identity/sign-in/web/devconsole-project" target="_blank">Google Sign-In</a>
+                </em>
+
+                <p>
+                    <label for="login_google_clientID"><%= __('company.login_google_clientID') %></label>
+                    <input type="text" id="login_google_clientID" ng-model="company.loginservices.google.clientID" />
+                </p>
+
+                <p>
+                    <label for="login_google_clientSecret"><%= __('company.login_google_clientSecret') %></label>
+                    <input type="text" id="login_google_clientSecret" ng-model="company.loginservices.google.clientSecret" />
+                </p>
+            </div>
+
             <p class="button">
                 <button type="submit" ng-click="updateCompany()"><i class="fa fa-save"></i> <%= __('company.editbutton') %></button>
             </p>
