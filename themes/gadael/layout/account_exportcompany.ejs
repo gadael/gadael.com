@@ -3,7 +3,14 @@
     <div id="account_exportcompany" class="accountform">
         <h2><%= __('export.title') %></h2>
 
+        <p class="security">
+            <i class="fa fa-warn"></i>
+            <%= __('export.security') %>
+        </p>
+
         <p><%= __('export.format') %></p>
+
+
 
         <form method="GET" action="<%= url_for_lang('download-database') %>">
 

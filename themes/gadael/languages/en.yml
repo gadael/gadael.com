@@ -159,6 +159,7 @@ doc:
 export:
     title: 'Download your application database.'
     format: 'The file is a compressed mongodb dump database.'
+    security: 'Warning, this file will contain some sensitive informations like your users passwords and your google API key, please store this file in a secure place.'
     downloadbutton: 'Download'
 creditcard:
     paymentday: 'Your payout date is the {{session.paymentDay}} of each month.'
