@@ -126,6 +126,7 @@ company:
     login_google_help: 'You can create your own google API keys with your google account from this link:'
     login_google_clientID: 'Client ID'
     login_google_clientSecret: 'Client Secret'
+    login_google_domain: 'Create account if email is from the following domain'
 reset:
     sendemail: 'Send an email to reset my password'
     email: 'Enter your account email'
