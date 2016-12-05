@@ -84,6 +84,30 @@
                 </p>
             </div>
 
+
+
+            <p>
+                <label>
+                    <input type="checkbox" value="1" ng-model="company.calendar.google.enable" />
+                    <%= __('company.calendar_google') %></label>
+            </p>
+
+            <div ng-if="company.calendar.google.enable">
+                <em><%= __('company.calendar_google_help') %>
+                    <a href="https://developers.google.com/identity/sign-in/web/devconsole-project" target="_blank">Google API usage</a>
+                </em>
+
+                <p>
+                    <label for="calendar_google_clientID"><%= __('company.calendar_google_clientID') %></label>
+                    <input type="text" id="calendar_google_clientID" ng-model="company.calendar.google.clientID" />
+                </p>
+
+                <p>
+                    <label for="calendar_google_clientSecret"><%= __('company.calendar_google_clientSecret') %></label>
+                    <input type="text" id="calendar_google_clientSecret" ng-model="company.calendar.google.clientSecret" />
+                </p>
+            </div>
+
             <p class="button">
                 <button type="submit" ng-click="updateCompany()"><i class="fa fa-save"></i> <%= __('company.editbutton') %></button>
             </p>
