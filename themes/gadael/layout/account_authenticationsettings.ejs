@@ -2,7 +2,7 @@
 
     <div id="account_companysettings" class="accountform" ng-controller="CompaniesController">
 
-        <h3><%= __('company.authenticationsettingstitle') %></h3>
+        <h3><%= __('company.authenticationsettings') %></h3>
 
         <form>
 
@@ -24,6 +24,11 @@
                 <em><%= __('company.login_google_help') %>
                     <a href="https://developers.google.com/identity/sign-in/web/devconsole-project" target="_blank">Google Sign-In</a>
                 </em>
+
+                <p>
+                    <%= __('company.login_google_authorized') %><br />
+                    <strong>https//{{company.name}}.gadael.com/rest/login/google-callback</strong>
+                </p>
 
                 <p>
                     <label for="login_google_clientID"><%= __('company.login_google_clientID') %></label>
@@ -51,8 +56,14 @@
 
             <div ng-if="company.calendar.google.enable">
                 <em><%= __('company.calendar_google_help') %>
-                    <a href="https://developers.google.com/identity/sign-in/web/devconsole-project" target="_blank">Google API usage</a>
+                    <a href="https://developers.google.com/identity/sign-in/web/devconsole-project" target="_blank">Google API usage</a>. <br />
+                    <%= __('company.calendar_google_help2') %>
                 </em>
+
+                <p>
+                    <%= __('company.calendar_google_authorized') %><br />
+                    <strong>https//{{company.name}}.gadael.com/rest/user/googlecalendar/callback</strong>
+                </p>
 
                 <p>
                     <label for="calendar_google_clientID"><%= __('company.calendar_google_clientID') %></label>
