@@ -1,5 +1,6 @@
 .messages
-    position:relative
+    position: relative
+    display: none
 
     >div
         @extend $base-style
@@ -30,6 +31,9 @@
     .message-error
         background: rgba(255, 130, 130, 0.73)
         color: #4d0000
+
+.page-loaded .messages
+    display: block
 
 
 @keyframes message-appear
