@@ -1,24 +1,22 @@
 <section id="main">
 
     <div id="account_delete" class="accountform">
-        <h2>Delete your account</h2>
+        <h2><%= __('account.delete_title') %></h2>
 
         <form method="POST" action="<%= url_for_lang('deleteaccount') %>">
 
             <p class="danger"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></p>
 
             <p>
-                Please confirm thant you really whant to delete your account data and your application database.
-                No saved data will be left on this site and recovery will not be possible.
+                <%= __('account.delete_intro') %>
             </p>
 
             <p>
-                If you used the application for a while, we suggest you can use the export functionality before deleting your account to
-                save your data for future use.
+                <%= __('account.delete_help') %>
             </p>
 
             <p class="button">
-                <button type="submit" onclick="return confirm(this.title);" title="Are you really sure?"><i class="fa fa-times"></i> Delete</button>
+                <button type="submit" onclick="return confirm(this.title);" title="Are you really sure?"><i class="fa fa-times"></i> <%= __('account.delete_button') %></button>
             </p>
         </form>
     </div>
