@@ -1,0 +1,25 @@
+<section id="main">
+
+    <div id="account_legal" class="accountform">
+        <h2><%= __('account.legal_todo_title') %></h2>
+
+        <form method="POST" action="<%= url_for_lang('acceptlegal') %>">
+
+            <p class="danger"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></p>
+
+            <p>
+                <%= __('account.legal_todo_intro') %>
+            </p>
+
+            <p>
+                <%- partial('common/legal') %>
+            </p>
+
+            <p class="button">
+                <button type="submit"><i class="fa fa-times"></i> <%= __('account.legal_accept_button') %></button>
+            </p>
+        </form>
+    </div>
+</section>
+
+<%- partial('common/private') %>
