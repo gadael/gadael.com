@@ -105,6 +105,7 @@
             vertical-align: middle
 
         .customer-button
+            display: none // hide ng variables if not loaded
             background: color-button-soft
             &:hover
                 background: color-button-soft + #111
@@ -127,6 +128,7 @@
                 background:rgba(255,255,255,.1)
 
         .logged-in
+            display: none // hide ng variables if not loaded
             padding-top: .5em
             font-size: 16px
             .fa-user
@@ -146,6 +148,10 @@
         font-size: 1.8em
         text-shadow: #fff 0 0 3px
         color: #3e3026
+        @media mq-mobile
+            font-size: 1.4em
+        @media mq-mini
+            font-size: 1.2em
 
     .product-description
         background: darken(color-background, 4%)
@@ -221,3 +227,13 @@
             span
                 @media mq-mini
                     display: none
+            i
+                @media mq-mini
+                    font-size: 1.6em
+
+
+/* Appear onc loaded */
+
+.page-loaded #homepage .catch-your-eye
+    .logged-in, .customer-button
+        display: block
