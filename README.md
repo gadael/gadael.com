@@ -10,5 +10,6 @@ website
 * [ ] unlink 3rd party accounts
 * [x] Delete account page
 * [x] Download database page
-* [ ] Terms of use when creating the account with google
-* [ ] verify terms acceptation on submit
+* [x] Terms of use when creating the account with google
+* [ ] Auto hide flash messages, or button to close
+* [ ] French version
