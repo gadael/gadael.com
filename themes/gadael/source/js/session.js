@@ -4,19 +4,44 @@ angular.module('HexoSession', [])
 /**
  * Controller for search result dropdown
  */
-.controller("PageController", ['$scope', '$http', '$location', '$timeout',
-function($scope, $http, $location, $timeout) {
+.controller("PageController", ['$scope', '$http', '$timeout',
+function($scope, $http, $timeout) {
 
     $scope.pageLoad = 'page-loading';
 
 
     $http.get('/session').then(function(response) {
         $scope.session = response.data;
+        var path = document.location.pathname.split('/');
+        var currentRootFolder = 'en';
+        if (undefined !== path[1]) {
+            currentRootFolder = path[1];
+        }
+
+        var inPrivateSpace = false;
+        if (undefined !== path[2] && 'account' === path[2]) {
+            inPrivateSpace = true;
+        }
+        var last = null;
+
+        if (path.length > 1) {
+            last = path[path.length-1];
+            if (!last && path.length > 2) {
+                last = path[path.length-2];
+            }
+        }
 
         // check connexion status on privates pages
         if ($scope.isPrivate && !$scope.session.isLoggedIn) {
-            var currentRootFolder = document.location.pathname.split('/')[1];
             document.location.href = '/'+currentRootFolder+'/private';
+        }
+
+        // check for terms and conditions acceptance in private space
+        if ($scope.session.isLoggedIn && !$scope.session.user.legal && inPrivateSpace && 'legal' !== last) {
+            $timeout(function() {
+                document.location.href = '/'+currentRootFolder+'/account/legal/';
+            }, 500);
+            return;
         }
 
         // add to the queue to enforce class modification after page rendering
