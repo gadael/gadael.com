@@ -4,8 +4,11 @@ angular.module('HexoSession', [])
 /**
  * Controller for search result dropdown
  */
-.controller("PageController", ['$scope', '$http', '$location',
-function($scope, $http, $location, $locationProvider) {
+.controller("PageController", ['$scope', '$http', '$location', '$timeout',
+function($scope, $http, $location, $timeout) {
+
+    $scope.pageLoad = 'page-loading';
+
 
     $http.get('/session').then(function(response) {
         $scope.session = response.data;
@@ -15,6 +18,11 @@ function($scope, $http, $location, $locationProvider) {
             var currentRootFolder = document.location.pathname.split('/')[1];
             document.location.href = '/'+currentRootFolder+'/private';
         }
+
+        // add to the queue to enforce class modification after page rendering
+        $timeout(function() {
+            $scope.pageLoad = 'page-loaded';
+        }, 0);
     });
 }])
 
