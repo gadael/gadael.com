@@ -168,3 +168,28 @@ account:
     delete_intro: 'Merci de confirmer que vous souhaitez réeellement supprimer les données de votre compte ainsi que la base de données de votre application. Aucune données sauvegardées serons conservées sur ce site et une restoration ne sera plus possible.'
     delete_help: 'Si vous avez utilisé l\'application pendant un long moment, nous vous suggérons d\'utiliser la fonction export avant de supprimer votre compte pour vous permettre de restaurer vos données sur un autre serveur.'
     delete_button: 'Supprimer'
+changepassword:
+    title: 'Mettre à jour votre mot de passe'
+    oldpassword: 'Votre mot de passe actuel.'
+    newpassword: 'Votre nouveau mot de passe.'
+settings:
+    title: 'Paramètres du compte'
+doc:
+    homelink: 'Documentation'
+    version: 'Version:'
+    latest: 'Dernière version'
+export:
+    title: 'Télécharger la base de données de votre application.'
+    format: 'Le fichier est une archive compressée de la base de données MongoDB.'
+    security: 'Attention, ce fichier va contenir certaines informations sensibles comme les mots de passe de vos utilisateurs et des clés API Google, veuillez prendre soin de stocker ce fichier dans un endroit sécurisé.'
+    downloadbutton: 'Télécharger'
+creditcard:
+    paymentday: 'Votre date de prélévement est le {{session.paymentDay}} de chaque mois.'
+    savebutton: 'Enregistrer'
+    freeplan: 'LEs informations de paiement ne sont pas requise pour votre type d\'abonnement.'
+    todo: 'Cette fonctionnalité n\'est pas disponible pour le moment.'
+social:
+    github: 'Github'
+    bug: 'Reporter un bug'
+    rss: 'Flux d\'actualités'
+    twitter: 'Twitter'
