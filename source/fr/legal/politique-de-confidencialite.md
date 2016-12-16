@@ -12,12 +12,10 @@ Nos règles de confidentialité expliquent :
 
 * les données que nous collectons et les raisons de cette collecte.
 * la façon dont nous utilisons ces données.
-* les fonctionnalités que nous vous proposons, y compris comment accéder à vos données et comment les mettre à jour.
+* les fonctionnalités que nous vous proposons, y compris comment supprimer vos données.
 
 
 ## Données que nous collectons
-
-Les informations que nous collectons servent à améliorer les services proposés à tous nos utilisateurs. Il peut s'agir d'informations de base, telles que la langue que vous utilisez, ou plus complexes, comme les annonces que vous trouvez les plus utiles, les personnes qui vous intéressent le plus sur le Web ou les vidéos YouTube qui sont susceptibles de vous plaire.
 
 Nous collectons des données des manières suivantes :
 
