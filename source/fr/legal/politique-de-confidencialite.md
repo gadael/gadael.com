@@ -8,7 +8,7 @@ contentId: "privacy"
 
 Nous souhaitons que vous, en tant qu'utilisateur de nos services, compreniez comment nous utilisons vos données et de quelles manières vous pouvez protéger votre vie privée.
 
-Nos Règles de confidentialité expliquent :
+Nos règles de confidentialité expliquent :
 
 * les données que nous collectons et les raisons de cette collecte.
 * la façon dont nous utilisons ces données.
@@ -44,6 +44,8 @@ Pour assurer la suppression des coordonnés bancaires, il faut soit résillier l
 __Garanties__
 
 Les informations de votre compte sur gadael.com serons utilisés uniquement dans cadre du service et ne serons jamais vendues ni fournies a des tiers, la seule exception a cette règle concerne les informations nécessaires aux paiement, dans ce cas seule la passerelle de paiement stripe.com recevra ces informations. Les donnés fournies à stripe.com sont soumises aux [règles du service](https://stripe.com/).
+
+Gadael.com ne fourni et ne fournira pas de newsletter associées aux comptes inscrits sur le site. Si une newsletter deviens nécessaire pour effecuer des annonces concernant le service, elle devra faire l'objet d'une inscription supplémentaire et volontaire de la part de l'utilisateur, inscrit ou non.
 
 
 ### Données de votre application
