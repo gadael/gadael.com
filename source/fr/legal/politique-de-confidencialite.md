@@ -6,7 +6,7 @@ contentId: "privacy"
 
 ## Règles de confidentialité
 
-Nous souhaitons que vous, en tant qu'utilisateur de nos services, compreniez comment nous utilisons vos données et de quelles manières vous pouvez protéger votre vie privée.
+Nous souhaitons que vous, en tant qu’utilisateur de nos services, compreniez comment nous utilisons vos données et de quelles manières vous pouvez protéger votre vie privée.
 
 Nos règles de confidentialité expliquent :
 
@@ -23,7 +23,7 @@ Nous collectons des données des manières suivantes :
 
 __Informations que vous nous communiquez__ : pour accéder à notre service, vous devez créer un compte. Dans ce cas, vous fournissez des informations personnelles, telles que votre nom, votre adresse e-mail, votre carte de paiement, qui sont enregistrées avec votre compte.
 
-__Informations que nous collectons lorsque vous utilisez notre service__ : Une fois votre application lancée depuis gadael.com. toutes les donnés saisies depuis votre application sont enregistrés dans une base de donnés liée à votre compte. Les donnés de vos utilisateurs sont accessibles sur nos serveurs tant que votre compte n'a pas été entièrement supprimé.
+__Informations que nous collectons lorsque vous utilisez notre service__ : Une fois votre application lancée depuis gadael.com. toutes les données saisies depuis votre application sont enregistrés dans une base de donnés liée à votre compte. Les donnés de vos utilisateurs sont accessibles sur nos serveurs tant que votre compte n'a pas été entièrement supprimé.
 
 ## Comment nous utilisons les données que nous collectons
 
@@ -31,21 +31,21 @@ __Informations que nous collectons lorsque vous utilisez notre service__ : Une f
 
 __Informations de contact__
 
-Vos informations de contact renseignées sur votre compte gadael.com sont utilisées pour vous contacter a des fins administratives seulement, les éventuelles lettres d'informations a propos du service devrons faire l'objet d'une inscription à l'initiate de l'utilisateur. Par défault aucun email commercial ne vous sera addressé.
+Vos informations de contact renseignées sur votre compte gadael.com sont utilisées pour vous contacter a des fins administratives seulement, les éventuelles lettres d'informations à propos du service devrons faire l'objet d'une inscription à l'initiative de l'utilisateur. Par défaut aucun email commercial ne vous sera adressé.
 
 __Informations bancaires__
 
-Les information bancaires utilisées pour les paiement récurent ne sont pas stocké sur nos serveurs, le fournisseur de service stripe.com assure le stockage des information à partir de la première autorisation jusqu'a la résiliation de l'abonnement.
+Les informations bancaires utilisées pour les paiements récurent ne sont pas stockés sur nos serveurs, le fournisseur de service stripe.com assure le stockage des informations à partir de la première autorisation jusqu'à la résiliation de l'abonnement.
 
-Une clé est mémorisée avec les donnés utilisateurs sur les serveurs de gadael.com pour permettre d'effectuer les prévevements mensuels selon les critères défini lors de la configuration de l'abonnement.
+Une clé est mémorisée avec les donnés utilisateurs sur les serveurs de gadael.com pour permettre d'effectuer les prélèvements mensuels selon les critères définis lors de la configuration de l'abonnement.
 
-Pour assurer la suppression des coordonnés bancaires, il faut soit résillier l'abonnement payant, soit supprimer son compte. Cela peut être fait uniquement par le compte utilisateur ayant créé l'application.
+Pour assurer la suppression des coordonnés bancaires, il faut soit résilier l'abonnement payant, soit supprimer son compte. Cela peut être fait uniquement par le compte utilisateur ayant créé l'application.
 
 __Garanties__
 
-Les informations de votre compte sur gadael.com serons utilisés uniquement dans cadre du service et ne serons jamais vendues ni fournies a des tiers, la seule exception a cette règle concerne les informations nécessaires aux paiement, dans ce cas seule la passerelle de paiement stripe.com recevra ces informations. Les donnés fournies à stripe.com sont soumises aux [règles du service](https://stripe.com/).
+Les informations de votre compte sur gadael.com serons utilisés uniquement dans cadre du service et ne serons jamais vendues ni fournies a des tiers, la seule exception a cette règle concerne les informations nécessaires aux paiements, dans ce cas seule la passerelle de paiement stripe.com recevra ces informations. Les données fournis à stripe.com sont soumises aux [règles du service](https://stripe.com/).
 
-Gadael.com ne fourni et ne fournira pas de newsletter associées aux comptes inscrits sur le site. Si une newsletter deviens nécessaire pour effecuer des annonces concernant le service, elle devra faire l'objet d'une inscription supplémentaire et volontaire de la part de l'utilisateur, inscrit ou non.
+Gadael.com n’expédiera pas de newsletter aux comptes inscrits sur le site. Si une newsletter deviens nécessaire pour effectuer des annonces concernant le service, elle devra faire l'objet d'une inscription supplémentaire et volontaire de la part de l'utilisateur, inscrit ou non.
 
 
 ### Données de votre application
@@ -53,14 +53,14 @@ Gadael.com ne fourni et ne fournira pas de newsletter associées aux comptes ins
 __Suppression des données__
 
 L'accès à l'application peut être désactivée par nos services sans que les donnés soient supprimés.
-Seule la suppression de votre compte sur gadael.com garentie la suppression des donnés de votre application sur vos serveurs.
+Seule la suppression de votre compte sur gadael.com garantie la suppression des donnés de votre application sur vos serveurs.
 
-Seul l'utilisateur qui à créé l'application et son paramétrage sur gadael.com peut accéder à la suppression du compte et donc des donnés de l'application. Si vous souhaitez supprimer les donnés de l'application mais que vous n'avez plus l'accès à ce compte, vous pouvez nous contacter sur [support@gadael.com](mailto:support@gadael.com)
+Seul l'utilisateur qui a créé l'application et son paramétrage sur gadael.com peut accéder à la suppression du compte et donc des donnés de l'application. Si vous souhaitez supprimer les donnés de l'application mais que vous n'avez plus l'accès à ce compte, vous pouvez nous contacter sur [support@gadael.com](mailto:support@gadael.com)
 
 __Extraction et sauvegardes__
 
-Le compte utilisateur ayant créé l'application dispose des droits nécessaires pour effectuer une extraction de la base de donnés depuis sont espoace personnel. Depuis cette sauvegarde, toutes les donnés de l'application peuvent être accédées.
+Le compte utilisateur ayant créé l'application dispose des droits nécessaires pour effectuer une extraction de la base de donnés depuis sont espace personnel. Depuis cette sauvegarde, toutes les données de l'application peuvent être accédées.
 
 __Garanties__
 
-Gadael.com ne consultera pas le contenu des bases de donnés créés par ces utilisateurs sauf pour résoudre d'éventuels bug et avec le conscentement de l'utilisateur ayant créé l'application. Par conséquent, toutes les informations contenues dans votre application ne serons jamais divuguées ou vendue, ni même utilisés à des fin de statistiques.
+Gadael.com ne consultera pas le contenu des bases de donnés créés par ces utilisateurs sauf pour résoudre d'éventuels bug et avec le consentement de l'utilisateur ayant créé l'application. Par conséquent, toutes les informations contenues dans votre application ne serons jamais divulguées ou vendue, ni même utilisés à des fin de statistiques.
