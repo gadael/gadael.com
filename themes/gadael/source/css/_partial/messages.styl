@@ -13,7 +13,7 @@
         padding: .5em 1em
 
         position: absolute
-        animation: message-appear .5s 1 .8s forwards
+        animation: message-appear .5s 1 0s forwards
         top: -150px
         left: (2*block-margin)
         width: 30em
@@ -21,16 +21,31 @@
         text-shadow: #fff 0 0 8px
         font-weight:bold
 
-        &:hover
-            opacity:.5
+        &:hover .right .fa
+            visibility: visible
 
     .message-info
-        background: rgba(255, 252, 184, 0.85)
+        op = 0.85
+        background-color: rgba(255, 252, 184, op)
         color: #4a3300
+        &:hover
+            background-color: alpha(@background-color, op/2)
 
     .message-error
-        background: rgba(255, 130, 130, 0.73)
+        op = 0.73
+        background-color: rgba(255, 130, 130, op)
         color: #4d0000
+        &:hover
+            background-color: alpha(@background-color, op/2)
+
+    .right .fa
+        visibility: hidden
+        font-size: .9em
+        color: rgba(0,0,0,0.3)
+        cursor: pointer
+        text-shadow: none
+        &:hover
+            color: alpha(@color, 1)
 
 .page-loaded .messages
     display: block

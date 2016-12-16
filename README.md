@@ -12,4 +12,4 @@ website
 * [x] Download database page
 * [x] Terms of use when creating the account with google
 * [ ] Auto hide flash messages, or button to close
-* [ ] French version
+* [x] French version
