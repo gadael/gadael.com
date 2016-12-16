@@ -11,5 +11,5 @@ website
 * [x] Delete account page
 * [x] Download database page
 * [x] Terms of use when creating the account with google
-* [ ] Auto hide flash messages, or button to close
+* [x] Auto hide flash messages, or button to close
 * [x] French version
