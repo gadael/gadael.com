@@ -3,13 +3,6 @@ website
 
 ## TODO
 
-* [x] Forgot password page (input email)
-* [x] Change password page (input password)
-* [x] Settings page, change email
-* [x] Change password page
 * [ ] unlink 3rd party accounts
-* [x] Delete account page
-* [x] Download database page
-* [x] Terms of use when creating the account with google
-* [x] Auto hide flash messages, or button to close
-* [x] French version
+* [ ] French version of documentation
+* [ ] Get form values back if registration failed because of password requirements
