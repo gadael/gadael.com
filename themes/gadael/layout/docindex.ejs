@@ -1,0 +1,43 @@
+<section id="main">
+
+    <article id="docindex" class="article">
+
+        <div class="article-inner">
+
+            <header class="article-header">
+                <h1 class="article-title"><%= page.title %></h1>
+            </header>
+
+            <div class="article-entry">
+
+                <% for (var i=0; i<site.pages.data.length; i++) {
+                    var link = site.pages.data[i].permalink;
+                    var docRoot = page.permalink.substr(0, page.permalink.length - "index.html".length);
+                    if (docRoot === link.substr(0, docRoot.length)) {
+                        var doc = site.pages.data[i];
+                %>
+                    <div class="docbloc">
+                        <a class="doctitle" href="<%= doc.permalink %>"><%= doc.title %></a>
+                        <p class="excerpt"><%- doc.excerpt %></p>
+                    </div>
+                <% }} %>
+            </div>
+        </div>
+    </article>
+</section>
+
+
+<aside id="sidebar" bs-affix>
+
+    <div class="version">
+        <label for="doc_version"><%= __('doc.version') %></label>
+
+        <select id="doc_version" onchange="document.location.href=this.value">
+            <% var versions = getDocPageVersions();
+            for (var i=0; i<versions.length; i++) { %>
+            <option value="<%= versions[i].url %>"><%= versions[i].label %></option>
+            <% } %>
+        </select>
+
+    </div>
+</aside>
