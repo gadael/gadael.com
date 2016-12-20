@@ -15,12 +15,15 @@
                     var docRoot = page.permalink.substr(0, page.permalink.length - "index.html".length);
                     if (docRoot === link.substr(0, docRoot.length)) {
                         var doc = site.pages.data[i];
+                        var arr = doc.source.split('/');
+                        var file = arr[arr.length-1];
+                        if (file !== 'index.md') {
                 %>
                     <div class="docbloc">
                         <a class="doctitle" href="<%= doc.permalink %>"><%= doc.title %></a>
-                        <p class="excerpt"><%- doc.excerpt %></p>
+                        <div class="excerpt"><%- doc.excerpt %></div>
                     </div>
-                <% }} %>
+                <% }}} %>
             </div>
         </div>
     </article>
