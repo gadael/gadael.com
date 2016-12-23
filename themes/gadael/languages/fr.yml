@@ -1,14 +1,14 @@
 head:
     langCode: 'fr'
 index:
-    home: 'acceuil'
-    search: 'Recherche'
+    home: 'accueil'
+    search: 'recherche'
     archive: 'archive'
     category: 'catégorie'
     uncategorized: 'sans catégorie'
     tag: 'tag'
 menu:
-    home: 'Acceuil'
+    home: 'Accueil'
     about: 'A propos'
     docs: 'Docs'
     pricing: 'Tarifs'
