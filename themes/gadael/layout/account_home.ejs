@@ -8,7 +8,7 @@
 
         <div class="header" ng-if="company">
             <div class="left">
-                <p class="url">https://{{company.name}}.gadael.com/</p>
+                <p class="url">https://{{company.dbname}}.gadael.com/</p>
                 <p class="status">
                     <span ng-if="company.disabled" class="disabled"><i class="fa fa-circle"></i> <%= __('account.disabled') %></span>
                     <span ng-if="!company.disabled && company.maintenance" class="maintenance"><i class="fa fa-circle"></i> <%= __('account.maintenance') %></span>
@@ -17,7 +17,7 @@
             </div>
 
             <div class="right">
-                <a ng-href="https://{{company.name}}.gadael.com/" target="_blank">
+                <a ng-href="https://{{company.dbname}}.gadael.com/" target="_blank">
                     <i class="fa fa-external-link-square" aria-hidden="true"></i> <%= __('company.open') %>
                 </a>
             </div>
