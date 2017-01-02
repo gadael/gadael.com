@@ -1,0 +1,16 @@
+<div class="usersession">
+    <a class="display-name" href="<%= url_for_lang('account') %>">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-user fa-stack-1x"></i>
+        </span>
+        <br />
+        {{session.user.firstname}} {{session.user.lastname}}
+    </a>
+
+    <p>You are logged in as:<br />
+        <span class="email">{{session.user.email}}</span>
+    </p>
+
+    <div class="logout"><a href="<%= url_for_lang('logout') %>"><i class="fa fa-times-circle"></i> <%= __('account.logout') %></a></div>
+</div>

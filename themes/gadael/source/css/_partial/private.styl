@@ -11,31 +11,34 @@
         .back
             @extend $back
 
-        p
-            margin: 1em
-            line-height: 1.8em
 
-        .display-name
-            display: block
-            font-weight:bold
-            text-align:center
-            color: color-default
 
-            .fa-user
-                color: white
-            .fa-circle
-                color: color-grey
-                text-shadow: color-border 0 0 5px;
+.usersession
+    p
+        margin: 1em
+        line-height: line-height
 
-        .email
+    .display-name
+        display: block
+        font-weight:bold
+        text-align:center
+        color: color-default
+
+        .fa-user
+            color: white
+        .fa-circle
             color: color-grey
+            text-shadow: color-border 0 0 5px;
 
-        .logout
-            padding: 1em 0 2em 0
-            text-align:center
+    .email
+        color: color-grey
 
-            a
-                @extend $base-button
-                background: color-button-soft
-                &:hover
-                    background: color-button-onfire
+    .logout
+        padding: 1em 0 0 0
+        text-align:center
+
+        a
+            @extend $base-button
+            background: color-button-soft
+            &:hover
+                background: color-button-onfire

@@ -2,11 +2,11 @@
     @extend $block
     background: white
     position: relative
-    a, a:visited
+    .main-nav-link, .main-nav-link:visited
         white-space: nowrap
         transition: 0.2s ease
         color: color-default
-    a:hover
+    .main-nav-link:hover
         color: color-link
 
 $header-block
@@ -102,8 +102,6 @@ $nav-link
     font-weight: 300
 
 #sub-nav
-    @media mq-normal
-        display: none
     @extend $header-block
     @extend $header-block-right
     #profile-nav
@@ -112,14 +110,26 @@ $nav-link
             display: block
             height: logo-height
             line-height: logo-height
-        .avatar, .fa
-            float: left
-        .avatar
-            width: logo-height
-            height: logo-height
-            margin-right: 8px
-        .fa
-            line-height: logo-height
+            .fa
+                line-height: logo-height
+            .fa-square
+                color: color-link
+            .fa-user
+                color: white
+
+        .menu-sessionpanel
+            display: none
+            z-index: 2
+            position:relative
+            top:0px
+            @extend $block-shadow
+            padding:.5em
+            width: 15em
+            margin-left: -10em
+            margin-right: -5em
+
+        &:hover .menu-sessionpanel
+            display: block
 
 
 #main-nav-mobile
