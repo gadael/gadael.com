@@ -11,9 +11,34 @@
         .back
             @extend $back
 
+    ul
+        line-height: line-height
+        margin: 2em 0 2em 0
+
+        li
+            display: inline
+            a
+                display:block
+                padding: .2em .2em .2em 1.5em
+                color: color-grey
+                &:hover
+                    background: color-link
+                    color: white
+
 
 
 .usersession
+    ul
+        margin-left:1em
+        line-height: line-height
+        li
+            padding: 2px
+            a:hover
+                color: color-button-onfire
+
+    .loginid
+        text-align:center
+        font-size:85%
     p
         margin: 1em
         line-height: line-height

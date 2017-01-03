@@ -9,7 +9,24 @@
 
         <br />
 
-        <%- partial('common/usersession') %>
+        <ul>
+            <li>
+                <a href="<%= url_for_lang('account/settings') %>">
+                    <i class="fa fa-user"></i> <%= __('account.settings') %>
+                </a>
+            </li>
+            <li>
+                <a href="<%= url_for_lang('account/changepassword') %>">
+                    <i class="fa fa-key"></i> <%= __('account.changepassword') %>
+                </a>
+            </li>
+            <li>
+                <a href="<%= url_for_lang('account/delete') %>">
+                    <i class="fa fa-trash"></i> <%= __('account.delete') %>
+                </a>
+            </li>
+        </ul>
+
         <%- partial('common/social') %>
     </div>
 </aside>

@@ -3,7 +3,20 @@
         {{session.user.firstname}} {{session.user.lastname}}
     </a>
 
-    <p>You are logged in as:<br />
+    <ul>
+        <li>
+            <a href="<%= url_for_lang('private') %>">
+                <i class="fa fa-gear"></i> <%= __('account.privatespace') %>
+            </a>
+        </li>
+        <li>
+            <a href="<%= url_for_lang('account/settings') %>">
+                <i class="fa fa-user"></i> <%= __('account.settings') %>
+            </a>
+        </li>
+    </ul>
+
+    <p class="loginid"><%= __('account.loginid') %><br />
         <span class="email">{{session.user.email}}</span>
     </p>
 

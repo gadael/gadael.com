@@ -148,7 +148,7 @@ account:
     companysettings: 'Paramètres de l''application'
     authenticationsettings: 'Paramètres de l''authentification'
     creditcard: 'Paramètres de carte bancaire'
-    exportcompany: 'Exporter la base de données de l''application'
+    exportcompany: 'Exporter la base de données'
     settings: 'Paramètres du compte'
     delete: 'Supprimer le compte'
     plan: 'Abonnement en cours'
@@ -168,6 +168,7 @@ account:
     delete_intro: 'Merci de confirmer que vous souhaitez réeellement supprimer les données de votre compte ainsi que la base de données de votre application. Aucune données sauvegardées serons conservées sur ce site et une restoration ne sera plus possible.'
     delete_help: 'Si vous avez utilisé l''application pendant un long moment, nous vous suggérons d''utiliser la fonction export avant de supprimer votre compte pour vous permettre de restaurer vos données sur un autre serveur.'
     delete_button: 'Supprimer'
+    loginid: 'Vous êtes connecté en tant que:'
 changepassword:
     title: 'Mettre à jour votre mot de passe'
     oldpassword: 'Votre mot de passe actuel.'

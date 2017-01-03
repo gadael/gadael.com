@@ -168,6 +168,7 @@ account:
     delete_intro: 'Please confirm thant you really want to delete your account data and your application database. No saved data will be left on this site and recovery will not be possible.'
     delete_help: 'If you used the application for a while, we suggest you can use the export functionality before deleting your account to save your data for future use.'
     delete_button: 'Delete'
+    loginid: 'You are logged in as:'
 changepassword:
     title: 'Update your password'
     oldpassword: 'Type in the current password.'
