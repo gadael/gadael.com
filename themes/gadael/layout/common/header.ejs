@@ -12,9 +12,9 @@
             </nav>
 
             <%- partial('search/index') %>
-            <nav id="sub-nav">
+            <nav id="sub-nav" class="logged-in">
                 <div class="profile" id="profile-nav" ng-if="session.isLoggedIn">
-                    <a id="profile-anchor" class="fa-stack fa-lg" title="<%= __('menu.account') %>" href="<%= url_for_lang('private') %>">
+                    <a id="profile-anchor" class="fa-stack fa-lg" title="<%= __('account.privatespace') %>" href="<%= url_for_lang('private') %>">
                         <i class="fa fa-square fa-stack-2x"></i>
                         <i class="fa fa-user fa-stack-1x"></i>
                     </a>
@@ -30,7 +30,7 @@
         <table class="menu outer">
             <tr>
                 <% for (var i in theme.menu) { %>
-                    <td><a class="main-nav-link" href="<%= url_for_lang(theme.menu[i]) %>"><%= i %></a></td>
+                    <td><a class="main-nav-link" href="<%= url_for_lang(theme.menu[i]) %>"><%= __('menu.'+i) %></a></td>
                 <% } %>
             </tr>
         </table>
