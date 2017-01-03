@@ -104,18 +104,15 @@ $nav-link
 .sub-nav
     @extend $header-block
     @extend $header-block-right
+    .logged-in
+        display:none
+        
     #profile-nav
-        #profile-anchor
+        .profile-anchor
             clearfix()
             display: block
             height: logo-height
             line-height: logo-height
-            .fa
-                line-height: logo-height
-            .fa-square
-                color: color-link
-            .fa-user
-                color: white
 
         .menu-sessionpanel
             display: none
@@ -143,6 +140,22 @@ $nav-link
 
         &:hover .menu-sessionpanel
             display: block
+
+    .profile-anchor
+        .fa
+            line-height: logo-height
+        .fa-square
+            color: color-link
+        .fa-user
+            color: white
+        .fa-key
+            color: color-grey
+            &:hover
+                color: color-link
+
+.page-loaded .sub-nav
+    .logged-in
+        display: block
 
 
 #main-nav-mobile
