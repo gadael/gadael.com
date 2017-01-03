@@ -185,6 +185,7 @@ export:
     security: 'Warning, this file will contain some sensitive informations like your users passwords and your google API key, please store this file in a secure place.'
     downloadbutton: 'Download'
 creditcard:
+    title: 'Credit card settings'
     paymentday: 'Your payout date is the {{session.paymentDay}} of each month.'
     savebutton: 'Save'
     freeplan: 'Payment informations are not required for your plan.'

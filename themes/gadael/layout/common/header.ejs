@@ -12,8 +12,8 @@
             </nav>
 
             <%- partial('search/index') %>
-            <nav id="sub-nav" class="logged-in">
-                <div class="profile" id="profile-nav" ng-if="session.isLoggedIn">
+            <div class="sub-nav" class="logged-in" ng-if="session.isLoggedIn">
+                <div class="profile" id="profile-nav">
                     <a id="profile-anchor" class="fa-stack fa-lg" title="<%= __('account.privatespace') %>" href="<%= url_for_lang('private') %>">
                         <i class="fa fa-square fa-stack-2x"></i>
                         <i class="fa fa-user fa-stack-1x"></i>
@@ -23,7 +23,12 @@
                         <%- partial('common/usersession') %>
                     </div>
                 </div>
-            </nav>
+            </div>
+            <div class="sub-nav" ng-if="!session.isLoggedIn">
+                <a id="profile-anchor" class="fa-lg" title="<%= __('account.privatespace') %>" href="<%= url_for_lang('private') %>">
+                    <i class="fa fa-key"></i>
+                </a>
+            </div>
         </div>
     </div>
     <div id="main-nav-mobile" class="header-sub header-inner">

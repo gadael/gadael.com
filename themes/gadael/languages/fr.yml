@@ -185,9 +185,10 @@ export:
     security: 'Attention, ce fichier va contenir certaines informations sensibles comme les mots de passe de vos utilisateurs et des clés API Google, veuillez prendre soin de stocker ce fichier dans un endroit sécurisé.'
     downloadbutton: 'Télécharger'
 creditcard:
+    title: 'Carte bancaire'
     paymentday: 'Votre date de prélévement est le {{session.paymentDay}} de chaque mois.'
     savebutton: 'Enregistrer'
-    freeplan: 'LEs informations de paiement ne sont pas requise pour votre type d''abonnement.'
+    freeplan: 'Les informations de paiement ne sont pas requise pour votre type d''abonnement.'
     todo: 'Cette fonctionnalité n''est pas disponible pour le moment.'
 social:
     github: 'Github'
