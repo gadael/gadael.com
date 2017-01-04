@@ -5,12 +5,19 @@
     background: white
 
     .top-info
+        background: grey url(images/home-fruit.jpg) no-repeat 50% 0
+
+    .top-effect
+        animation-name: top-effect;
+        animation-duration: 10s;
+
+    .top-info, .top-effect
         height: 280px
         @media mq-mobile
             height: 180px
         @media mq-mini
             display: none
-        background: grey url(images/home-fruit.jpg) no-repeat 0 0
+
         .content
             padding: 2.5em 0 0 3em
             color: white
@@ -55,7 +62,7 @@
             font-weight: bold
             border-color: color-fashy-background
             p
-                padding: 40px 40px 30px 40px
+                padding: 25px 30px 20px 30px
                 font-size: 20px
                 i
                     font-size: 150%
@@ -237,3 +244,10 @@
 .page-loaded #homepage .catch-your-eye
     .logged-in, .customer-button
         display: block
+
+
+@keyframes top-effect
+    0%
+        background: rgba(color-dark-background, 0.8)
+    100%
+        background: transparent

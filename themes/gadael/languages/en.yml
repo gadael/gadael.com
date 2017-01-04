@@ -41,7 +41,7 @@ home:
     login: 'Login'
     github: 'Github project'
     issues: 'Report Gadael issue'
-    description: 'Gadael dematerialize absence management and working time recovery in a simple way.'
+    description: 'Gadael dematerialize leave management and working time recovery in a simple way.'
     advantages: 'Better monitoring and more autonomy for your team'
     screenshots:
         accounthome: 'Account home screenshot'
@@ -49,6 +49,7 @@ home:
         viewleave: 'View annual leave right screenshot'
         export: 'Exports menu screenshot'
         waitingrequests: 'Waiting request view from the manager screenshot'
+        calendar: 'The user calendar'
     icons:
         globe:
             title: 'International leave management'
