@@ -9,7 +9,7 @@
                 <button type="submit"><i class="fa fa-magic"></i> <%= __('account.registerbutton') %></button>
             </form>
 
-            <p class="login"><a href="<%= url_for_lang('private') %>">Or login into your account</a></p>
+            <p class="login"><a href="<%= url_for_lang('private') %>"><%= __('account.loginlink') %></a></p>
         </div>
 
         <div class="context" ng-if="session.isLoggedIn">

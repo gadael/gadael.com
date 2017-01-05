@@ -150,11 +150,13 @@
                 text-align:center
 
 
+    .product-description, .product-advantages, .beta
+        text-shadow: #fff 0 0 3px
+        color: #3e3026
+
     .product-description, .product-advantages
         padding: 2em
         font-size: 1.8em
-        text-shadow: #fff 0 0 3px
-        color: #3e3026
         @media mq-mobile
             font-size: 1.4em
         @media mq-mini
@@ -169,6 +171,16 @@
     .product-advantages
         background: darken(color-background, 4%)
         text-align:right
+
+    .beta
+        background: color-fashy-background
+        text-align:center
+        font-size: 1.1em
+        padding: 1em
+        @media mq-mobile
+            font-size: 0.9em
+        @media mq-mini
+            font-size: 0.8em
 
     .main-carousel
         background: color-light-bg

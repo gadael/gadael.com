@@ -1,88 +1,88 @@
 <section id="main">
     <div id="pricing">
         <div class="princing-inner">
-            <h2>Pricing for application as service</h2>
+            <h2><%= __('pricingpage.title') %></h2>
 
             <table>
                 <thead>
                     <tr>
                         <td></td>
-                        <th class="free">Free plan</th>
-                        <th class="paid">Paid plan</th>
+                        <th class="free"><%= __('pricingpage.head.free') %></th>
+                        <th class="paid"><%= __('pricingpage.head.paid') %></th>
                     </tr>
                 </thead>
                 <tfoot>
                     <tr>
                         <td></td>
                         <td class="free">
-                            <p>Always free</p>
-                            <a ng-if="!session.isLoggedIn" href="<%= url_for_lang('signup') %>">Start now</a>
-                            <a ng-if="session.isLoggedIn && !session.user.dbname" href="<%= url_for_lang('account/create-company') %>">Start now</a>
-                            <em ng-if="session.isLoggedIn && session.user.plan=='free'">This is your current plan</em>
+                            <p><%= __('pricingpage.foot.free.title') %></p>
+                            <a ng-if="!session.isLoggedIn" href="<%= url_for_lang('signup') %>"><%= __('pricingpage.foot.free.start') %></a>
+                            <a ng-if="session.isLoggedIn && !session.user.dbname" href="<%= url_for_lang('account/create-company') %>"><%= __('pricingpage.foot.free.start') %></a>
+                            <em ng-if="session.isLoggedIn && session.user.plan=='free'"><%= __('pricingpage.foot.free.current') %></em>
                         </td>
                         <td class="paid">
-                            <p>5€/Month for 5 more users</p>
-                            <a ng-if="!session.isLoggedIn" href="<%= url_for_lang('signup') %>">Subscribe</a>
-                            <a ng-if="session.isLoggedIn && !session.user.dbname" href="<%= url_for_lang('account/create-company') %>">Subscribe</a>
-                            <a ng-if="session.isLoggedIn && session.user.dbname && session.user.plan=='free'" href="<%= url_for_lang('account/plan') %>">Subscribe</a>
-                            <em ng-if="session.isLoggedIn && session.user.dbname && session.user.plan=='paid'">This is your current plan</em>
+                            <p><%= __('pricingpage.foot.paid.title') %></p>
+                            <a ng-if="!session.isLoggedIn" href="<%= url_for_lang('signup') %>"><%= __('pricingpage.foot.paid.signup') %></a>
+                            <a ng-if="session.isLoggedIn && !session.user.dbname" href="<%= url_for_lang('account/create-company') %>"><%= __('pricingpage.foot.paid.signup') %></a>
+                            <a ng-if="session.isLoggedIn && session.user.dbname && session.user.plan=='free'" href="<%= url_for_lang('account/plan') %>"><%= __('pricingpage.foot.paid.signup') %></a>
+                            <em ng-if="session.isLoggedIn && session.user.dbname && session.user.plan=='paid'"><%= __('pricingpage.foot.paid.current') %></em>
                         </td>
                     </tr>
                 </tfoot>
 
                 <tbody>
                     <tr>
-                        <th>Leave requests</th>
-                        <td class="free">Available</td>
-                        <td class="paid">Available</td>
+                        <th><%= __('pricingpage.body.requests') %></th>
+                        <td class="free"><%= __('pricingpage.body.available') %></td>
+                        <td class="paid"><%= __('pricingpage.body.available') %></td>
                     </tr>
                     <tr>
-                        <th>Time saving deposits accounts</th>
-                        <td class="free">Available</td>
-                        <td class="paid">Available</td>
+                        <th><%= __('pricingpage.body.timesaving') %></th>
+                        <td class="free"><%= __('pricingpage.body.available') %></td>
+                        <td class="paid"><%= __('pricingpage.body.available') %></td>
                     </tr>
                     <tr>
-                        <th>Workperiod recovery</th>
-                        <td class="free">Available</td>
-                        <td class="paid">Available</td>
+                        <th><%= __('pricingpage.body.recovery') %></th>
+                        <td class="free"><%= __('pricingpage.body.available') %></td>
+                        <td class="paid"><%= __('pricingpage.body.available') %></td>
                     </tr>
                     <tr>
-                        <th>Links with google accounts</th>
-                        <td class="free">Available</td>
-                        <td class="paid">Available</td>
+                        <th><%= __('pricingpage.body.google') %></th>
+                        <td class="free"><%= __('pricingpage.body.available') %></td>
+                        <td class="paid"><%= __('pricingpage.body.available') %></td>
                     </tr>
                     <tr>
-                        <th>Export to excel spreadsheets</th>
-                        <td class="free">Available</td>
-                        <td class="paid">Available</td>
+                        <th><%= __('pricingpage.body.export') %></th>
+                        <td class="free"><%= __('pricingpage.body.available') %></td>
+                        <td class="paid"><%= __('pricingpage.body.available') %></td>
                     </tr>
                     <tr>
-                        <th>Maximum number of active users</th>
+                        <th><%= __('pricingpage.body.users') %></th>
                         <td class="free">5</td>
                         <td class="paid">1000<br />
-                            <div class="small">For more, please contact us for a custom quotation</div>
+                            <div class="small"><%= __('pricingpage.body.more') %></div>
                         </td>
                     </tr>
                     <tr>
-                        <th>Inactivity timout</th>
-                        <td class="free">60 days</td>
-                        <td class="paid">Unlimited</td>
+                        <th><%= __('pricingpage.body.inactivity') %></th>
+                        <td class="free">60 <%= __('pricingpage.body.days') %></td>
+                        <td class="paid"><%= __('pricingpage.body.unlimited') %></td>
                     </tr>
                     <tr>
-                        <th>Technical support</th>
-                        <td class="free">By github issues</td>
-                        <td class="paid">Guaranteed 24H response delay</td>
+                        <th><%= __('pricingpage.body.support') %></th>
+                        <td class="free"><%= __('pricingpage.body.github') %></td>
+                        <td class="paid"><%= __('pricingpage.body.response') %></td>
                     </tr>
                 </tbody>
             </table>
 
 
-            <h2>Custom enquiries</h2>
+            <h2><%= __('pricingpage.enquiries') %></h2>
 
             <div class="content">
-
-                <p>For custom enquiries like more users, dedicated server or additional functionalities, please contact us at
-                    <a href="mailto:support@gadael.com">support@gadael.com</a> for a custom quotation.</p>
+                <p><%= __('pricingpage.enquiriesdetails1') %>
+                <a href="mailto:support@gadael.com">support@gadael.com</a> <%= __('pricingpage.enquiriesdetails2') %>
+                </p>
             </div>
         </div>
     </div>

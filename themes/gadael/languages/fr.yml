@@ -42,6 +42,7 @@ home:
     github: 'projet sur Github'
     issues: 'Signaler un bug'
     description: 'Gadael vous offre un moyen simple de dématérialiser la gestion des congés et la récupération du temps de travail.'
+    beta: 'Ce service viens juste de démarrer, les abonnement payant ne peuvent pas être souscrits mais la version gratuite est diponible pour tous!'
     advantages: "Un meilleur suivi, et plus d'autonomies pour vos équipes"
     screenshots:
         accounthome: 'Page d''accueil du compte'
@@ -170,6 +171,7 @@ account:
     delete_help: 'Si vous avez utilisé l''application pendant un long moment, nous vous suggérons d''utiliser la fonction export avant de supprimer votre compte pour vous permettre de restaurer vos données sur un autre serveur.'
     delete_button: 'Supprimer'
     loginid: 'Vous êtes connecté en tant que:'
+    loginlink: 'Ou se connecter à votre compte'
 changepassword:
     title: 'Mettre à jour votre mot de passe'
     oldpassword: 'Votre mot de passe actuel.'
@@ -196,3 +198,35 @@ social:
     bug: 'Reporter un bug'
     rss: 'Flux d''actualités'
     twitter: 'Twitter'
+pricingpage:
+    title: 'Tarif pour l''application en tant que service'
+    head:
+        free: 'Usage gratuit'
+        paid: 'Abonnement payent'
+    foot:
+        free:
+            title: 'Toujours gratuit'
+            start: 'Démarrer maintenant'
+            current: 'C''est votre abonnement actuel'
+        paid:
+            title: '5€/Mois pour 5 utilisateurs de plus'
+            signup: 'S''abonner'
+            current: 'C''est votre abonnement actuel'
+    body:
+        available: 'Disponible'
+        requests: 'Demandes de congés'
+        timesaving: 'Comptes épargne temps'
+        recovery: 'Récupération des jours travaillés'
+        google: 'Lien avec votre compte Google'
+        export: 'Export vers les tableaux excel'
+        users: 'Nombre maximal d''utilisateurs'
+        more: 'Pour plus, vous pouvez nous contacter pour un devis personnalisé'
+        inactivity: 'Délai d''inactivité'
+        days: 'jours'
+        unlimited: 'Illimité'
+        support: 'Support technique'
+        github: 'Par tickets github'
+        response: 'Réponse garantie en 24H'
+    enquiries: 'Offres personnalisées'
+    enquiriesdetails1: 'Pour des offres personnalisées comme plus d''utilisateurs, un serveur dédié or des fonctionnalités supplémentaires, veuillez nous contacter à l''adresse'
+    enquiriesdetails2: 'pour un devis personnalisé.'
