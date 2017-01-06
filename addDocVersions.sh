@@ -12,11 +12,13 @@ createTagForLang()
     target="../source/${2}/docs/version-${1}"
     if [ -d "${target}" ]
     then
+        echo "Delete ${target}"
         rm -Rf "${target}"
     fi
 
     if [ -d "${source}" ]
     then
+        echo "Insert ${target}"
         mkdir "${target}"
         cp -Lr "${source}"/* "${target}"
     fi

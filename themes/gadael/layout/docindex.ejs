@@ -10,20 +10,16 @@
 
             <div class="article-entry">
 
-                <% for (var i=0; i<site.pages.data.length; i++) {
-                    var link = site.pages.data[i].permalink;
-                    var docRoot = page.permalink.substr(0, page.permalink.length - "index.html".length);
-                    if (docRoot === link.substr(0, docRoot.length)) {
-                        var doc = site.pages.data[i];
-                        var arr = doc.source.split('/');
-                        var file = arr[arr.length-1];
-                        if (file !== 'index.md') {
+                <%
+                var subpages = getSubPages(page);
+                for (var i=0; i<subpages.length; i++) {
+                    var doc = subpages[i];
                 %>
                     <div class="docbloc">
                         <a class="doctitle" href="<%= doc.permalink %>"><%= doc.title %></a>
                         <div class="excerpt"><%- doc.excerpt %></div>
                     </div>
-                <% }}} %>
+                <% } %>
             </div>
         </div>
     </article>

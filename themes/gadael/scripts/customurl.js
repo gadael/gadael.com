@@ -64,3 +64,35 @@ hexo.extend.helper.register('getDocPageVersions', function() {
 
     return versions;
 });
+
+
+
+
+/**
+* getSubPages Helper
+* @description On the index, get sub-pages sorted by permalink
+* @example
+*     <% var arr = getSubPages(page) %>
+*/
+hexo.extend.helper.register('getSubPages', function(page) {
+
+    var pages = this.site.pages;
+    var subpages = [];
+
+    for (var i=0; i<pages.data.length; i++) {
+        var link = pages.data[i].permalink;
+        var docRoot = page.permalink.substr(0, page.permalink.length - "index.html".length);
+        if (docRoot === link.substr(0, docRoot.length)) {
+            var doc = pages.data[i];
+            var arr = doc.source.split('/');
+            var file = arr[arr.length-1];
+            if (file !== 'index.md' && file !== 'index.html') {
+                subpages.push(doc);
+            }
+        }
+    }
+
+    return subpages.sort(function(page1, page2) {
+        return page1.permalink.localeCompare(page2.permalink);
+    });
+});
