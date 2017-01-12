@@ -30,7 +30,7 @@ customize:
     social_links:
         github: http://github.com/gadael/gadael
         bug: http://github.com/gadael/gadael/issues
-        twitter: https://twitter.com/polo2ro
+        twitter: https://twitter.com/G4dael
         rss: /atom.xml
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
