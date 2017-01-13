@@ -4,8 +4,8 @@ angular.module('HexoSession', [])
 /**
  * Controller for search result dropdown
  */
-.controller("PageController", ['$scope', '$http', '$timeout',
-function($scope, $http, $timeout) {
+.controller("PageController", ['$scope', '$http', '$timeout', 'localStorageService',
+function($scope, $http, $timeout, localStorageService) {
 
     $scope.pageLoad = 'page-loading';
 
@@ -49,6 +49,16 @@ function($scope, $http, $timeout) {
             $scope.pageLoad = 'page-loaded';
         }, 0);
     });
+
+    try {
+        $scope.signup = JSON.parse(localStorageService.get('signup'));
+    } catch (e) {
+        // ignore decode error
+    }
+
+    $scope.$watch('signup', function(value) {
+        localStorageService.set('signup', JSON.stringify(value));
+    }, true);
 }])
 
 

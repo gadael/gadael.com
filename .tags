@@ -6,11 +6,12 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 angular	bower.json	/^    "angular": "~1.5.9",$/;"	f
 angular-cookies	bower.json	/^    "angular-cookies": "~1.5.9",$/;"	f
+angular-local-storage	bower.json	/^    "angular-local-storage": "~0.5.2"$/;"	f
 angular-strap	bower.json	/^    "angular-strap": "~2.3.9",$/;"	f
 createTagForLang	addDocVersions.sh	/^createTagForLang()$/;"	f
 dependencies	bower.json	/^  "dependencies": {$/;"	f
 dependencies	package.json	/^  "dependencies": {$/;"	f
-flickity	bower.json	/^    "flickity": "~2.0.5"$/;"	f
+flickity	bower.json	/^    "flickity": "~2.0.5",$/;"	f
 font-awesome	bower.json	/^    "font-awesome": "~4.6.3",$/;"	f
 getParameterByName	themes/gadael/source/js/main.js	/^function getParameterByName(name, url) {$/;"	f
 hexo	package.json	/^    "hexo": "^3.2.0",$/;"	f
