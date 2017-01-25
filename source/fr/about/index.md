@@ -6,7 +6,7 @@ layout: "page"
 
 ## L'application open source Gadael
 
-Gadael est un logciel de gestion du temps de travail créé par ou être utilisé par des petites ou grandes entreprises. Il peut être utilisé pour gérer effeicacement les demandes de congés avec un circuit d'approbation.
+Gadael est un logciel de gestion du temps de travail créé par ou être utilisé par des petites ou grandes entreprises. Il peut être utilisé pour gérer efficacement les demandes de congés avec un circuit d'approbation.
 
 Différentes méthodes d'intégration sont proposées pour intégré correctement le logiciel dans la logique actuellement en place dans votre entreprise.
 
