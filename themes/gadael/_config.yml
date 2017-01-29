@@ -1,6 +1,5 @@
 # Menus
 menu:
-    home: .
     about: about
     docs: docs/version-master
     pricing: pricing
@@ -31,6 +30,7 @@ customize:
         github: http://github.com/gadael/gadael
         bug: http://github.com/gadael/gadael/issues
         twitter: https://twitter.com/G4dael
+        facebook: https://www.facebook.com/Gadael-102438326940648
         rss: /atom.xml
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
@@ -62,7 +62,8 @@ miscellaneous:
     open_graph: # see http://ogp.me
         fb_app_id:
         fb_admins:
-        twitter_id:
+        twitter_id: G4dael
         google_plus:
+        image: images/logo192.png
     links:
         Hexo: http://hexo.io

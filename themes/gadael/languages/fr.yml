@@ -1,5 +1,6 @@
 head:
     langCode: 'fr'
+    title: 'Gestion des congés - Gadael'
 index:
     home: 'accueil'
     search: 'recherche'
@@ -198,6 +199,7 @@ social:
     bug: 'Reporter un bug'
     rss: 'Flux d''actualités'
     twitter: 'Twitter'
+    facebook: 'Facebook'
 pricingpage:
     title: 'Tarif pour l''application en tant que service'
     head:

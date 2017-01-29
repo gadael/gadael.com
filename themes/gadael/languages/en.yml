@@ -1,5 +1,6 @@
 head:
     langCode: 'en'
+    title: 'Leave Management - Gadael'
 index:
     home: 'home'
     search: 'Search'
@@ -198,6 +199,7 @@ social:
     bug: 'Report a bug'
     rss: 'News feed'
     twitter: 'Twitter'
+    facebook: 'Facebook'
 pricingpage:
     title: 'Pricing for application as service'
     head:
