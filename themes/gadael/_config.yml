@@ -60,7 +60,7 @@ plugins:
 # Miscellaneous
 miscellaneous:
     open_graph: # see http://ogp.me
-        fb_app_id:
+        fb_app_id: g4dael
         fb_admins:
         twitter_id: G4dael
         google_plus:
