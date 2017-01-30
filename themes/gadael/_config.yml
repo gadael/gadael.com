@@ -64,6 +64,6 @@ miscellaneous:
         fb_admins:
         twitter_id: G4dael
         google_plus:
-        image: images/logo192.png
+        image: /css/images/logo192.png
     links:
         Hexo: http://hexo.io
