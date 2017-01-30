@@ -38,7 +38,7 @@ create:
     dbname: 'Nom'
     button: 'Démarrez'
 home:
-    subtitle: 'La gestion du temps de travail en entreprise'
+    subtitle: 'La gestion des congés et du temps de travail'
     login: 'Connexion'
     github: 'projet sur Github'
     issues: 'Signaler un bug'
@@ -64,7 +64,7 @@ home:
             html: 'Gadael utilise les API google pour renseigner automatiquement les périodes d''absences sur l''agenda'
         tasks:
             title: 'Planification avancée'
-            html: 'Les changements de régime de congés et de rythme de travail peuvent être planifiés à l''avance'
+            html: 'Les changements de régime de congés et de rythme de travail peuvent être <a href="/fr/docs/version-master/010-planification-des-parametres.html">planifiés à l''avance</a>'
         github:
             title: 'Open Source'
             html: 'Licence <a href="https://opensource.org/licenses/mit-license.php">MIT</a>, développement ouvert sur <a href="https://github.com/gadael">github</a>. Le code disponible est le même que celui utilisé en <abbr title="Software as a service">SaaS</abbr> sur gadael.com'

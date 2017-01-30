@@ -38,7 +38,7 @@ create:
     dbname: 'Name'
     button: 'Start your own'
 home:
-    subtitle: 'Time management for your company'
+    subtitle: 'Leave management and workschedules'
     login: 'Login'
     github: 'Github project'
     issues: 'Report Gadael issue'
@@ -64,7 +64,7 @@ home:
             html: 'Gadael uses google APIs to automatically add absence periods on the calendar'
         tasks:
             title: 'Advanced Planning'
-            html: 'Changes in leave collection and workschedules can be planned in advance'
+            html: 'Changes in leave collection and workschedules can be <a href="/en/docs/version-master/010-planning-parameters.html">planned in advance</a>'
         github:
             title: 'Open source'
             html: '<a href="https://opensource.org/licenses/mit-license.php">MIT</a> licence, open code base on <a href="https://github.com/gadael">github</a>. The available source code is the same as the one used as <abbr title="Software as a service">SaaS</abbr> on gadael.com'
