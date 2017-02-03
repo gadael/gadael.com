@@ -57,13 +57,15 @@ plugins:
     google_analytics: # enter the tracking ID for your Google Analytics
     google_site_verification: # enter Google site verification code
 
+
 # Miscellaneous
 miscellaneous:
     open_graph: # see http://ogp.me
         fb_app_id: g4dael
         fb_admins:
-        twitter_id: G4dael
+        twitter_site: "@G4dael"
+        twitter_id: "@polo2ro"
         google_plus:
-        image: /css/images/logo192.png
+        image: https://www.gadael.com/css/images/logo192.png
     links:
         Hexo: http://hexo.io
