@@ -208,7 +208,7 @@ pricingpage:
     foot:
         free:
             title: 'Toujours gratuit'
-            start: 'Démarrer maintenant'
+            start: 'Démarrer'
             current: 'C''est votre abonnement actuel'
         paid:
             title: '5€/Mois pour 5 utilisateurs de plus'
