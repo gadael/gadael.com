@@ -9,4 +9,7 @@
         <meta name="google-site-verification" content="<%= theme.plugins.google_site_verification %>" />
     <% } %>
 
+    <% if (-1 !== page.path.indexOf('signup')) { %>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <% } %>
 <% } %>

@@ -11,6 +11,5 @@ the gadael-documentation repository and build the site using hexo.
 
 * [ ] Captcha
 * [ ] unlink 3rd party accounts
-* [ ] French version of documentation
-* [ ] Get form values back if registration failed because of password requirements
-* [ ] Better error message if email allready exists when register
+* [x] Get form values back if registration failed because of password requirements
+* [x] Better error message if email allready exists when register
