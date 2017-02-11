@@ -202,9 +202,10 @@ social:
     facebook: 'Facebook'
 pricingpage:
     title: 'Tarif pour l''application en tant que service'
+    intro: 'Gratuit pour les petites équipes, payant lorsque votre équipe s''agrandie'
     head:
-        free: 'Usage gratuit'
-        paid: 'Abonnement payent'
+        free: 'Pour une petite équipe'
+        paid: 'Votre équipe s''agrandie'
     foot:
         free:
             title: 'Toujours gratuit'

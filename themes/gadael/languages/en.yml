@@ -202,9 +202,10 @@ social:
     facebook: 'Facebook'
 pricingpage:
     title: 'Pricing for application as service'
+    intro: 'Free for small teams. Priced to scale.'
     head:
-        free: 'Free plan'
-        paid: 'Paid plan'
+        free: 'Small teams'
+        paid: 'Growing teams'
     foot:
         free:
             title: 'Always free'
