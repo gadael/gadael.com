@@ -50,25 +50,24 @@
             left: 150px
             top: 50px
             width: 180px
-            height: @width
             margin: 1em 4em
-            border-radius: 50%
-            border: 6px solid #fff
-            background: color-dark-background
+            background: rgba(color-dark-background, 0.80)
             color: color-text-on-dark-background
             text-align: center
             transform: scale(1,1)
             transition: all 0.2s ease-in-out
-            font-weight: bold
-            border-color: color-fashy-background
+            box-shadow: 0 0 8px rgba(0,0,0,0.6)
+
             p
-                padding: 25px 30px 20px 30px
+                padding: 25px 30px 10px 30px
                 font-size: 20px
                 i
-                    font-size: 150%
+                    font-size: 250%
                     color: color-fashy-background
                 a
-                    color: color-button-onfire
+                    display: block
+                    color: #fff
+                    padding-top: 1em
             .paidplan
                 visibility: hidden
                 background: rgba(#ffffff, 0.58)
@@ -80,7 +79,7 @@
             &:hover
                 z-index: 999
                 transform: scale(1.2,1.2)
-                box-shadow: 0 1px 10px rgba(0,0,0,0.6)
+                box-shadow: 0 1px 19px rgba(0,0,0,0.8)
                 background: transparentify(color-dark-background)
 
                 .paidplan
@@ -164,12 +163,14 @@
 
     .product-description
         background: darken(color-background, 4%)
+        background-linear-gradient(top, darken(color-background, 6%), 90%, darken(color-background, 12%), 100%)
         color: #3e3026
         .fa
             opacity:.4
 
     .product-advantages
         background: darken(color-background, 4%)
+        background-linear-gradient(top, darken(color-background, 6%), 90%, darken(color-background, 12%), 100%)
         text-align:right
 
     .beta
