@@ -6,6 +6,8 @@ layout: "page"
 
 ## L'application open source Gadael
 
+[![Gadael sur github](/css/images/sourcebanner.png)](http://www.github.com/gadael/gadael)
+
 Gadael est un logciel de gestion du temps de travail créé par ou être utilisé par des petites ou grandes entreprises. Il peut être utilisé pour gérer efficacement les demandes de congés avec un circuit d'approbation.
 
 Différentes méthodes d'intégration sont proposées pour intégré correctement le logiciel dans la logique actuellement en place dans votre entreprise.
@@ -24,7 +26,9 @@ La technologie employée dans cette application provient esenciellement de ce qu
 [Node.js](https://nodejs.org/).
 
 
-## le site gadael.com et le service en ligne (SaaS)
+## le site gadael.com et le service en ligne
+
+![Software as a Service](/css/images/SaaS.png)
 
 Ce service repose sur l'acceptation du document des [conditions générales](/fr/legal/terms-of-service.html) et de la [politique de confidencialité](/fr/legal/privacy-policy.html). La précédure d'inscription nécéssite une validation des [conditions générales](/fr/legal/terms-of-service.html).
 
@@ -34,6 +38,8 @@ Le site à été construit en utilisant le générateur de site statique [hexo](
 
 
 ## L'auteur
+
+[![Paul](/css/images/paul.png)](http://www.rosanbo.com)
 
 Gadael est un logiciel dont le développement à été initié par Paul de Rosanbo, un développeur indépendant expérimenté dans le domaine des applications métiers.
 

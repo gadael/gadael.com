@@ -5,6 +5,8 @@ layout: "page"
 
 ## Gadael open source software
 
+[![Gadael on github](/css/images/sourcebanner.png)](http://www.github.com/gadael/gadael)
+
 Gadael is a time managament software created to be used in small to large companies. It can be used to efficently manage leave requests with an approval workflow.
 
 Various integrations are proposed to integrate well into your business current usages.
@@ -23,7 +25,9 @@ The application is built on a [MEAN stack](https://en.wikipedia.org/wiki/MEAN_%2
 [Node.js](https://nodejs.org/).
 
 
-## gadael.com website and SASS service
+## gadael.com website and online service
+
+![Software as a Service](/css/images/SaaS.png)
 
 This service is subject to compliance with a [terms of service](/en/legal/terms-of-service.html) document agreement and a [privacy policy](/en/legal/privacy-policy.html). The registration process will require you to accept the [terms of service](/en/legal/terms-of-service.html).
 
@@ -33,6 +37,8 @@ This site is built using the [hexo](https://hexo.io/) static site generator and 
 
 
 ## The Author.
+
+[![Paul](/css/images/paul.png)](http://www.rosanbo.com)
 
 Gadael is software whose development was initiated by Paul Rosanbo, an experienced independent developer in the field of business applications.
 
