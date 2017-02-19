@@ -58,10 +58,10 @@ home:
             html: 'Un même logiciel peut être utilisé dans plusieurs <a href="/fr/docs/version-master/008-les-pays.html">pays</a> avec des droits de congés différents.'
         mobile:
             title: 'Pour le mobile'
-            html: 'Toutes les interfaces sont conçues en utilisant les règles du <a href="https://fr.wikipedia.org/wiki/Site_web_adaptatif">responsive design</a>'
+            html: 'Toutes les interfaces sont conçues en utilisant les règles du "<a href="https://fr.wikipedia.org/wiki/Site_web_adaptatif">responsive design</a>"'
         google:
             title: 'Utilisez votre agenda Google'
-            html: 'Gadael utilise les API google pour renseigner automatiquement les périodes d''absences sur l''agenda'
+            html: 'Gadael utilise les API google pour renseigner automatiquement les périodes d''absence sur l''agenda'
         tasks:
             title: 'Planification avancée'
             html: 'Les changements de régime de congés et de rythme de travail peuvent être <a href="/fr/docs/version-master/010-planification-des-parametres.html">planifiés à l''avance</a>'
