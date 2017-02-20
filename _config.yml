@@ -84,3 +84,15 @@ lunr:
   field: all
   fulltext: true
   path: assets/lunr/
+
+
+uglify:
+  mangle: true
+  exclude:
+    - "**/*.min.js"
+    - "**/bower_components/mark.js/dist/jquery.mark.es6.js"
+    - "**/bower_components/mark.js/dist/mark.es6.js"
+
+clean_css:
+  exclude:
+    - "*.min.css"
