@@ -87,7 +87,7 @@ lunr:
 
 
 uglify:
-  mangle: true
+  mangle: false
   exclude:
     - "**/*.min.js"
     - "**/bower_components/mark.js/dist/jquery.mark.es6.js"
