@@ -63,13 +63,55 @@ function($scope, $http, $timeout, localStorageService) {
 
 
 /**
+ * data-app-loading
+ * This directive test if application is available from the loading screen
+ */
+.directive('appLoading', ['$http', function($http) {
+    return {
+        scope: true,
+        controllerAs: 'loadingCtrl',
+        link : function($scope, element, attrs) {
+            $scope.loaded = false;
+            var dbname = getParameterByName('dbname');
+            if (dbname) {
+                $scope.dbname = dbname;
+            } else {
+                alert('This url need a dbname parameter');
+            }
+
+
+            function loop() {
+                $http.get('/status/'+dbname)
+                .then(function(response) {
+                    if (response.data) {
+                        var status = response.data;
+                        if (!status.running) {
+                            return setTimeout(loop, 1000);
+                        }
+
+                        $scope.loaded = true;
+                        document.location.href = status.url;
+                    }
+                })
+                .catch(function(err) {
+                    setTimeout(loop, 2000);
+                });
+            }
+
+            loop();
+        }
+    };
+}])
+
+
+/**
  * data-dbname-available
  * This directive test for dbname availability on key up
  */
 .directive('dbnameAvailable', ['$http', function($http) {
     return {
         scope: true,
-        controllerAs: 'searchCtrl',
+        controllerAs: 'dbNameCtrl',
         link : function(scope, element, attrs) {
 
             /**
