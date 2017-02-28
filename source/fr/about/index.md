@@ -10,16 +10,16 @@ layout: "page"
 
 Gadael est un logiciel de gestion du temps de travail créé par ou être utilisé par des petites ou grandes entreprises. Il peut être utilisé pour gérer efficacement les demandes de congés avec un circuit d'approbation.
 
-Différentes méthodes d'intégration sont proposées pour intégré correctement le logiciel dans la logique actuellement en place dans votre entreprise.
+Différentes méthodes d'intégration sont proposées pour intégrer correctement le logiciel dans la logique actuellement en place dans votre entreprise.
 
-* Integration avec les agendas personnels google.
+* Intégration avec les agendas personnels google.
 * Exports vers Sage ou Excel.
 * Design "Responsive" Pour une utilisation sur tous les périphériques mobiles.
-* Fonctionnalité de clic unique pour l'approbation des gestionnaire depuis les comptes mail google.
+* Fonctionnalité de clic unique pour l'approbation des gestionnaires depuis les comptes mail google.
 
 Gadael est distribué selon les termes de la [licence MIT](https://fr.wikipedia.org/wiki/Licence_MIT), si vous souhaitez installer l'application sur votre propre serveur ou contribuer au projet, le [dépôt sur github](https://github.com/gadael/gadael) doit être utilisé.
 
-La technologie employée dans cette application provient esenciellement de ce qu'on appelle la pile [MEAN](https://en.wikipedia.org/wiki/MEAN_%28software_bundle%29), qui s'appuie sur les logiciels suivants :
+La technologie employée dans cette application provient essentiellement de ce qu'on appelle la pile [MEAN](https://en.wikipedia.org/wiki/MEAN_%28software_bundle%29), qui s'appuie sur les logiciels suivants :
 [MongoDB](https://www.mongodb.com/),
 [Express.js](http://expressjs.com/),
 [Angular](https://angularjs.org/), et
@@ -30,7 +30,7 @@ La technologie employée dans cette application provient esenciellement de ce qu
 
 ![Software as a Service](/css/images/SaaS.png)
 
-Ce service repose sur l'acceptation du document des [conditions générales](/fr/legal/terms-of-service.html) et de la [politique de confidencialité](/fr/legal/privacy-policy.html). La précédure d'inscription nécéssite une validation des [conditions générales](/fr/legal/terms-of-service.html).
+Ce service repose sur l'acceptation du document des [conditions générales](/fr/legal/terms-of-service.html) et de la [politique de confidencialité](/fr/legal/privacy-policy.html). La procédure d'inscription nécéssite une validation des [conditions générales](/fr/legal/terms-of-service.html).
 
 La documentation disponible sur ce sites est hébergée par github dans le dépôt gadael-documentation, les contributions sont acceptées. La licence de la documentation est la [GFDL](https://www.gnu.org/licenses/fdl-1.3.html) qui implique d'attribuer un crédit à l'auteur en cas d'usage extérieur.
 
