@@ -8,7 +8,7 @@ layout: "page"
 
 [![Gadael sur github](/css/images/sourcebanner.png)](http://www.github.com/gadael/gadael)
 
-Gadael est un logciel de gestion du temps de travail créé par ou être utilisé par des petites ou grandes entreprises. Il peut être utilisé pour gérer efficacement les demandes de congés avec un circuit d'approbation.
+Gadael est un logiciel de gestion du temps de travail créé par ou être utilisé par des petites ou grandes entreprises. Il peut être utilisé pour gérer efficacement les demandes de congés avec un circuit d'approbation.
 
 Différentes méthodes d'intégration sont proposées pour intégré correctement le logiciel dans la logique actuellement en place dans votre entreprise.
 
