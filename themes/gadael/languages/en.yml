@@ -114,6 +114,7 @@ company:
     nocountry: 'No rights initialization'
     open: 'Open application'
     name: 'Your company name'
+    namehelp: 'This is used as application title'
     public_text: 'Homepage text for public access'
     private_text: 'Homepage text once connected'
     managerName: 'Full name of the application administrator (if not you).'
