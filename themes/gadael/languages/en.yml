@@ -233,3 +233,5 @@ pricingpage:
     enquiries: 'Custom enquiries'
     enquiriesdetails1: 'For custom enquiries like more users, dedicated server or additional functionalities, please contact us at'
     enquiriesdetails2: 'for a custom quotation.'
+loading:
+    bottom: 'Your application is loading...'

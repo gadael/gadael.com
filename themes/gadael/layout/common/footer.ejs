@@ -1,6 +1,6 @@
 <footer id="footer">
     <div class="outer">
-
+        <% if (page.layout !== 'loading') { %>
         <dl>
             <dt><%= __('footer.otherlang') %></dt>
             <% var versions = getPageLanguages();
@@ -8,6 +8,7 @@
             <dd><a href="<%= versions[i].url %>"><%= versions[i].label %></a></dd>
             <% } %>
         </dl>
+        <% } %>
 
         <div id="footer-info" class="inner">
             &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>

@@ -72,6 +72,7 @@ function($scope, $http, $timeout, localStorageService) {
         controllerAs: 'loadingCtrl',
         link : function($scope, element, attrs) {
             $scope.loaded = false;
+
             var dbname = getParameterByName('dbname');
             if (dbname) {
                 $scope.dbname = dbname;
@@ -84,9 +85,12 @@ function($scope, $http, $timeout, localStorageService) {
                 $http.get('/status/'+dbname)
                 .then(function(response) {
                     if (response.data) {
+
                         var status = response.data;
+                        $scope.appName = status.name;
+
                         if (!status.running) {
-                            return setTimeout(loop, 1000);
+                            return setTimeout(loop, 1500);
                         }
 
                         $scope.loaded = true;
@@ -94,7 +98,7 @@ function($scope, $http, $timeout, localStorageService) {
                     }
                 })
                 .catch(function(err) {
-                    setTimeout(loop, 2000);
+                    setTimeout(loop, 3000);
                 });
             }
 

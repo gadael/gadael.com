@@ -233,3 +233,5 @@ pricingpage:
     enquiries: 'Offres personnalisées'
     enquiriesdetails1: 'Pour des offres personnalisées comme plus d''utilisateurs, un serveur dédié or des fonctionnalités supplémentaires, veuillez nous contacter à l''adresse'
     enquiriesdetails2: 'pour un devis personnalisé.'
+loading:
+    bottom: 'Votre application est en cours de chargement...'

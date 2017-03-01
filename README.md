@@ -9,7 +9,8 @@ the gadael-documentation repository and build the site using hexo.
 
 ## TODO
 
-* [ ] Captcha
+* [ ] Created a landing page for open-source requests
+* [x] Captcha
 * [ ] unlink 3rd party accounts
 * [x] Get form values back if registration failed because of password requirements
 * [x] Better error message if email allready exists when register
