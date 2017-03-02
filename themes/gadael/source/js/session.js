@@ -71,7 +71,9 @@ function($scope, $http, $timeout, localStorageService) {
         scope: true,
         controllerAs: 'loadingCtrl',
         link : function($scope, element, attrs) {
+
             $scope.loaded = false;
+            var allowedIterations = 7;
 
             var dbname = getParameterByName('dbname');
             if (dbname) {
@@ -93,7 +95,8 @@ function($scope, $http, $timeout, localStorageService) {
                         var status = response.data;
                         $scope.appName = status.name;
 
-                        if (!status.running) {
+                        if (!status.running && allowedIterations > 0) {
+                            allowedIterations--;
                             return setTimeout(loop, 2000);
                         }
 
