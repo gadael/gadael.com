@@ -80,17 +80,13 @@ function($scope, $http, $timeout, localStorageService) {
                 alert('This url need a dbname parameter');
             }
 
-            var lastUpdate = (new Date(1970,0,1)).toUTCString();
-
             function loop() {
                 $http.get('/status/'+dbname, {
                     headers: {
-                        'If-Modified-Since' : lastUpdate
+                        'Cache-Control': 'no-cache'
                     }
                 })
                 .then(function(response) {
-
-                    //lastUpdate = response.headers('Last-Modified');
 
                     if (response.data) {
 
@@ -98,7 +94,7 @@ function($scope, $http, $timeout, localStorageService) {
                         $scope.appName = status.name;
 
                         if (!status.running) {
-                            return setTimeout(loop, 1500);
+                            return setTimeout(loop, 2000);
                         }
 
                         $scope.loaded = true;
