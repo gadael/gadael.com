@@ -28,7 +28,11 @@
 
 <aside id="sidebar" bs-affix>
 
+
     <div class="version">
+
+
+
         <label for="doc_version"><%= __('doc.version') %></label>
 
         <select id="doc_version" onchange="document.location.href=this.value">
@@ -38,5 +42,14 @@
             <% } %>
         </select>
 
+
+        <p class="intro"><i class="fa fa-book fa-4x"></i></p>
+
+        <p class="contribute">
+            <a href="https://www.github.com/gadael/gadael-documentation">
+                <i class="fa fa-github fa-3x fa-pull-left"></i>
+                <%= __('doc.contribute') %>
+            </a>
+        </p>
     </div>
 </aside>

@@ -184,6 +184,7 @@ doc:
     homelink: 'Documentation'
     version: 'Version:'
     latest: 'Latest'
+    contribute: 'Documentation is open for contributions on github'
 export:
     title: 'Download your application database.'
     format: 'The file is a compressed mongodb dump database.'
