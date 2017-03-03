@@ -83,6 +83,8 @@ signin:
     signuplink: 'S''inscrire'
     afterlink: 'ou se connecter avec un fournisseur externe'
     resetlink: 'Mot de passe oublié?'
+    thirdparty: 'Authentification par un service'
+    google: 'Connexion Google'
 signup:
     title: 'S''inscrire à gadael.com'
     site: 'Choissisez le nom de votre site.'

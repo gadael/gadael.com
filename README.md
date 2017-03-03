@@ -9,6 +9,7 @@ the gadael-documentation repository and build the site using hexo.
 
 ## TODO
 
+* [ ] Authenticate using linkedin
 * [ ] Created a landing page for open-source requests
 * [x] Captcha
 * [ ] unlink 3rd party accounts

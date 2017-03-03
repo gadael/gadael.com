@@ -83,6 +83,8 @@ signin:
     signuplink: 'Register an account'
     afterlink: 'or login with a third party provider'
     resetlink: 'Forgot your password?'
+    thirdparty: 'Third party provider'
+    google: 'Google login'
 signup:
     title: 'Register in gadael.com'
     site: 'Choose your site name.'
