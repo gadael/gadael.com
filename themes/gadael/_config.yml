@@ -14,6 +14,7 @@ home:
         - github
         - database
 
+
 # Customize
 customize:
     logo:
@@ -31,6 +32,7 @@ customize:
         bug: http://github.com/gadael/gadael/issues
         twitter: https://twitter.com/G4dael
         facebook: https://www.facebook.com/Gadael-102438326940648
+        linkedin: https://www.linkedin.com/company/11006685
         rss: /atom.xml
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 

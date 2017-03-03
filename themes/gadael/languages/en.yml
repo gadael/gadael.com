@@ -204,6 +204,7 @@ social:
     rss: 'News feed'
     twitter: 'Twitter'
     facebook: 'Facebook'
+    linkedin: 'LinkedIn'
 pricingpage:
     title: 'Pricing for application as service'
     intro: 'Free for small teams. Priced to scale.'

@@ -204,6 +204,7 @@ social:
     rss: 'Flux d''actualités'
     twitter: 'Twitter'
     facebook: 'Facebook'
+    linkedin: 'LinkedIn'
 pricingpage:
     title: 'Tarif pour l''application en tant que service'
     intro: 'Gratuit pour les petites équipes, payant lorsque votre équipe s''agrandie'
