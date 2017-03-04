@@ -13,16 +13,12 @@ Various integrations are proposed to integrate well into your business current u
 
 * Integration with personal google calendar.
 * Export to sage or excel stylesheets.
-* Responsible design for usage on all mobile devices.
+* Responsive design for usage on all mobile devices.
 * One click actions from your gmail account for department managers.
 
 Gadael is distribued under the [MIT licence](https://fr.wikipedia.org/wiki/Licence_MIT), if you want to install it on your own server or contribute to the project, please go to the [github repository](https://github.com/gadael/gadael).
 
-The application is built on a [MEAN stack](https://en.wikipedia.org/wiki/MEAN_%28software_bundle%29) and make use of theses open source softwares :
-[MongoDB](https://www.mongodb.com/),
-[Express.js](http://expressjs.com/),
-[Angular](https://angularjs.org/), and
-[Node.js](https://nodejs.org/).
+Please see [gadael.org](http://www.gadael.org/) for technical informations about using gadael as a self-hosted application.
 
 
 ## gadael.com website and online service
