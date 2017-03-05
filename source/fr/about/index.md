@@ -19,11 +19,7 @@ Différentes méthodes d'intégration sont proposées pour intégrer correctemen
 
 Gadael est distribué selon les termes de la [licence MIT](https://fr.wikipedia.org/wiki/Licence_MIT), si vous souhaitez installer l'application sur votre propre serveur ou contribuer au projet, le [dépôt sur github](https://github.com/gadael/gadael) doit être utilisé.
 
-La technologie employée dans cette application provient essentiellement de ce qu'on appelle la pile [MEAN](https://en.wikipedia.org/wiki/MEAN_%28software_bundle%29), qui s'appuie sur les logiciels suivants :
-[MongoDB](https://www.mongodb.com/),
-[Express.js](http://expressjs.com/),
-[Angular](https://angularjs.org/), et
-[Node.js](https://nodejs.org/).
+Vous pouvez consulter le site [gadael.org](http://www.gadael.org/) pour des informations techniques a propos du projet open-source
 
 
 ## le site gadael.com et le service en ligne
