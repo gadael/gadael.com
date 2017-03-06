@@ -1,9 +1,9 @@
 # Menus
 menu:
-    about: about
-    docs: docs/version-master
-    pricing: pricing
-    news: news
+    about: about/
+    docs: docs/version-master/
+    pricing: pricing/
+    news: news/
 
 home:
     icons:  # font awesome names, and matches in languages files
