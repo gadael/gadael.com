@@ -2,7 +2,7 @@ angular.module('HexoCompanies', [])
 
 
 /**
- * Controller for search result dropdown
+ * Controller for company settings
  */
 .controller("CompaniesController", ['$scope', '$http',
 function($scope, $http) {

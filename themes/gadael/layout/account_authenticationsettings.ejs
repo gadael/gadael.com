@@ -13,6 +13,21 @@
             </p>
 
 
+            <div ng-if="company.loginservices.form.enable">
+
+                <p><i class="fa fa-info-circle"></i> <%= __('company.login_form_reset') %></p>
+
+                <p>
+                    <label for="login_form_reset_email"><%= __('company.login_form_reset_email') %></label>
+                    <input type="text" id="login_form_reset_email" ng-model="company.loginservices.form.reset_email" />
+                </p>
+
+                <p>
+                    <label for="login_form_reset_password"><%= __('company.login_form_reset_password') %></label>
+                    <input type="text" id="login_form_reset_password" ng-model="company.loginservices.form.reset_password" />
+                </p>
+            </div>
+
 
             <p>
                 <label>
