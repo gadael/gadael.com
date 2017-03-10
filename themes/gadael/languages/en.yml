@@ -179,6 +179,7 @@ account:
     delete_button: 'Delete'
     loginid: 'You are logged in as:'
     loginlink: 'Or login into your account'
+    missing_password: 'The account defined on the application with your email is not associated to a password, please use the authentication settings to either set a password on your account or switch to google authentication'
 changepassword:
     title: 'Update your password'
     oldpassword: 'Type in the current password.'

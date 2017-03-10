@@ -179,6 +179,7 @@ account:
     delete_button: 'Supprimer'
     loginid: 'Vous êtes connecté en tant que:'
     loginlink: 'Ou se connecter à votre compte'
+    missing_password: 'Le compte défini sur l''application avec votre email n''a pas de mot de passe associé, vous pouvez utiliser les paramètres d''authentification  pour soit définir un mot de passe soit utiliser l''authentification google'
 changepassword:
     title: 'Mettre à jour votre mot de passe'
     oldpassword: 'Votre mot de passe actuel.'

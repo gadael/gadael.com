@@ -16,13 +16,17 @@
                 </p>
             </div>
 
-            <div class="right">
+            <div class="right" ng-if="passwordSet">
                 <a ng-href="https://{{company.dbname}}.gadael.com/" target="_blank">
                     <i class="fa fa-external-link-square" aria-hidden="true"></i> <%= __('company.open') %>
                 </a>
             </div>
 
             <div style="clear:both"></div>
+        </div>
+
+        <div class="missing-password" ng-if="company && !passwordSet">
+            <p><%= __('account.missing_password') %></p>
         </div>
 
 

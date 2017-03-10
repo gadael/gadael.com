@@ -14,6 +14,7 @@ function($scope, $http) {
 
     $http.get('/company').then(function(response) {
         $scope.company = response.data.company;
+        $scope.passwordSet = response.data.passwordSet;
 
     }).catch(function() {
         // company not accessible
