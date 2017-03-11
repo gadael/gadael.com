@@ -93,6 +93,7 @@ signup:
     email: 'Entrer votre email.'
     password: 'Choisissez un nouveau mot de passe.'
     button: 'S''inscrire'
+    savebutton: 'Enregistrer'
     emailhelp: 'Seul l''e-mail de votre compte gadael.com sera modifié, le compte administrateur de votre application ne changera pas de cette action.'
     legal: 'J''accepte les %s et les %s'
     terms: 'conditions d''utilisation'
@@ -184,6 +185,7 @@ changepassword:
     title: 'Mettre à jour votre mot de passe'
     oldpassword: 'Votre mot de passe actuel.'
     newpassword: 'Votre nouveau mot de passe.'
+    button: 'Enregistrer'
 settings:
     title: 'Paramètres du compte'
 doc:
