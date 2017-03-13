@@ -28,7 +28,7 @@ Vous pouvez consulter le site [gadael.org](http://www.gadael.org/) pour des info
 
 Ce service repose sur l'acceptation du document des [conditions générales](/fr/legal/terms-of-service.html) et de la [politique de confidencialité](/fr/legal/privacy-policy.html). La procédure d'inscription nécéssite une validation des [conditions générales](/fr/legal/terms-of-service.html).
 
-La documentation disponible sur ce sites est hébergée par github dans le dépôt gadael-documentation, les contributions sont acceptées. La licence de la documentation est la [GFDL](https://www.gnu.org/licenses/fdl-1.3.html) qui implique d'attribuer un crédit à l'auteur en cas d'usage extérieur.
+La documentation disponible sur ce site est hébergée par github dans le dépôt gadael-documentation, les contributions sont acceptées. La licence de la documentation est la [GFDL](https://www.gnu.org/licenses/fdl-1.3.html) qui implique d'attribuer un crédit à l'auteur en cas d'usage extérieur.
 
 Le site à été construit en utilisant le générateur de site statique [hexo](https://hexo.io/) et le framework [angularjs](https://angularjs.org/). L'interface actuelle est basée sur le [thème Icarus](https://github.com/ppoffice/hexo-theme-icarus) développé par [PPoffice](https://github.com/ppoffice).
 
@@ -37,7 +37,7 @@ Le site à été construit en utilisant le générateur de site statique [hexo](
 
 [![Paul](/css/images/paul.png)](http://www.rosanbo.com)
 
-Gadael est un logiciel dont le développement à été initié par Paul de Rosanbo, un développeur indépendant expérimenté dans le domaine des applications métiers.
+Gadael est un logiciel dont le développement à été initié par Paul de Rosanbo, un développeur indépendant expérimenté dans le domaine des applications métier.
 
 Vous pouvez le suivre
 * Sur son [site personel](http://www.rosanbo.com).
