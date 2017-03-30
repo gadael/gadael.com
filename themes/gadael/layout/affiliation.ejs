@@ -1,0 +1,33 @@
+<section id="affiliation">
+    <article class="article">
+        <div class="article-inner">
+            <header class="article-header">
+                <h1 class="article-title">
+                    <%= page.title %>
+                </h1>
+            </header>
+
+            <div class="article-entry">
+                <%- page.content %>
+
+
+                <form method="POST" action="<%= url_for_lang('affiliation') %>">
+
+                    <p>
+                        <label for="affiliation_email"><%= __('affiliation.email') %></label>
+                        <input id="affiliation_email" type="email" name="email" />
+                    </p>
+
+                    <p class="button">
+                        <button type="submit"><i class="fa fa-bolt"></i> <%= __('affiliation.button') %></button>
+                    </p>
+                </form>
+
+            </div>
+
+            <footer class="article-footer">
+                <%- partial('share/index', { post: page }) %>
+            </footer>
+        </div>
+    </article>
+</section>

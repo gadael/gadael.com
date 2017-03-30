@@ -1,5 +1,5 @@
 title: "Programme d'affiliation Gadael.com"
-layout: "page"
+layout: "affiliation"
 
 ---
 
@@ -15,12 +15,12 @@ Voici un petit exemple pour mieux comprendre :
 |                | Nombre d'utilisateurs | Coût client | gadael.com | Affilié |
 |----------------|-----------------------|-------------|------------|---------|
 | Avril 2017     | 3                     | 0 €         | 0 €        | 0 €     |
-| Mai 2017       | 8                     | 5 €         | 1 €        | 4 €     |
-| Juin 2017      | 8                     | 5 €         | 1 €        | 4 €     |
-| Juillet 2017   | 16                    | 15 €        | 3 €        | 12 €    |
-| Aout 2017      | 50                    | 45 €        | 9 €        | 36 €    |
-| Septembre 2017 | 50                    | 45 €        | 9 €        | 36 €    |
-| Novembre 2017  | 50                    | 45 €        | 9 €        | 36 €    |
+| Mai 2017       | 8                     | 5 €         | 1 €        | __4 €__ |
+| Juin 2017      | 8                     | 5 €         | 1 €        | __4 €__ |
+| Juillet 2017   | 16                    | 15 €        | 3 €        | __12 €__|
+| Aout 2017      | 50                    | 45 €        | 9 €        | __36 €__|
+| Septembre 2017 | 50                    | 45 €        | 9 €        | __36 €__|
+| Novembre 2017  | 50                    | 45 €        | 9 €        | __36 €__|
 | Décembre 2017  | 50                    | 45 €        | 45 €       | 0 €     |
 
 
@@ -33,7 +33,7 @@ Dans cet exemple, la récompense de l'affilié va s'élever à 128€
 * Sur les 6 mensualités, tous les frais de transaction sont pris en charge par gadael.com en utilisant les 20% restants.
 
 
-## Comment promouvoir gadael.com?
+## Comment promouvoir gadael.com sur votre site?
 
 Si la ligne éditoriale de votre site n'est pas spécifiquement orientée vers les ressources humaines ou les logiciels de gestion d'entreprises, ou que vous ne disposez pas des connaissantes nécessaires pour analyser les avantages et inconvénients du logiciel Gadael, vous pouvez vous inspirer de ces quelques informations générales pour mettre en avant votre lien sponsorisé :
 
@@ -52,3 +52,8 @@ Gadael n'est pas limité aux entreprises Françaises, lors de l'inscription l'ut
 ### L'abolition des privilèges!
 
 Contrairement aux solutions actuellement en places promue par les grands groupe, Gadael est la réalisation d'un indépendant qui a pour ambition de promouvoir l'égalité dans l'entreprise. La complexité des règles de droits de congés a été trop longtemps cachée sous une couche épaisse de complexité administrative, il est temps d'utiliser des outils qui permettent aux salariés de visualiser directement ce à quoi ils ont droit. De plus la tarification de Gadael.com permet l'accès à ce type de logiciel à un coût raisonnable pour les petites entreprises. C'est gratuit jusqu'à 5 personnes et 5 euros/mois pour 5 personnes de plus.
+
+
+## Comment s'inscrire?
+
+Vous pouvez laisser votre email dans le formulaire ci-dessous, un lien vous sera envoyé quand le développement des affiliation sera effectué sur la gestion des comptes de gadael.com. Des emails automatiques vous serons envoyés à chaque évolution du montant récolté (un par mois au maximum, si plusieurs entreprises ont souscrit par votre lien, les montants gagnés serons additionnés dans le même email mensuel).

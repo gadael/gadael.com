@@ -6,31 +6,12 @@
     padding: 0 1.8em
 
     form
-        label
-            @extend $base-label
-
-        input[type=text], input[type=password], input[type=number], textarea, select
-            @extend $base-input
-
-        input[type=number]
-            width: 7em
-
+        @extend $base-form
         #dbname
             width: 150px
             text-align: right
             font-weight: bold
 
-        button
-            @extend $base-button
-        p,>div
-            margin: 1.5em 12em .5em 2em
-        p
-            margin: 2em 0
-            em
-                color: color-grey
-
-        p.button
-            padding: 2em 0 3em 0
 
     .security
         margin: 1.5em 0
@@ -49,7 +30,7 @@
 
     h2,h3
         padding: line-height 0
-        
+
 
 
     .danger, .warning

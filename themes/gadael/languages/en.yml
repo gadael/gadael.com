@@ -247,3 +247,6 @@ pricingpage:
     enquiriesdetails2: 'for a custom quotation.'
 loading:
     bottom: 'Your application is loading...'
+affiliation:
+    email: 'Your email'
+    button: 'Subscribe'

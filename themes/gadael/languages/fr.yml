@@ -247,3 +247,6 @@ pricingpage:
     enquiriesdetails2: 'pour un devis personnalisé.'
 loading:
     bottom: 'Votre application est en cours de chargement...'
+affiliation:
+    email: 'Votre email'
+    button: 'S''inscrire'
