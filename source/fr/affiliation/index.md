@@ -41,6 +41,10 @@ Si la ligne éditoriale de votre site n'est pas spécifiquement orientée vers l
 
 Gadael.com est une offre SaaS qui n'ajoute aucune fonctionnalité supplémentaire au logiciel libre Gadael, dans les conditions générales de vente, un des engagements stipule qu'il sera toujours possible pour client de récupérer la totalité de ces donnés pour déménager son serveur autre part en utilisant le logiciel open-source.
 
+### Un nouveau marché
+
+Beaucoup d'entreprises n'ont pas le temps ou les moyens d'investir dans une solution complète SIRH et l'accompagnement par un spécialiste de la stratégie RH, malgré cela les petites PME peuvent avoir le besoin d'informatiser la gestion des absences. Gadael.com souhaite proposer une offre adaptée pour cette clientèle et ainsi permettre aux petites PME de mettre un premier pied dans l'informatisation des processus RH.
+
 ### Des possibilités de paramétrages infinies
 
 Droits en jours ou en heures, récupération des heures supplémentaires, approbations hiérarchiques des demandes, comptes épargnent temps, jours de fractionnement, droits d'ancienneté, export vers les logiciels de paie... tout est entièrement paramétrable par les gestionnaires.
