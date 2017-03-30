@@ -38,7 +38,9 @@
 
     .bottom-info
         height: 300px
-        background: white url(images/bottom-mountains.jpg) no-repeat 0 0
+        //background: white url(images/bottom-mountains.jpg) no-repeat 0 0
+        background: darken(color-background, 4%)
+        background-linear-gradient(top, transparent, 10%, rgba(color-dark-background, 0.60), 100%)
         position: relative
 
         @media mq-mini
@@ -225,6 +227,10 @@
                 padding: 1em
                 i
                     transition: all 0.5s ease-in-out
+                    @media mq-mobile
+                        font-size: 300%
+                    @media mq-mini
+                        font-size: 150%
                 &:hover
                     background:#eee
                     i
