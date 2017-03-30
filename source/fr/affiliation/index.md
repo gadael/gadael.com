@@ -60,4 +60,4 @@ Contrairement aux solutions actuellement en places promue par les grands groupe,
 
 ## Comment s'inscrire?
 
-Vous pouvez laisser votre email dans le formulaire ci-dessous, un lien vous sera envoyé quand le développement des affiliation sera effectué sur la gestion des comptes de gadael.com. Des emails automatiques vous serons envoyés à chaque évolution du montant récolté (un par mois au maximum, si plusieurs entreprises ont souscrit par votre lien, les montants gagnés serons additionnés dans le même email mensuel).
+Vous pouvez laisser votre email dans le formulaire ci-dessous, un lien vous sera envoyé quand le développement des affiliations sera effectué sur la gestion des comptes de gadael.com. Des emails automatiques vous seront envoyés à chaque évolution du montant récolté (un par mois au maximum, si plusieurs entreprises ont souscrit par votre lien, les montants gagnés seront additionnés dans le même email mensuel).
