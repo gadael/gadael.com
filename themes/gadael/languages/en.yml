@@ -238,6 +238,7 @@ pricingpage:
         more: 'For more, please contact us for a custom quotation'
         inactivity: 'Inactivity timeout'
         days: 'days'
+        days_description: 'The account is deleted after the inactivity period'
         unlimited: 'Unlimited'
         support: 'Technical support'
         github: 'By github issues'

@@ -238,6 +238,8 @@ pricingpage:
         more: 'Pour plus, vous pouvez nous contacter pour un devis personnalisé'
         inactivity: 'Délai d''inactivité'
         days: 'jours'
+        days_description: 'Le compte est supprimé après la période d''inactivité'
+        
         unlimited: 'Illimité'
         support: 'Support technique'
         github: 'Par tickets github'
