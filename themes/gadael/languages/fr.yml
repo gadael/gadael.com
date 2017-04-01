@@ -239,7 +239,7 @@ pricingpage:
         inactivity: 'Délai d''inactivité'
         days: 'jours'
         days_description: 'Le compte est supprimé après la période d''inactivité'
-        
+
         unlimited: 'Illimité'
         support: 'Support technique'
         github: 'Par tickets github'
@@ -250,5 +250,7 @@ pricingpage:
 loading:
     bottom: 'Votre application est en cours de chargement...'
 affiliation:
-    email: 'Votre email'
-    button: 'S''inscrire'
+    register: 'Je veut m''inscrire'
+    status: 'Je veut recevoir un contre-rendu de mon affiliation'
+    email: 'Mon adresse email'
+    button: 'Envoyer'

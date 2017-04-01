@@ -14,6 +14,11 @@
                 <form method="POST" action="<%= url_for_lang('affiliation') %>">
 
                     <p>
+                        <label><input type="radio" name="type" value="register" checked="checked" />&nbsp;<%= __('affiliation.register') %></label>
+                        <label><input type="radio" name="type" value="status" />&nbsp;<%= __('affiliation.status') %></label>
+                    </p>
+
+                    <p>
                         <label for="affiliation_email"><%= __('affiliation.email') %></label>
                         <input id="affiliation_email" type="email" name="email" />
                     </p>

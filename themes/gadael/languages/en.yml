@@ -249,5 +249,7 @@ pricingpage:
 loading:
     bottom: 'Your application is loading...'
 affiliation:
-    email: 'Your email'
-    button: 'Subscribe'
+    register: 'I want to subscribe'
+    status: 'I want to receive a report of my affiliation'
+    email: 'My email address'
+    button: 'Send'
