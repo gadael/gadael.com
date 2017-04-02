@@ -1,6 +1,6 @@
 <section id="main">
 
-    <div id="account_creditcard" class="accountform">
+    <div id="account_creditcard" class="accountform" ng-controller="CompaniesController">
         <h2><%= __('creditcard.title') %></h2>
 
         <div ng-if="session.paymentDay && session.plan=='paid'">
@@ -15,13 +15,41 @@
             </p>
         </div>
 
-        <form action="/">
+        <form>
 
-            <p><%= __('creditcard.todo') %></p>
+            <p class="text-center">
+                <img src="/css/images/powered_by_stripe.png" />
+            </p>
+
+
+            <p>
+                <label for="creditcard_number"><%= __('creditcard.number') %></label>
+                <input type="text" id="creditcard_number" ng-model="creditcard.number" />
+            </p>
+
+            <table>
+                <tr>
+                    <td class="col1">
+                        <label for="creditcard_cvc"><%= __('creditcard.cvc') %></label>
+                        <input type="text" id="creditcard_cvc" ng-model="creditcard.cvc" />
+                    </td>
+
+
+
+                    <td class="col2">
+                        <label for="creditcard_exp_month"><%= __('creditcard.exp_month_year') %></label>
+                        <select id="creditcard_exp_month" ng-model="creditcard.exp_month" ng-options="m as m.label for m.value in months" placeholder="<%= __('creditcard.month') %>">
+                        </select>
+                        <select id="creditcard_exp_year" ng-model="creditcard.exp_year"  ng-options="y as y.label for y.value in years" placeholder="<%= __('creditcard.year') %>">
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
 
 
             <p class="button">
-                <button type="submit"><i class="fa fa-save"></i> <%= __('creditcard.savebutton') %></button>
+                <button type="submit" ng-click="saveCard()"><i class="fa fa-save"></i> <%= __('creditcard.savebutton') %></button>
             </p>
         </form>
     </div>

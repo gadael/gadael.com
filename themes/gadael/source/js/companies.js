@@ -22,6 +22,28 @@ function($scope, $http) {
     });
 
 
+    var now = new Date();
+    $scope.months = [];
+    $scope.years = [];
+    var i;
+
+    for (i = 0; i <= 11; i++) {
+
+        $scope.months.push({
+            value: 1+i,
+            label: 1+i
+        });
+    }
+
+    for (i = 0; i <= 10; i++) {
+
+        $scope.years.push({
+            value: i+now.getFullYear(),
+            label: i+now.getFullYear()
+        });
+    }
+
+
 
     $scope.updateCompany = function() {
 
@@ -35,6 +57,29 @@ function($scope, $http) {
             var err = response.data;
             alert(err.message);
         });
+    };
+
+
+    $scope.getMonths = function() {
+
+    };
+
+
+    function stripeResponseHandler(status, response) {
+
+        if (response.error) { // Problem!
+            return alert(response.error.message);
+        }
+
+
+        $scope.stripeToken = response.id;
+        // TODO: submit stripe token
+    }
+
+
+    $scope.saveCard = function() {
+        Stripe.setPublishableKey('pk_test_NQQfxEp03QaFUUSuxSYISJC0');
+        Stripe.card.createToken($scope.creditcard, stripeResponseHandler);
     };
 
 }]);

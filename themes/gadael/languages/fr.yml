@@ -203,7 +203,9 @@ creditcard:
     paymentday: 'Votre date de prélévement est le {{session.paymentDay}} de chaque mois.'
     savebutton: 'Enregistrer'
     freeplan: 'Les informations de paiement ne sont pas requise pour votre type d''abonnement.'
-    todo: 'Cette fonctionnalité n''est pas disponible pour le moment.'
+    number: 'Numéro de carte bancaire'
+    cvc: 'code CVC'
+    exp_month_year: 'Mois et année de fin de validité'
 social:
     github: 'Github'
     bug: 'Reporter un bug'
