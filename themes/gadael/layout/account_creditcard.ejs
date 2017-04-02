@@ -38,9 +38,9 @@
 
                     <td class="col2">
                         <label for="creditcard_exp_month"><%= __('creditcard.exp_month_year') %></label>
-                        <select id="creditcard_exp_month" ng-model="creditcard.exp_month" ng-options="m as m.label for m.value in months" placeholder="<%= __('creditcard.month') %>">
+                        <select id="creditcard_exp_month" ng-model="creditcard.exp_month" ng-options="month as month for month in months" placeholder="<%= __('creditcard.month') %>">
                         </select>
-                        <select id="creditcard_exp_year" ng-model="creditcard.exp_year"  ng-options="y as y.label for y.value in years" placeholder="<%= __('creditcard.year') %>">
+                        <select id="creditcard_exp_year" ng-model="creditcard.exp_year"  ng-options="year as year for year in years" placeholder="<%= __('creditcard.year') %>">
                         </select>
                     </td>
                 </tr>

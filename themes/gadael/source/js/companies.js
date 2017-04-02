@@ -28,19 +28,11 @@ function($scope, $http) {
     var i;
 
     for (i = 0; i <= 11; i++) {
-
-        $scope.months.push({
-            value: 1+i,
-            label: 1+i
-        });
+        $scope.months.push(1+i);
     }
 
     for (i = 0; i <= 10; i++) {
-
-        $scope.years.push({
-            value: i+now.getFullYear(),
-            label: i+now.getFullYear()
-        });
+        $scope.years.push(i+now.getFullYear());
     }
 
 
@@ -51,7 +43,8 @@ function($scope, $http) {
             company: $scope.company
         };
 
-        $http.put('/company/'+$scope.company.dbname, post).then(function(response) {
+        $http.put('/company/'+$scope.company.dbname, post)
+        .then(function(response) {
             document.location.reload();
         }).catch(function(response) {
             var err = response.data;
@@ -71,9 +64,23 @@ function($scope, $http) {
             return alert(response.error.message);
         }
 
+        var path = document.location.pathname.split('/');
+        var currentRootFolder = 'en';
+        if (undefined !== path[1]) {
+            currentRootFolder = path[1];
+        }
 
-        $scope.stripeToken = response.id;
-        // TODO: submit stripe token
+        var post = {
+            stripeId: response.id
+        };
+
+        $http.post('/'+currentRootFolder+'/save-account-creditcard', post)
+        .then(function(response) {
+            document.location.reload();
+        }).catch(function(response) {
+            var err = response.data;
+            alert(err.message);
+        });
     }
 
 
