@@ -1,6 +1,6 @@
 <section id="main">
 
-    <div id="account_creditcard" class="accountform" ng-controller="CompaniesController">
+    <div id="account_creditcard" class="accountform" ng-controller="CreditcardController">
         <h2><%= __('creditcard.title') %></h2>
 
         <div ng-if="session.paymentDay && session.plan=='paid'">
@@ -18,6 +18,13 @@
         <form>
 
             <p class="text-center">
+
+                <img src="/css/images/visa.png" />
+                <img src="/css/images/mastercard.png" />
+                <img src="/css/images/american-express.png" />
+
+                &nbsp;
+
                 <img src="/css/images/powered_by_stripe.png" />
             </p>
 

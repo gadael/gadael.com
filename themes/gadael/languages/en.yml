@@ -203,7 +203,7 @@ creditcard:
     paymentday: 'Your payout date is the {{session.paymentDay}} of each month.'
     savebutton: 'Save'
     freeplan: 'Payment informations are not required for your plan.'
-    number: 'Bank card number'
+    number: 'Payment card number'
     cvc: 'CVC code'
     exp_month_year: 'Expiry month and year'
 social:
