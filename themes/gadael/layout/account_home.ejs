@@ -38,41 +38,123 @@
 
                 <p><%= __('account.notstarted') %></p>
 
-                <a href="./create-company">
-                    <i class="fa fa-bolt"></i><br />
-                    <%= __('account.createcompany') %>
-                </a>
+                <div class="bloc">
+                    <span class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-bolt fa-stack-1x"></i>
+                    </span>
+
+                    <div class="content">
+                        <h3>
+                            <a href="./create-company">
+                                <%= __('account.createcompany') %>
+                            </a>
+                        </h3>
+                        <p><%= __('account.createcompany_help') %></p>
+                    </div>
+                </div>
             </div>
 
 
             <div class="view-company" ng-if="company">
 
+                <div class="bloc">
 
-                <a href="./company-settings">
-                    <i class="fa fa-gears"></i><br />
-                    <%= __('account.companysettings') %>
-                </a>
+                    <span class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-gears fa-stack-1x"></i>
+                    </span>
 
-                <a href="./authentication-settings">
-                    <i class="fa fa-lock"></i><br />
-                    <%= __('account.authenticationsettings') %>
-                </a>
+                    <div class="content">
+                        <h3>
+                            <a href="./company-settings">
+                                <%= __('account.companysettings') %>
+                            </a>
+                        </h3>
 
-                <a href="./export-company">
-                    <i class="fa fa-cloud-download"></i><br />
-                    <%= __('account.exportcompany') %>
-                </a>
+                        <p><%= __('account.companysettings_help') %></p>
+                        <dl>
+                            <dt><%= __('account.companyname') %></dt>
+                            <dd>{{company.name}}</dd>
+                        </dl>
+                    </div>
+                </div>
 
+                <div class="bloc">
 
-                <a href="./plan">
-                    <i class="fa fa-shopping-cart"></i><br />
-                    <%= __('account.plan') %>
-                </a>
+                    <span class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-lock fa-stack-1x"></i>
+                    </span>
 
-                <a href="./creditcard">
-                    <i class="fa fa-credit-card"></i><br />
-                    <%= __('account.creditcard') %>
-                </a>
+                    <div class="content">
+                        <h3>
+                            <a href="./authentication-settings">
+                                <%= __('account.authenticationsettings') %>
+                            </a>
+                        </h3>
+                        <p><%= __('account.authenticationsettings_help') %></p>
+                        
+                    </div>
+                </div>
+
+                <div class="bloc">
+                    <span class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-cloud-download fa-stack-1x"></i>
+                    </span>
+
+                    <div class="content">
+                        <h3>
+                            <a href="./export-company">
+                                <%= __('account.exportcompany') %>
+                            </a>
+                        </h3>
+                        <p><%= __('account.exportcompany_help') %></p>
+                    </div>
+                </div>
+
+                <div class="bloc">
+
+                    <span class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x"></i>
+                    </span>
+
+                    <div class="content">
+                        <h3>
+                            <a href="./plan">
+                                <%= __('account.plan') %>
+                            </a>
+                        </h3>
+                        <p><%= __('account.plan_help') %></p>
+                        <dl>
+                            <dt><%= __('account.currentplan') %></dt>
+                            <dd>{{session.plan}}</dd>
+                        </dl>
+
+                        <dl>
+                            <dt><%= __('account.maxusers') %></dt>
+                            <dd>{{session.maxusers}}</dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <div class="bloc">
+                    <span class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-credit-card fa-stack-1x"></i>
+                    </span>
+
+                    <div class="content">
+                        <h3>
+                            <a href="./creditcard">
+                                <%= __('account.creditcard') %>
+                            </a>
+                        </h3>
+                        <p><%= __('account.creditcard_help') %></p>
+                    </div>
+                </div>
             </div>
 
         </div>

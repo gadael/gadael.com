@@ -44,23 +44,46 @@
         color: #fff
 
 
-    .view-company>a, .create-company>a
+    .bloc
         border: none
-        width: 300px
-        display: inline-block
-        font-size: 18px
-        line-height: 40px
-        text-align: center
+        display: block
         margin: 15px 0px 15px 12px
         padding: 30px 0
         transition: 0.2s ease
-        &:hover
-            color: white
-            background: color-button-main + #111
-        .fa
-            font-size: 35px
+        a
+            &:hover
+                color: color-button-main + #111
+
+        .fa-stack
+            font-size: 300%
+            display: inline-block
+            vertical-align: top
+            margin-right: .3em
+            color: color-grey
+
+            .fa-stack-2x
+                color: rgba(color-button-main, 0.20)
+
         .fa-bolt
             color: red
+
+        .content
+            display:inline-block
+            width: 70%
+
+        dl
+            font-size:80%
+            margin-top:.6em
+            margin-left:0
+            width: 30%
+            display: inline-block
+            margin-right: 2em
+            
+            dt
+                font-weight: bold
+            dd
+                color: color-grey
+                margin-left: 20px
 
 
 
