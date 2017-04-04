@@ -12,9 +12,13 @@ function($scope, $http) {
         country: 'FR'
     };
 
+    $scope.companyLoad = 'company-loading';
+
     $http.get('/company').then(function(response) {
+        $scope.companyLoad = 'company-loaded';
         $scope.company = response.data.company;
         $scope.passwordSet = response.data.passwordSet;
+        $scope.plan = response.data.plan;
 
     }).catch(function() {
         // company not accessible

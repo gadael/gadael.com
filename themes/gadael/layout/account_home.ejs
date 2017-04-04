@@ -1,162 +1,180 @@
 <section id="main">
 
 
-
-
-
     <div id="account_home" ng-controller="CompaniesController">
+        <div  ng-class="companyLoad">
+            <div class="private-content">
 
-        <div class="header" ng-if="company">
-            <div class="left">
-                <p class="url">https://{{company.dbname}}.gadael.com/</p>
-                <p class="status">
-                    <span ng-if="company.disabled" class="disabled"><i class="fa fa-circle"></i> <%= __('account.disabled') %></span>
-                    <span ng-if="!company.disabled && company.maintenance" class="maintenance"><i class="fa fa-circle"></i> <%= __('account.maintenance') %></span>
-                    <span ng-if="!company.disabled && !company.maintenance" class="online"><i class="fa fa-circle"></i> <%= __('account.running') %></span>
-                </p>
-            </div>
-
-            <div class="right" ng-if="passwordSet">
-                <a ng-href="https://{{company.dbname}}.gadael.com/" target="_blank">
-                    <i class="fa fa-external-link-square" aria-hidden="true"></i> <%= __('company.open') %>
-                </a>
-            </div>
-
-            <div style="clear:both"></div>
-        </div>
-
-        <div class="missing-password" ng-if="company && !passwordSet">
-            <i class="fa fa-warning fa-pull-left fa-4x"></i>
-            <p><%= __('account.missing_password') %></p>
-        </div>
-
-
-        <div class="home-body">
-            <h2><%= __('account.title') %></h2>
-
-            <div class="create-company" ng-if="!company">
-
-                <p><%= __('account.notstarted') %></p>
-
-                <div class="bloc">
-                    <span class="fa-stack">
-                        <i class="fa fa-circle-thin fa-stack-2x"></i>
-                        <i class="fa fa-bolt fa-stack-1x"></i>
-                    </span>
-
-                    <div class="content">
-                        <h3>
-                            <a href="./create-company">
-                                <%= __('account.createcompany') %>
-                            </a>
-                        </h3>
-                        <p><%= __('account.createcompany_help') %></p>
+                <div class="header" ng-if="company">
+                    <div class="left">
+                        <p class="url">https://{{company.dbname}}.gadael.com/</p>
+                        <p class="status">
+                            <span ng-if="company.disabled" class="disabled"><i class="fa fa-circle"></i> <%= __('account.disabled') %></span>
+                            <span ng-if="!company.disabled && company.maintenance" class="maintenance"><i class="fa fa-circle"></i> <%= __('account.maintenance') %></span>
+                            <span ng-if="!company.disabled && !company.maintenance" class="online"><i class="fa fa-circle"></i> <%= __('account.running') %></span>
+                        </p>
                     </div>
+
+                    <div class="right" ng-if="passwordSet">
+                        <a ng-href="https://{{company.dbname}}.gadael.com/" target="_blank">
+                            <i class="fa fa-external-link-square" aria-hidden="true"></i> <%= __('company.open') %>
+                        </a>
+                    </div>
+
+                    <div style="clear:both"></div>
+                </div>
+
+                <div class="missing-password" ng-if="company && !passwordSet">
+                    <i class="fa fa-warning fa-pull-left fa-4x"></i>
+                    <p><%= __('account.missing_password') %></p>
+                </div>
+
+
+                <div class="home-body">
+                    <h2><%= __('account.title') %></h2>
+
+                    <div class="create-company" ng-if="!company">
+
+                        <p><%= __('account.notstarted') %></p>
+
+                        <div class="bloc">
+                            <span class="fa-stack">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-bolt fa-stack-1x"></i>
+                            </span>
+
+                            <div class="content">
+                                <h3>
+                                    <a href="./create-company">
+                                        <%= __('account.createcompany') %>
+                                    </a>
+                                </h3>
+                                <p><%= __('account.createcompany_help') %></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="view-company" ng-if="company">
+
+                        <div class="bloc">
+
+                            <span class="fa-stack">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-gears fa-stack-1x"></i>
+                            </span>
+
+                            <div class="content">
+                                <h3>
+                                    <a href="./company-settings">
+                                        <%= __('account.companysettings') %>
+                                    </a>
+                                </h3>
+
+                                <p><%= __('account.companysettings_help') %></p>
+                                <dl>
+                                    <dt><%= __('account.companyname') %></dt>
+                                    <dd><i class="fa fa-arrow-circle-right"></i> {{company.name}}</dd>
+                                </dl>
+
+                                <dl>
+                                    <dt><%= __('account.adminemail') %></dt>
+                                    <dd><i class="fa fa-arrow-circle-right"></i> {{company.email}}</dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                        <div class="bloc">
+
+                            <span class="fa-stack">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-lock fa-stack-1x"></i>
+                            </span>
+
+                            <div class="content">
+                                <h3>
+                                    <a href="./authentication-settings">
+                                        <%= __('account.authenticationsettings') %>
+                                    </a>
+                                </h3>
+                                <p><%= __('account.authenticationsettings_help') %></p>
+
+                                <dl>
+                                    <dt><%= __('account.googleauth') %></dt>
+                                    <dd ng-if="company.loginservices.google.enable"><i class="fa fa-arrow-circle-right"></i> <%= __('account.yes') %></dd>
+                                    <dd ng-if="!company.loginservices.google.enable"><i class="fa fa-arrow-circle-right"></i> <%= __('account.no') %></dd>
+                                </dl>
+
+                                <dl>
+                                    <dt><%= __('account.googlecalendar') %></dt>
+                                    <dd ng-if="company.calendar.google.enable"><i class="fa fa-arrow-circle-right"></i> <%= __('account.yes') %></dd>
+                                    <dd ng-if="!company.calendar.google.enable"><i class="fa fa-arrow-circle-right"></i> <%= __('account.no') %></dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                        <div class="bloc">
+                            <span class="fa-stack">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-cloud-download fa-stack-1x"></i>
+                            </span>
+
+                            <div class="content">
+                                <h3>
+                                    <a href="./export-company">
+                                        <%= __('account.exportcompany') %>
+                                    </a>
+                                </h3>
+                                <p><%= __('account.exportcompany_help') %></p>
+                            </div>
+                        </div>
+
+                        <div class="bloc">
+
+                            <span class="fa-stack">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-shopping-cart fa-stack-1x"></i>
+                            </span>
+
+                            <div class="content">
+                                <h3>
+                                    <a href="./plan">
+                                        <%= __('account.plan') %>
+                                    </a>
+                                </h3>
+                                <p><%= __('account.plan_help') %></p>
+                                <dl>
+                                    <dt><%= __('account.currentplan') %></dt>
+                                    <dd ng-if="plan=='free'"><i class="fa fa-arrow-circle-right"></i> <%= __('account.free') %></dd>
+                                    <dd ng-if="plan=='paid'"><i class="fa fa-arrow-circle-right"></i> <%= __('account.paid') %></dd>
+                                </dl>
+
+                                <dl>
+                                    <dt><%= __('account.maxusers') %></dt>
+                                    <dd><i class="fa fa-arrow-circle-right"></i> {{company.max_users}}</dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                        <div class="bloc">
+                            <span class="fa-stack">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-credit-card fa-stack-1x"></i>
+                            </span>
+
+                            <div class="content">
+                                <h3>
+                                    <a href="./creditcard">
+                                        <%= __('account.creditcard') %>
+                                    </a>
+                                </h3>
+                                <p><%= __('account.creditcard_help') %></p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-
-
-            <div class="view-company" ng-if="company">
-
-                <div class="bloc">
-
-                    <span class="fa-stack">
-                        <i class="fa fa-circle-thin fa-stack-2x"></i>
-                        <i class="fa fa-gears fa-stack-1x"></i>
-                    </span>
-
-                    <div class="content">
-                        <h3>
-                            <a href="./company-settings">
-                                <%= __('account.companysettings') %>
-                            </a>
-                        </h3>
-
-                        <p><%= __('account.companysettings_help') %></p>
-                        <dl>
-                            <dt><%= __('account.companyname') %></dt>
-                            <dd>{{company.name}}</dd>
-                        </dl>
-                    </div>
-                </div>
-
-                <div class="bloc">
-
-                    <span class="fa-stack">
-                        <i class="fa fa-circle-thin fa-stack-2x"></i>
-                        <i class="fa fa-lock fa-stack-1x"></i>
-                    </span>
-
-                    <div class="content">
-                        <h3>
-                            <a href="./authentication-settings">
-                                <%= __('account.authenticationsettings') %>
-                            </a>
-                        </h3>
-                        <p><%= __('account.authenticationsettings_help') %></p>
-                        
-                    </div>
-                </div>
-
-                <div class="bloc">
-                    <span class="fa-stack">
-                        <i class="fa fa-circle-thin fa-stack-2x"></i>
-                        <i class="fa fa-cloud-download fa-stack-1x"></i>
-                    </span>
-
-                    <div class="content">
-                        <h3>
-                            <a href="./export-company">
-                                <%= __('account.exportcompany') %>
-                            </a>
-                        </h3>
-                        <p><%= __('account.exportcompany_help') %></p>
-                    </div>
-                </div>
-
-                <div class="bloc">
-
-                    <span class="fa-stack">
-                        <i class="fa fa-circle-thin fa-stack-2x"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x"></i>
-                    </span>
-
-                    <div class="content">
-                        <h3>
-                            <a href="./plan">
-                                <%= __('account.plan') %>
-                            </a>
-                        </h3>
-                        <p><%= __('account.plan_help') %></p>
-                        <dl>
-                            <dt><%= __('account.currentplan') %></dt>
-                            <dd>{{session.plan}}</dd>
-                        </dl>
-
-                        <dl>
-                            <dt><%= __('account.maxusers') %></dt>
-                            <dd>{{session.maxusers}}</dd>
-                        </dl>
-                    </div>
-                </div>
-
-                <div class="bloc">
-                    <span class="fa-stack">
-                        <i class="fa fa-circle-thin fa-stack-2x"></i>
-                        <i class="fa fa-credit-card fa-stack-1x"></i>
-                    </span>
-
-                    <div class="content">
-                        <h3>
-                            <a href="./creditcard">
-                                <%= __('account.creditcard') %>
-                            </a>
-                        </h3>
-                        <p><%= __('account.creditcard_help') %></p>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
