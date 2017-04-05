@@ -137,7 +137,8 @@
 
                                 <dl>
                                     <dt><%= __('account.maxusers') %></dt>
-                                    <dd><i class="fa fa-arrow-circle-right"></i> {{session.user.userlimit}}</dd>
+                                    <dd ng-if="session.user.plan=='free'"><i class="fa fa-arrow-circle-right"></i> 5</dd>
+                                    <dd ng-if="session.user.plan=='paid'"><i class="fa fa-arrow-circle-right"></i> {{session.user.userlimit}}</dd>
                                 </dl>
                             </div>
                         </div>
