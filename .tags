@@ -6,8 +6,9 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 angular	bower.json	/^    "angular": "~1.5.9",$/;"	f
 angular-cookies	bower.json	/^    "angular-cookies": "~1.5.9",$/;"	f
-angular-local-storage	bower.json	/^    "angular-local-storage": "~0.5.2"$/;"	f
+angular-local-storage	bower.json	/^    "angular-local-storage": "~0.5.2",$/;"	f
 angular-strap	bower.json	/^    "angular-strap": "~2.3.9",$/;"	f
+card	bower.json	/^    "card": "~2.2.1"$/;"	f
 createTagForLang	addDocVersions.sh	/^createTagForLang()$/;"	f
 dependencies	bower.json	/^  "dependencies": {$/;"	f
 dependencies	package.json	/^  "dependencies": {$/;"	f

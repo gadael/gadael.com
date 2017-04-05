@@ -5,6 +5,8 @@
 
         <form method="POST" action="<%= url_for_lang('setplan') %>">
 
+            <%- partial('common/stripe') %>
+
             <div>
                 <label class="main"><input type="radio" name="plan" ng-model="session.user.plan" value="free" /> <%= __('plan.freeradio') %></label>
                 <div class="plan-description">0 &euro;, <%= __('plan.freedesc') %></div>

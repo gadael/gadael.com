@@ -228,10 +228,10 @@ creditcard:
     title: 'Credit card settings'
     paymentday: 'Your payout date is the {{session.paymentDay}} of each month.'
     savebutton: 'Save'
-    freeplan: 'Payment informations are not required for your plan.'
     number: 'Payment card number'
+    fullname: 'Full name'
     cvc: 'CVC code'
-    exp_month_year: 'Expiry month and year'
+    exp_month_year: 'Expiry month/year'
 social:
     github: 'Github'
     bug: 'Report a bug'
@@ -281,3 +281,5 @@ affiliation:
     status: 'I want to receive a report of my affiliation'
     email: 'My email address'
     button: 'Send'
+stripe:
+    testaccount: 'This site is configured with a test account for payment, no transaction will be accounted. The test card number is: 4242424242424242'

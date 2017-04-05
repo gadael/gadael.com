@@ -228,10 +228,10 @@ creditcard:
     title: 'Carte bancaire'
     paymentday: 'Votre date de prélévement est le {{session.paymentDay}} de chaque mois.'
     savebutton: 'Enregistrer'
-    freeplan: 'Les informations de paiement ne sont pas requise pour votre type d''abonnement.'
     number: 'Numéro de carte bancaire'
+    fullname: 'Nom complet du porteur'
     cvc: 'code CVC'
-    exp_month_year: 'Mois et année de fin de validité'
+    exp_month_year: 'Fin de validité mois/année'
 social:
     github: 'Github'
     bug: 'Reporter un bug'
@@ -282,3 +282,5 @@ affiliation:
     status: 'Je veut recevoir un contre-rendu de mon affiliation'
     email: 'Mon adresse email'
     button: 'Envoyer'
+stripe:
+    testaccount: 'Ce site est configuré avec un compte de test pour les paiements, aucune transaction ne sera comptabilisée. Le numéro de carte de test est : 4242424242424242'

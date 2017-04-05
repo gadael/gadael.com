@@ -9,56 +9,39 @@
             </p>
         </div>
 
-        <div ng-if="session.plan!='paid'">
-            <p>
-                <%= __('creditcard.freeplan') %>
-            </p>
-        </div>
+        <%- partial('common/stripe') %>
+
 
         <form>
+            <p class="card-wrapper"></p>
 
-            <p class="text-center">
-
-                <img src="/css/images/visa.png" />
-                <img src="/css/images/mastercard.png" />
-                <img src="/css/images/american-express.png" />
-
-                &nbsp;
-
-                <img src="/css/images/powered_by_stripe.png" />
+            <p class="half">
+                <input type="text" id="creditcard_number" placeholder="<%= __('creditcard.number') %>" ng-model="creditcard.number" />
             </p>
 
-
-            <p>
-                <label for="creditcard_number"><%= __('creditcard.number') %></label>
-                <input type="text" id="creditcard_number" ng-model="creditcard.number" />
+            <p class="half">
+                <input type="text" id="creditcard_fullname" placeholder="<%= __('creditcard.fullname') %>" ng-model="creditcard.name" />
             </p>
 
-            <table>
-                <tr>
-                    <td class="col1">
-                        <label for="creditcard_cvc"><%= __('creditcard.cvc') %></label>
-                        <input type="text" id="creditcard_cvc" ng-model="creditcard.cvc" />
-                    </td>
+            <p class="half">
+                <input type="text" id="creditcard_expiry" ng-model="expiry" placeholder="<%= __('creditcard.exp_month_year') %>" />
+            </p>
 
-
-
-                    <td class="col2">
-                        <label for="creditcard_exp_month"><%= __('creditcard.exp_month_year') %></label>
-                        <select id="creditcard_exp_month" ng-model="creditcard.exp_month" ng-options="month as month for month in months" placeholder="<%= __('creditcard.month') %>">
-                        </select>
-                        <select id="creditcard_exp_year" ng-model="creditcard.exp_year"  ng-options="year as year for year in years" placeholder="<%= __('creditcard.year') %>">
-                        </select>
-                    </td>
-                </tr>
-            </table>
-
-
+            <p class="half">
+                <input type="text" id="creditcard_cvc" placeholder="<%= __('creditcard.cvc') %>" ng-model="creditcard.cvc" />
+            </p>
 
             <p class="button">
                 <button type="submit" ng-click="saveCard()"><i class="fa fa-save"></i> <%= __('creditcard.savebutton') %></button>
             </p>
         </form>
+
+        <footer>
+            <img class="cardtype" src="/css/images/visa.png" />
+            <img class="cardtype" src="/css/images/mastercard.png" />
+            <img class="cardtype" src="/css/images/american-express.png" />
+            <img class="stripe" src="/css/images/powered_by_stripe.png" />
+        </footer>
     </div>
 </section>
 
