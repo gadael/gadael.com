@@ -5,6 +5,35 @@
         <div class="back">
             <a href="<%= url_for_lang('private') %>"><i class="fa fa-chevron-circle-left"></i> <%= __('account.privatespace') %></a>
         </div>
+
+        <ul>
+            <li>
+                <a href="<%= url_for_lang('account/company-settings') %>">
+                    <i class="fa fa-gears"></i> <%= __('account.companysettings') %>
+                </a>
+            </li>
+            <li>
+                <a href="<%= url_for_lang('account/authentication-settings') %>">
+                    <i class="fa fa-lock"></i> <%= __('account.authenticationsettings') %>
+                </a>
+            </li>
+            <li>
+                <a href="<%= url_for_lang('account/plan') %>">
+                    <i class="fa fa-shopping-cart"></i> <%= __('account.plan') %>
+                </a>
+            </li>
+            <li>
+                <a href="<%= url_for_lang('account/creditcard') %>">
+                    <i class="fa fa-credit-card"></i> <%= __('account.creditcard') %>
+                </a>
+            </li>
+            <li>
+                <a href="<%= url_for_lang('account/export-company') %>">
+                    <i class="fa fa-cloud-download"></i> <%= __('account.exportcompany') %>
+                </a>
+            </li>
+        </ul>
+
         <% } %>
 
         <br />

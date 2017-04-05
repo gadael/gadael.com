@@ -113,21 +113,7 @@
                             </div>
                         </div>
 
-                        <div class="bloc">
-                            <span class="fa-stack">
-                                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                <i class="fa fa-cloud-download fa-stack-1x"></i>
-                            </span>
 
-                            <div class="content">
-                                <h3>
-                                    <a href="./export-company">
-                                        <%= __('account.exportcompany') %>
-                                    </a>
-                                </h3>
-                                <p><%= __('account.exportcompany_help') %></p>
-                            </div>
-                        </div>
 
                         <div class="bloc">
 
@@ -145,13 +131,13 @@
                                 <p><%= __('account.plan_help') %></p>
                                 <dl>
                                     <dt><%= __('account.currentplan') %></dt>
-                                    <dd ng-if="plan=='free'"><i class="fa fa-arrow-circle-right"></i> <%= __('account.free') %></dd>
-                                    <dd ng-if="plan=='paid'"><i class="fa fa-arrow-circle-right"></i> <%= __('account.paid') %></dd>
+                                    <dd ng-if="session.user.plan=='free'"><i class="fa fa-arrow-circle-right"></i> <%= __('account.free') %></dd>
+                                    <dd ng-if="session.user.plan=='paid'"><i class="fa fa-arrow-circle-right"></i> <%= __('account.paid') %></dd>
                                 </dl>
 
                                 <dl>
                                     <dt><%= __('account.maxusers') %></dt>
-                                    <dd><i class="fa fa-arrow-circle-right"></i> {{company.max_users}}</dd>
+                                    <dd><i class="fa fa-arrow-circle-right"></i> {{session.user.userlimit}}</dd>
                                 </dl>
                             </div>
                         </div>
@@ -169,6 +155,23 @@
                                     </a>
                                 </h3>
                                 <p><%= __('account.creditcard_help') %></p>
+                            </div>
+                        </div>
+
+
+                        <div class="bloc">
+                            <span class="fa-stack">
+                                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                <i class="fa fa-cloud-download fa-stack-1x"></i>
+                            </span>
+
+                            <div class="content">
+                                <h3>
+                                    <a href="./export-company">
+                                        <%= __('account.exportcompany') %>
+                                    </a>
+                                </h3>
+                                <p><%= __('account.exportcompany_help') %></p>
                             </div>
                         </div>
                     </div>
