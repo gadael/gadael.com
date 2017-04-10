@@ -278,8 +278,8 @@ pricingpage:
 loading:
     bottom: 'Votre application est en cours de chargement...'
 affiliation:
-    register: 'Je veut m''inscrire'
-    status: 'Je veut recevoir un contre-rendu de mon affiliation'
+    register: 'Je veux m''inscrire'
+    status: 'Je veux recevoir un contre-rendu de mon affiliation'
     email: 'Mon adresse email'
     button: 'Envoyer'
 stripe:

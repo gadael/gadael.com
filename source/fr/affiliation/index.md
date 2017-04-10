@@ -39,7 +39,7 @@ Si la ligne éditoriale de votre site n'est pas spécifiquement orientée vers l
 
 ### Gadael est un logiciel libre
 
-Gadael.com est une offre SaaS qui n'ajoute aucune fonctionnalité supplémentaire au logiciel libre Gadael, dans les conditions générales de vente, un des engagements stipule qu'il sera toujours possible pour client de récupérer la totalité de ces donnés pour déménager son serveur autre part en utilisant le logiciel open-source.
+Gadael.com est une offre SaaS qui n'ajoute aucune fonctionnalité supplémentaire au logiciel libre Gadael, dans les conditions générales de vente, un des engagements stipule qu'il sera toujours possible pour client de récupérer la totalité de ses données pour déménager son serveur autre part en utilisant le logiciel open-source.
 
 ### Un nouveau marché
 
