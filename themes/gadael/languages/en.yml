@@ -43,7 +43,6 @@ home:
     github: 'Github project'
     issues: 'Report Gadael issue'
     description: 'Gadael dematerialize leave management and working time recovery in a simple way.'
-    beta: 'This service just started, the paid plan can not be subscribed yet but the free version is available for all!'
     advantages: 'Better monitoring and more autonomy for your team'
     screenshots:
         accounthome: 'Account home screenshot'
