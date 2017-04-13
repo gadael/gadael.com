@@ -51,6 +51,7 @@ function($scope, $http) {
 
             if (response.data.exp_month && response.data.exp_year) {
                 currentExpiry = response.data.exp_month+'/'+response.data.exp_year;
+                $scope.currentExpiry = currentExpiry;
             }
         }
 
@@ -108,7 +109,7 @@ function($scope, $http) {
         $scope.creditcard.exp_year = parseInt(expiry[1], 10);
 
 
-        Stripe.setPublishableKey('pk_test_NQQfxEp03QaFUUSuxSYISJC0');
+        Stripe.setPublishableKey($scope.session.stripeKey);
         Stripe.card.createToken($scope.creditcard, stripeResponseHandler);
     };
 

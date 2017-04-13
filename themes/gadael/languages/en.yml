@@ -283,3 +283,4 @@ affiliation:
     button: 'Send'
 stripe:
     testaccount: 'This site is configured with a test account for payment, no transaction will be accounted. The test card number is: 4242424242424242'
+    expirytext: 'The current saved payment card expire on:'

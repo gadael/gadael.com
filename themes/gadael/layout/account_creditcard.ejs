@@ -11,6 +11,11 @@
 
         <%- partial('common/stripe') %>
 
+        <p ng-if="currentExpiry" class="info-bloc">
+            <i class="fa fa-info-circle"></i>
+            <%= __('stripe.expirytext') %> {{currentExpiry}}
+        </p>
+
 
         <form>
             <p class="card-wrapper"></p>
