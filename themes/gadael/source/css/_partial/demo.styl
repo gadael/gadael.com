@@ -1,0 +1,26 @@
+#demo
+    @media mq-normal
+        column(profile-column)
+    @media mq-tablet
+        column(profile-column-tablet)
+
+
+    button, .btn
+        @extend $base-button
+        background: #649300
+        &:hover
+            background: #649300
+            .fa
+                color: yellow
+                text-shadow: #000 0 0 3px
+
+    .inner
+        @extend $block
+        margin-top: block-margin
+        background: white
+
+        .context
+            padding: line-height
+
+            p
+                margin: 0 0 2em 0

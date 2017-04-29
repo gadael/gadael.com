@@ -284,3 +284,6 @@ affiliation:
 stripe:
     testaccount: 'Ce site est configuré avec un compte de test pour les paiements, aucune transaction ne sera comptabilisée. Le numéro de carte de test est : 4242424242424242'
     expirytext: 'La carte de paiement actuellement enregistrée expire le :'
+demo:
+    description: 'Testez le site de démonstration, déjà initialisé avec des utilisateurs, plusieurs services et des droits de congés'
+    button: 'Ouvrir la démo'
