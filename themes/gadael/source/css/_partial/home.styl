@@ -175,7 +175,7 @@
         background-linear-gradient(top, darken(color-background, 6%), 90%, darken(color-background, 12%), 100%)
         text-align:right
 
-    .beta
+    .product-demo
         background: color-fashy-background
         text-align:center
         font-size: 1.1em
@@ -184,6 +184,14 @@
             font-size: 0.9em
         @media mq-mini
             font-size: 0.8em
+
+        button, .btn
+            @extend $base-button
+            background: #222
+            &:hover
+                background: #000
+                .fa
+                    color: yellow
 
     .main-carousel
         background: color-light-bg
