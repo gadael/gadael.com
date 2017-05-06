@@ -87,17 +87,7 @@
                 .paidplan
                     visibility: visible
 
-        .logos
-            margin: 10em 0 0 4em
-            vertical-align:bottom
-            display:inline-block
-            @media mq-mobile
-                display: none
 
-            a
-                margin: 2em 3em 0 3em
-                display:inline-block
-                vertical-align:middle
 
 
 
@@ -176,14 +166,26 @@
         text-align:right
 
     .product-demo
-        background: color-fashy-background
-        text-align:center
-        font-size: 1.1em
-        padding: 1em
+        background: darken(color-light-bg, 8%)
+        background-linear-gradient(top, darken(color-light-bg, 8%), 95%, darken(color-light-bg, 20%), 100%)
+
+        padding: 3em 0 3em 3em
         @media mq-mobile
             font-size: 0.9em
         @media mq-mini
             font-size: 0.8em
+
+        img
+            display: inline-block
+            vertical-align: middle
+
+        .access
+            display: inline-block
+            vertical-align: middle
+            width: 30em
+            text-align:center
+            font-size: 1.2em
+            line-height: line-height
 
         button, .btn
             @extend $base-button
@@ -222,6 +224,7 @@
         padding: 3em 0
         text-align:center
         background: color-light-bg
+        background-linear-gradient(top, color-light-bg, 95%, darken(color-light-bg, 4%), 100%)
 
         >div
             display: inline-block
@@ -239,10 +242,8 @@
                         font-size: 300%
                     @media mq-mini
                         font-size: 150%
-                &:hover
-                    background:#eee
-                    i
-                        color: color-button-onfire
+                &:hover i
+                    color: color-button-onfire
 
             h3
                 font-size: 1.6em
@@ -250,6 +251,18 @@
                 text-shadow: 0 0 4px rgba(0,0,0,.3)
             p
                 font-size: .9em
+
+
+    .home-logos
+        margin: 0
+        background: rgba(color-dark-background, 0.80)
+        @media mq-mobile
+            display: none
+
+        a
+            margin: 2em 3em 0 4em
+            display:inline-block
+            vertical-align:middle
 
     .home-footer
         padding: 1em
