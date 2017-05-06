@@ -178,14 +178,19 @@
         img
             display: inline-block
             vertical-align: middle
+            max-width: 55%
+            @media mq-mobile
+                max-width: 40%
 
         .access
             display: inline-block
             vertical-align: middle
-            width: 30em
+            width: 40%
             text-align:center
             font-size: 1.2em
             line-height: line-height
+            @media mq-mobile
+                width: 20em
 
         button, .btn
             @extend $base-button
@@ -258,11 +263,14 @@
         background: rgba(color-dark-background, 0.80)
         @media mq-mobile
             display: none
+        @media mq-mini
+            display: none
 
         a
             margin: 2em 3em 0 4em
             display:inline-block
             vertical-align:middle
+
 
     .home-footer
         padding: 1em
