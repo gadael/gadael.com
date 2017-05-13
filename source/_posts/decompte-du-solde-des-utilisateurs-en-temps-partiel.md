@@ -8,7 +8,7 @@ category: Blog
 
 Nous allons paramétrer Gadael de façon à ce que la consommation du solde de congés d'un utilisateur à temps partiel soit fait de la façon qui est prévue par la loi française. C'est à dire qu'il faut que les jours soient décomptés en fonction des jours ouvrés en vigueur dans l'enreprise.
 
-{% youtube UFmf0DnBlDw %}
+{% youtube is4nAUM64w4 %}
 
 La vidéo montre une configuration du temps partiel avec consommation des jours ouvrés comme prévu par la loi française. Sur le régime, on paramètre les jours ouvrés, ici du lundi au samedi. Sur le droit on choisit le type de consommation "consommer le jour suivant".
 
