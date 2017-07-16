@@ -41,5 +41,5 @@ open-sans-fontface	bower.json	/^    "open-sans-fontface": "~1.4.2",$/;"	f
 private	package.json	/^  "private": true,$/;"	f
 split	themes/gadael/scripts/meta.js	/^function split (str, sep) {$/;"	f
 trim	themes/gadael/scripts/meta.js	/^function trim (str) {$/;"	f
-version	package.json	/^    "version": "3.2.2"$/;"	f
+version	package.json	/^    "version": "3.3.7"$/;"	f
 version	package.json	/^  "version": "0.0.0",$/;"	f
