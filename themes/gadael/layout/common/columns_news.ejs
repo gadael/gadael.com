@@ -1,5 +1,5 @@
 <section id="main">
-    <% site.posts.each(function(post) { %>
+    <% site.posts.sort('date', -1).each(function(post) { %>
         <%- partial('common/article', { post: post, index: true }) %>
     <% }); %>
 </section>
