@@ -175,6 +175,6 @@ Ou l'adresse physique suivante:
 
 Gadael.com
 Paul de Rosanbo
-19 rue Jacquard
-76500 Elbeuf
+1 rue des 2 ponts
+08000 Charleville-Mézières
 France
